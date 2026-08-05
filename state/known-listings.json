@@ -1,0 +1,307 @@
+[
+  {
+    "id": "A",
+    "site": "ocasionplus.com",
+    "url": "https://www.ocasionplus.com/coches-segunda-mano/hyundai-tucson-16-tgdi-phev-maxx-4x4-auto-con-53641km-2023-pkv8sqaf",
+    "trim": "1.6 TGDI PHEV Maxx 4x4 Auto",
+    "price_eur": 25990,
+    "km": 53641,
+    "year": 2023,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 26450 },
+      { "date": "2026-08-06", "price_eur": 25990 }
+    ]
+  },
+  {
+    "id": "B",
+    "site": "autohero.com",
+    "url": "https://www.autohero.com/es/hyundai-tucson/id/8f3a9d55-5f09-423a-9f56-a1d375c34572/",
+    "trim": "1.6 T-GDI Plug-in Hybrid Maxx 4WD",
+    "price_eur": 25999,
+    "km": 41370,
+    "year": 2022,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 25999 }
+    ]
+  },
+  {
+    "id": "C",
+    "site": "autohero.com",
+    "url": "https://www.autohero.com/es/hyundai-tucson/id/c88c7910-82c6-41f7-8721-f1ac50ff7fd3/",
+    "trim": "1.6 T-GDI Plug-in Hybrid Maxx 2WD",
+    "price_eur": 32399,
+    "km": 13492,
+    "year": 2025,
+    "traction": "4x2",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 32399 }
+    ]
+  },
+  {
+    "id": "D",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71172070-covo.aspx",
+    "trim": "1.6 TGDI PHEV Tecno Sky Auto 4x4",
+    "price_eur": 22850,
+    "km": 71418,
+    "year": 2022,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 22850 }
+    ]
+  },
+  {
+    "id": "E",
+    "site": "carplus.es",
+    "url": "https://www.carplus.es/coches-segunda-mano/hyundai/tucson-16-tgdi-055217/",
+    "trim": "1.6 TGDI PHEV Tecno Sky Auto 4x4",
+    "price_eur": 23490,
+    "km": 83750,
+    "year": 2021,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 23490 }
+    ]
+  },
+  {
+    "id": "F",
+    "site": "ocasionplus.com",
+    "url": "https://www.ocasionplus.com/coches-segunda-mano-canarias/hyundai-tucson-16-tgdi-phev-tecno-sky-4x4-auto-con-49946km-2021-wwqg6qah",
+    "trim": "1.6 TGDI PHEV Tecno Sky 4x4 Auto",
+    "price_eur": 25000,
+    "km": 49946,
+    "year": 2021,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 25000 }
+    ]
+  },
+  {
+    "id": "G",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71163611-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 26490,
+    "km": 47578,
+    "year": 2022,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 26490 }
+    ]
+  },
+  {
+    "id": "H",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2023-en-vizcaya-71158409-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 24000,
+    "km": 72863,
+    "year": 2023,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 24000 }
+    ]
+  },
+  {
+    "id": "I",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-maxx-5p-electrico-hibrido-2025-en-madrid-70978139-covo.aspx",
+    "trim": "1.6T PHEV AT Maxx",
+    "price_eur": 32790,
+    "km": 12250,
+    "year": 2025,
+    "traction": "4x2 (probable)",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 32790 }
+    ]
+  },
+  {
+    "id": "J",
+    "site": "carplus.es",
+    "url": "https://www.carplus.es/coche/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-tmaje812dnj092674/",
+    "trim": "1.6 TGDI PHEV Style Auto 4x4",
+    "price_eur": 27090,
+    "km": null,
+    "year": null,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 27090 }
+    ]
+  },
+  {
+    "id": "K",
+    "site": "ocasionplus.com",
+    "url": "https://www.ocasionplus.com/coches-segunda-mano/hyundai-tucson-16-tgdi-phev-maxx-4x4-auto-con-108420km-2022-qv2kvqad",
+    "trim": "1.6 TGDI PHEV Maxx 4X4 Auto",
+    "price_eur": 21950,
+    "km": 108420,
+    "year": 2022,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 21950 }
+    ]
+  },
+  {
+    "id": "L",
+    "site": "autohero.com",
+    "url": "https://www.autohero.com/es/hyundai-tucson/id/ee453ff9-005f-455e-ad92-130e47ce4b12/",
+    "trim": "1.6 T-GDI Plug-in Hybrid Maxx 4WD",
+    "price_eur": 23199,
+    "km": 76540,
+    "year": 2022,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 23199 }
+    ]
+  },
+  {
+    "id": "M",
+    "site": "autohero.com",
+    "url": "https://www.autohero.com/es/hyundai-tucson/id/51657a12-3fad-478d-b0ca-93f19b20eebf/",
+    "trim": "1.6 T-GDI Plug-in Hybrid Tecno Sky 4WD",
+    "price_eur": 22099,
+    "km": 131410,
+    "year": 2021,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 22099 }
+    ]
+  },
+  {
+    "id": "N",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-212kw-288cv-phev-at-tecno-sky-5p-electrico-hibrido-2026-en-madrid-71111833-covo.aspx",
+    "trim": "1.6T PHEV AT Tecno Sky",
+    "price_eur": 39490,
+    "km": 1,
+    "year": 2026,
+    "traction": "no especificado",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 39490 }
+    ]
+  },
+  {
+    "id": "O",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2021-en-madrid-71189294-covo.aspx",
+    "trim": "1.6 TGDI PHEV Style Auto 4x4",
+    "price_eur": 27900,
+    "km": 95500,
+    "year": 2021,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 27900 }
+    ]
+  },
+  {
+    "id": "P",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-tecno-sky-5p-electrico-hibrido-2025-en-murcia-71237181-covo.aspx",
+    "trim": "1.6T PHEV AT Tecno Sky",
+    "price_eur": 37790,
+    "km": 10580,
+    "year": 2025,
+    "traction": "no especificado",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 37790 }
+    ]
+  },
+  {
+    "id": "Q",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71088174-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 22890,
+    "km": 100094,
+    "year": 2022,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 22890 }
+    ]
+  },
+  {
+    "id": "R",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-las-palmas-70985689-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 23990,
+    "km": 51500,
+    "year": 2022,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 23990 }
+    ]
+  },
+  {
+    "id": "S",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2021-en-las-palmas-70990654-covo.aspx",
+    "trim": "1.6 TGDI PHEV Tecno Sky Auto 4x4",
+    "price_eur": 24990,
+    "km": 44000,
+    "year": 2021,
+    "traction": "4x4",
+    "first_seen": "2026-08-06",
+    "last_seen": "2026-08-06",
+    "status": "active",
+    "price_history": [
+      { "date": "2026-08-06", "price_eur": 24990 }
+    ]
+  }
+]

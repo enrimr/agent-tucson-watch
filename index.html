@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tucson PHEV Watch — comparativa en vivo</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9A%97%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #f9f9f7;
+    --fg: #0b0b0b;
+    --fg-muted: #5a5a55;
+    --card-bg: #ffffff;
+    --border: #e2e2dc;
+    --accent: #b5541f;
+    --accent-bg: #fbe9dd;
+    --down-bg: #dff5e6;
+    --down-fg: #1c6b3a;
+    --new-bg: #fff2cc;
+    --new-fg: #8a6400;
+    --row-alt: #f2f2ee;
+    --link: #a8441a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d0d0d;
+      --fg: #ffffff;
+      --fg-muted: #a3a39c;
+      --card-bg: #171716;
+      --border: #2c2c2a;
+      --accent: #ef8a4f;
+      --accent-bg: #3a2416;
+      --down-bg: #16321f;
+      --down-fg: #7bd99a;
+      --new-bg: #3a2f0d;
+      --new-fg: #f2cd5c;
+      --row-alt: #141413;
+      --link: #f0956a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.45;
+    padding: 0 1.25rem 3rem;
+  }
+  .wrap { max-width: 1080px; margin: 0 auto; }
+  header { padding: 2.5rem 0 1.5rem; }
+  h1 { font-size: 1.9rem; margin: 0 0 0.35rem; letter-spacing: -0.01em; }
+  .subtitle { color: var(--fg-muted); margin: 0 0 0.25rem; font-size: 1.02rem; }
+  .updated { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--fg-muted); font-size: 0.9rem; }
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.9rem;
+    margin: 1.5rem 0 2rem;
+  }
+  .stat-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+  }
+  .stat-label { color: var(--fg-muted); font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.04em; margin-bottom: 0.4rem; }
+  .stat-value { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 1.5rem; font-weight: 600; }
+  .table-scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; min-width: 880px; background: var(--card-bg); }
+  caption { text-align: left; padding: 0.9rem 1rem 0.4rem; font-weight: 600; }
+  th, td { padding: 0.65rem 0.85rem; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.92rem; white-space: nowrap; }
+  th { color: var(--fg-muted); font-weight: 600; font-size: 0.76rem; text-transform: uppercase; letter-spacing: 0.03em; position: sticky; top: 0; background: var(--card-bg); }
+  tbody tr:nth-child(even) { background: var(--row-alt); }
+  td.num, th.num { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; text-align: right; }
+  td.trim { white-space: normal; min-width: 220px; }
+  a.listing-link { color: var(--link); text-decoration: none; font-weight: 600; }
+  a.listing-link:hover, a.listing-link:focus-visible { text-decoration: underline; }
+  .badge {
+    display: inline-block;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding: 0.15rem 0.45rem;
+    border-radius: 999px;
+    margin-left: 0.4rem;
+    white-space: nowrap;
+  }
+  .badge-new { background: var(--new-bg); color: var(--new-fg); }
+  .badge-down { background: var(--down-bg); color: var(--down-fg); }
+  section.removed { margin-top: 2rem; }
+  details {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+  }
+  summary { cursor: pointer; font-weight: 600; }
+  .empty-note { color: var(--fg-muted); font-size: 0.9rem; margin-top: 0.6rem; }
+  footer {
+    margin-top: 2.5rem;
+    padding-top: 1.2rem;
+    border-top: 1px solid var(--border);
+    color: var(--fg-muted);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--link); }
+  @media (max-width: 640px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    h1 { font-size: 1.5rem; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Tucson PHEV Watch</h1>
+    <p class="subtitle">Comparativa generada automáticamente cada día</p>
+    <p class="updated">Última actualización: 2026-08-06</p>
+  </header>
+
+  <section class="stats" aria-label="Resumen">
+    <div class="stat-card">
+      <div class="stat-label">Anuncios activos</div>
+      <div class="stat-value">19</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Precio más bajo</div>
+      <div class="stat-value">21.950 €</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Km más bajos</div>
+      <div class="stat-value">1 km</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-label">Año más reciente</div>
+      <div class="stat-value">2026</div>
+    </div>
+  </section>
+
+  <div class="table-scroll">
+    <table>
+      <caption>Anuncios activos, ordenados por precio</caption>
+      <thead>
+        <tr>
+          <th scope="col">Sitio</th>
+          <th scope="col">Versión / trim</th>
+          <th scope="col" class="num">Precio</th>
+          <th scope="col" class="num">Km</th>
+          <th scope="col" class="num">Año</th>
+          <th scope="col">Tracción</th>
+          <th scope="col">1ª vez visto</th>
+          <th scope="col">Última vez visto</th>
+          <th scope="col">Enlace</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ocasionplus.com</td>
+          <td class="trim">1.6 TGDI PHEV Maxx 4X4 Auto <span class="badge badge-new">NUEVO</span></td>
+          <td class="num">21.950 €</td>
+          <td class="num">108.420</td>
+          <td class="num">2022</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.ocasionplus.com/coches-segunda-mano/hyundai-tucson-16-tgdi-phev-maxx-4x4-auto-con-108420km-2022-qv2kvqad" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>autohero.com</td>
+          <td class="trim">1.6 T-GDI Plug-in Hybrid Tecno Sky 4WD <span class="badge badge-new">NUEVO</span></td>
+          <td class="num">22.099 €</td>
+          <td class="num">131.410</td>
+          <td class="num">2021</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.autohero.com/es/hyundai-tucson/id/51657a12-3fad-478d-b0ca-93f19b20eebf/" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6 TGDI PHEV Tecno Sky Auto 4x4</td>
+          <td class="num">22.850 €</td>
+          <td class="num">71.418</td>
+          <td class="num">2022</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71172070-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6 TGDI PHEV Maxx Auto 4x4 <span class="badge badge-new">NUEVO</span></td>
+          <td class="num">22.890 €</td>
+          <td class="num">100.094</td>
+          <td class="num">2022</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71088174-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>autohero.com</td>
+          <td class="trim">1.6 T-GDI Plug-in Hybrid Maxx 4WD <span class="badge badge-new">NUEVO</span></td>
+          <td class="num">23.199 €</td>
+          <td class="num">76.540</td>
+          <td class="num">2022</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.autohero.com/es/hyundai-tucson/id/ee453ff9-005f-455e-ad92-130e47ce4b12/" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>carplus.es</td>
+          <td class="trim">1.6 TGDI PHEV Tecno Sky Auto 4x4</td>
+          <td class="num">23.490 €</td>
+          <td class="num">83.750</td>
+          <td class="num">2021</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.carplus.es/coches-segunda-mano/hyundai/tucson-16-tgdi-055217/" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6 TGDI PHEV Maxx Auto 4x4 <span class="badge badge-new">NUEVO</span></td>
+          <td class="num">23.990 €</td>
+          <td class="num">51.500</td>
+          <td class="num">2022</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-las-palmas-70985689-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6 TGDI PHEV Maxx Auto 4x4</td>
+          <td class="num">24.000 €</td>
+          <td class="num">72.863</td>
+          <td class="num">2023</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2023-en-vizcaya-71158409-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6 TGDI PHEV Tecno Sky Auto 4x4 <span class="badge badge-new">NUEVO</span></td>
+          <td class="num">24.990 €</td>
+          <td class="num">44.000</td>
+          <td class="num">2021</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2021-en-las-palmas-70990654-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>ocasionplus.com</td>
+          <td class="trim">1.6 TGDI PHEV Tecno Sky 4x4 Auto</td>
+          <td class="num">25.000 €</td>
+          <td class="num">49.946</td>
+          <td class="num">2021</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.ocasionplus.com/coches-segunda-mano-canarias/hyundai-tucson-16-tgdi-phev-tecno-sky-4x4-auto-con-49946km-2021-wwqg6qah" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>ocasionplus.com</td>
+          <td class="trim">1.6 TGDI PHEV Maxx 4x4 Auto <span class="badge badge-down">↓ bajada de precio 460 €</span></td>
+          <td class="num">25.990 €</td>
+          <td class="num">53.641</td>
+          <td class="num">2023</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.ocasionplus.com/coches-segunda-mano/hyundai-tucson-16-tgdi-phev-maxx-4x4-auto-con-53641km-2023-pkv8sqaf" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>autohero.com</td>
+          <td class="trim">1.6 T-GDI Plug-in Hybrid Maxx 4WD</td>
+          <td class="num">25.999 €</td>
+          <td class="num">41.370</td>
+          <td class="num">2022</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.autohero.com/es/hyundai-tucson/id/8f3a9d55-5f09-423a-9f56-a1d375c34572/" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6 TGDI PHEV Maxx Auto 4x4</td>
+          <td class="num">26.490 €</td>
+          <td class="num">47.578</td>
+          <td class="num">2022</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71163611-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>carplus.es</td>
+          <td class="trim">1.6 TGDI PHEV Style Auto 4x4</td>
+          <td class="num">27.090 €</td>
+          <td class="num">no especificado</td>
+          <td class="num">no especificado</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.carplus.es/coche/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-tmaje812dnj092674/" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6 TGDI PHEV Style Auto 4x4 <span class="badge badge-new">NUEVO</span></td>
+          <td class="num">27.900 €</td>
+          <td class="num">95.500</td>
+          <td class="num">2021</td>
+          <td>4x4</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2021-en-madrid-71189294-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>autohero.com</td>
+          <td class="trim">1.6 T-GDI Plug-in Hybrid Maxx 2WD</td>
+          <td class="num">32.399 €</td>
+          <td class="num">13.492</td>
+          <td class="num">2025</td>
+          <td>4x2</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.autohero.com/es/hyundai-tucson/id/c88c7910-82c6-41f7-8721-f1ac50ff7fd3/" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6T PHEV AT Maxx</td>
+          <td class="num">32.790 €</td>
+          <td class="num">12.250</td>
+          <td class="num">2025</td>
+          <td>4x2 (probable)</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-maxx-5p-electrico-hibrido-2025-en-madrid-70978139-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6T PHEV AT Tecno Sky <span class="badge badge-new">NUEVO</span></td>
+          <td class="num">37.790 €</td>
+          <td class="num">10.580</td>
+          <td class="num">2025</td>
+          <td>no especificado</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-tecno-sky-5p-electrico-hibrido-2025-en-murcia-71237181-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+        <tr>
+          <td>coches.net</td>
+          <td class="trim">1.6T PHEV AT Tecno Sky <span class="badge badge-new">NUEVO</span></td>
+          <td class="num">39.490 €</td>
+          <td class="num">1</td>
+          <td class="num">2026</td>
+          <td>no especificado</td>
+          <td>2026-08-06</td>
+          <td>2026-08-06</td>
+          <td><a class="listing-link" href="https://www.coches.net/hyundai-tucson-16t-212kw-288cv-phev-at-tecno-sky-5p-electrico-hibrido-2026-en-madrid-71111833-covo.aspx" target="_blank" rel="noopener">Ver anuncio</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <section class="removed">
+    <details>
+      <summary>Retirados / probablemente vendidos (0)</summary>
+      <p class="empty-note">Todavía no hay anuncios marcados como retirados o probablemente vendidos. Un anuncio pasa a esta lista cuando lleva 3 días consecutivos sin aparecer en su web de origen.</p>
+    </details>
+  </section>
+
+  <footer>
+    <p>Historial completo de cambios en <a href="CHANGELOG.md">CHANGELOG.md</a>.</p>
+    <p>Esta tabla no incluye la puntuación ponderada ni recomendación razonada de la comparativa completa — pídesela a Claude cuando quieras profundizar.</p>
+  </footer>
+</div>
+</body>
+</html>
