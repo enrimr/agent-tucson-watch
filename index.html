@@ -98,6 +98,23 @@
   .site-cell span{ color:var(--ink-muted); font-size:11.5px; }
   .empty-row td{ text-align:center; color:var(--ink-muted); padding:36px 0; }
 
+  tr.prio-favorito{ box-shadow: inset 3px 0 0 var(--accent); }
+  tr.prio-descartado{ opacity:.5; }
+  .eval-cell{ display:flex; flex-direction:column; gap:5px; min-width:150px; }
+  .eval-cell select, .eval-cell input{
+    font-family:inherit; font-size:12.5px; color:var(--ink); background:var(--surface-2);
+    border:1px solid var(--line); border-radius:7px; padding:5px 7px; width:100%;
+  }
+  .eval-cell input::placeholder{ color:var(--ink-muted); }
+
+  .eval-toolbar{ display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin:14px 0 0; font-size:12.5px; color:var(--ink-muted); }
+  .eval-toolbar button{
+    font-family:inherit; font-size:12.5px; font-weight:700; color:var(--ink-2); background:var(--surface-2);
+    border:1px solid var(--line); border-radius:8px; padding:6px 12px; cursor:pointer;
+  }
+  .eval-toolbar button:hover{ color:var(--ink); }
+  .eval-toolbar button.danger:hover{ color:#d03b3b; border-color:#d03b3b; }
+
   footer{ padding:36px 0 10px; font-size:12.5px; color:var(--ink-muted); }
   footer a{ text-decoration:underline; }
 
@@ -140,6 +157,17 @@
       </select>
     </div>
     <div class="f-field">
+      <label for="f-priority">Mi prioridad</label>
+      <select id="f-priority">
+        <option value="">Todas</option>
+        <option value="favorito">🌟 Favorito</option>
+        <option value="interesante">👍 Interesante</option>
+        <option value="dudoso">🤔 Dudoso</option>
+        <option value="descartado">❌ Descartado</option>
+        <option value="_unset">— Sin evaluar</option>
+      </select>
+    </div>
+    <div class="f-field">
       <label for="f-status">Estado</label>
       <select id="f-status">
         <option value="active-ish" selected>Activos</option>
@@ -173,10 +201,19 @@
           <th data-key="first_seen">1ª vez visto<span class="arrow"></span></th>
           <th data-key="last_seen">Última vez visto<span class="arrow"></span></th>
           <th>Enlace</th>
+          <th data-key="_priority">Mi valoración<span class="arrow"></span></th>
         </tr>
       </thead>
       <tbody id="tbody"></tbody>
     </table>
+  </div>
+
+  <div class="eval-toolbar">
+    <span>Tu valoración se guarda solo en este navegador (no se sube al repo ni la toca el vigilante diario).</span>
+    <button id="export-evals" type="button">Exportar mi valoración</button>
+    <button id="import-evals-btn" type="button">Importar…</button>
+    <input type="file" id="import-evals" accept="application/json" hidden>
+    <button id="clear-evals" class="danger" type="button">Borrar toda mi valoración</button>
   </div>
 
   <footer>
@@ -190,6 +227,30 @@
   var raw = [];
   var sortKey = 'price_eur';
   var sortDir = 1; // 1 asc, -1 desc
+
+  var EVALS_KEY = 'tucsonWatchEvals';
+  var PRIORITY = {
+    'favorito':    { label: '🌟 Favorito',    rank: 4 },
+    'interesante': { label: '👍 Interesante', rank: 3 },
+    'dudoso':      { label: '🤔 Dudoso',      rank: 2 },
+    'descartado':  { label: '❌ Descartado',  rank: 1 },
+    '':            { label: '— Sin evaluar',  rank: 0 }
+  };
+
+  function loadEvals(){
+    try { return JSON.parse(localStorage.getItem(EVALS_KEY) || '{}'); }
+    catch(e){ return {}; }
+  }
+  function saveEvals(evals){
+    localStorage.setItem(EVALS_KEY, JSON.stringify(evals));
+  }
+  function setEval(id, patch){
+    var evals = loadEvals();
+    var current = evals[id] || { priority: '', notes: '' };
+    evals[id] = Object.assign({}, current, patch);
+    if(!evals[id].priority && !evals[id].notes) delete evals[id];
+    saveEvals(evals);
+  }
 
   function fmtEUR(n){ return (n==null) ? '—' : n.toLocaleString('es-ES') + ' €'; }
   function fmtKM(n){ return (n==null) ? '—' : n.toLocaleString('es-ES') + ' km'; }
@@ -236,8 +297,10 @@
     var traction = document.getElementById('f-traction').value;
     var region = document.getElementById('f-region').value;
     var status = document.getElementById('f-status').value;
+    var priority = document.getElementById('f-priority').value;
     var priceMax = parseFloat(document.getElementById('f-price').value);
     var kmMax = parseFloat(document.getElementById('f-km').value);
+    var evals = loadEvals();
 
     return list.filter(function(i){
       if(status === 'active-ish' && i.status === 'probably_removed') return false;
@@ -248,6 +311,10 @@
       }
       if(traction && (i.traction || 'no especificado') !== traction) return false;
       if(region && (i.region || 'peninsula') !== region) return false;
+      if(priority){
+        var p = (evals[i.id] && evals[i.id].priority) || '';
+        if(priority === '_unset' ? p !== '' : p !== priority) return false;
+      }
       if(!isNaN(priceMax) && (i.price_eur == null || i.price_eur > priceMax)) return false;
       if(!isNaN(kmMax) && (i.km == null || i.km > kmMax)) return false;
       return true;
@@ -256,8 +323,15 @@
 
   function sortList(list){
     var key = sortKey, dir = sortDir;
+    var evals = loadEvals();
     return list.slice().sort(function(a, b){
-      var av = a[key], bv = b[key];
+      var av, bv;
+      if(key === '_priority'){
+        av = PRIORITY[(evals[a.id] && evals[a.id].priority) || ''].rank;
+        bv = PRIORITY[(evals[b.id] && evals[b.id].priority) || ''].rank;
+      } else {
+        av = a[key]; bv = b[key];
+      }
       if(av == null && bv == null) return 0;
       if(av == null) return 1;
       if(bv == null) return -1;
@@ -269,15 +343,18 @@
     });
   }
 
+  function escapeAttr(s){ return (s||'').replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;'); }
+
   function render(){
     var filtered = applyFilters(raw);
     var sorted = sortList(filtered);
     var tbody = document.getElementById('tbody');
+    var evals = loadEvals();
 
     document.getElementById('result-count').textContent = sorted.length + ' de ' + raw.length + ' anuncios';
 
     if(!sorted.length){
-      tbody.innerHTML = '<tr class="empty-row"><td colspan="10">Ningún anuncio coincide con estos filtros.</td></tr>';
+      tbody.innerHTML = '<tr class="empty-row"><td colspan="11">Ningún anuncio coincide con estos filtros.</td></tr>';
     } else {
       tbody.innerHTML = sorted.map(function(i){
         var badges = '';
@@ -287,7 +364,12 @@
         if(i.status === 'not_seen_today') badges += '<span class="badge status">no visto hoy</span>';
         if(i.status === 'probably_removed') badges += '<span class="badge status">probablemente vendido</span>';
         var locBadge = (i.region === 'canarias') ? ' <span class="badge canarias" title="Comprar desde península implica +IVA y transporte">🏝️ Canarias</span>' : '';
-        return '<tr class="' + (i.status === 'probably_removed' ? 'removed' : '') + '">' +
+        var ev = evals[i.id] || { priority: '', notes: '' };
+        var options = Object.keys(PRIORITY).map(function(k){
+          return '<option value="' + k + '"' + (k === ev.priority ? ' selected' : '') + '>' + PRIORITY[k].label + '</option>';
+        }).join('');
+        var rowClass = i.status === 'probably_removed' ? 'removed' : (ev.priority ? 'prio-' + ev.priority : '');
+        return '<tr class="' + rowClass + '">' +
           '<td class="site-cell"><b>' + (i.site||'') + '</b></td>' +
           '<td>' + (i.trim||'') + badges + '</td>' +
           '<td class="num">' + fmtEUR(i.price_eur) + '</td>' +
@@ -298,6 +380,10 @@
           '<td class="num">' + (i.first_seen || '—') + '</td>' +
           '<td class="num">' + (i.last_seen || '—') + '</td>' +
           '<td><a href="' + i.url + '" target="_blank" rel="noopener">Ver ↗</a></td>' +
+          '<td><div class="eval-cell">' +
+            '<select data-eval-id="' + i.id + '" data-eval-field="priority">' + options + '</select>' +
+            '<input type="text" data-eval-id="' + i.id + '" data-eval-field="notes" placeholder="notas…" value="' + escapeAttr(ev.notes) + '">' +
+          '</div></td>' +
           '</tr>';
       }).join('');
     }
@@ -316,7 +402,7 @@
       render();
     });
   });
-  ['q','f-traction','f-region','f-status','f-price','f-km'].forEach(function(id){
+  ['q','f-traction','f-region','f-priority','f-status','f-price','f-km'].forEach(function(id){
     document.getElementById(id).addEventListener('input', render);
     document.getElementById(id).addEventListener('change', render);
   });
@@ -324,10 +410,64 @@
     document.getElementById('q').value = '';
     document.getElementById('f-traction').value = '';
     document.getElementById('f-region').value = '';
+    document.getElementById('f-priority').value = '';
     document.getElementById('f-status').value = 'active-ish';
     document.getElementById('f-price').value = '';
     document.getElementById('f-km').value = '';
     render();
+  });
+
+  var tbodyEl = document.getElementById('tbody');
+  tbodyEl.addEventListener('input', function(e){
+    var t = e.target;
+    if(t.matches('input[data-eval-field="notes"]')){
+      setEval(t.getAttribute('data-eval-id'), { notes: t.value });
+    }
+  });
+  tbodyEl.addEventListener('change', function(e){
+    var t = e.target;
+    if(t.matches('select[data-eval-field="priority"]')){
+      setEval(t.getAttribute('data-eval-id'), { priority: t.value });
+      render();
+    } else if(t.matches('input[data-eval-field="notes"]')){
+      // ya guardado por el listener de 'input'; solo re-renderiza (por si hay un filtro de texto activo)
+      render();
+    }
+  });
+
+  document.getElementById('export-evals').addEventListener('click', function(){
+    var blob = new Blob([JSON.stringify(loadEvals(), null, 2)], { type: 'application/json' });
+    var a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = 'tucson-watch-mi-valoracion.json';
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+  });
+  document.getElementById('import-evals-btn').addEventListener('click', function(){
+    document.getElementById('import-evals').click();
+  });
+  document.getElementById('import-evals').addEventListener('change', function(e){
+    var file = e.target.files[0];
+    if(!file) return;
+    var reader = new FileReader();
+    reader.onload = function(){
+      try{
+        var incoming = JSON.parse(reader.result);
+        var current = loadEvals();
+        saveEvals(Object.assign({}, current, incoming));
+        render();
+        alert('Valoración importada.');
+      }catch(err){
+        alert('El archivo no es un JSON válido de valoración.');
+      }
+    };
+    reader.readAsText(file);
+    e.target.value = '';
+  });
+  document.getElementById('clear-evals').addEventListener('click', function(){
+    if(confirm('¿Borrar toda tu valoración guardada en este navegador? No se puede deshacer (exporta antes si quieres conservarla).')){
+      localStorage.removeItem(EVALS_KEY);
+      render();
+    }
   });
 
   fetch('./state/known-listings.json', { cache: 'no-store' })
@@ -341,7 +481,7 @@
       render();
     })
     .catch(function(err){
-      document.getElementById('tbody').innerHTML = '<tr class="empty-row"><td colspan="10">No se pudieron cargar los datos (' + err + ').</td></tr>';
+      document.getElementById('tbody').innerHTML = '<tr class="empty-row"><td colspan="11">No se pudieron cargar los datos (' + err + ').</td></tr>';
     });
 })();
 </script>
