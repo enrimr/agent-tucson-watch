@@ -93,6 +93,7 @@
   .badge.new{ background:color-mix(in srgb, var(--accent) 18%, transparent); color:var(--accent); }
   .badge.down{ background:color-mix(in srgb, var(--good) 16%, transparent); color:var(--good); }
   .badge.status{ background:var(--surface-2); color:var(--ink-muted); border:1px solid var(--line); }
+  .badge.canarias{ background:color-mix(in srgb, #1baf7a 16%, transparent); color:#1baf7a; }
   .site-cell b{ display:block; font-size:13.5px; }
   .site-cell span{ color:var(--ink-muted); font-size:11.5px; }
   .empty-row td{ text-align:center; color:var(--ink-muted); padding:36px 0; }
@@ -131,6 +132,14 @@
       <select id="f-traction"><option value="">Todas</option></select>
     </div>
     <div class="f-field">
+      <label for="f-region">Zona</label>
+      <select id="f-region">
+        <option value="">Todas</option>
+        <option value="peninsula">Península</option>
+        <option value="canarias">Canarias</option>
+      </select>
+    </div>
+    <div class="f-field">
       <label for="f-status">Estado</label>
       <select id="f-status">
         <option value="active-ish" selected>Activos</option>
@@ -160,6 +169,7 @@
           <th data-key="km" class="num">Km<span class="arrow"></span></th>
           <th data-key="year" class="num">Año<span class="arrow"></span></th>
           <th data-key="traction">Tracción<span class="arrow"></span></th>
+          <th data-key="location">Ubicación<span class="arrow"></span></th>
           <th data-key="first_seen">1ª vez visto<span class="arrow"></span></th>
           <th data-key="last_seen">Última vez visto<span class="arrow"></span></th>
           <th>Enlace</th>
@@ -224,6 +234,7 @@
   function applyFilters(list){
     var q = document.getElementById('q').value.trim().toLowerCase();
     var traction = document.getElementById('f-traction').value;
+    var region = document.getElementById('f-region').value;
     var status = document.getElementById('f-status').value;
     var priceMax = parseFloat(document.getElementById('f-price').value);
     var kmMax = parseFloat(document.getElementById('f-km').value);
@@ -232,10 +243,11 @@
       if(status === 'active-ish' && i.status === 'probably_removed') return false;
       if(status === 'new' && !isNew(i)) return false;
       if(q){
-        var hay = ((i.site||'') + ' ' + (i.trim||'')).toLowerCase();
+        var hay = ((i.site||'') + ' ' + (i.trim||'') + ' ' + (i.location||'')).toLowerCase();
         if(hay.indexOf(q) === -1) return false;
       }
       if(traction && (i.traction || 'no especificado') !== traction) return false;
+      if(region && (i.region || 'peninsula') !== region) return false;
       if(!isNaN(priceMax) && (i.price_eur == null || i.price_eur > priceMax)) return false;
       if(!isNaN(kmMax) && (i.km == null || i.km > kmMax)) return false;
       return true;
@@ -265,7 +277,7 @@
     document.getElementById('result-count').textContent = sorted.length + ' de ' + raw.length + ' anuncios';
 
     if(!sorted.length){
-      tbody.innerHTML = '<tr class="empty-row"><td colspan="9">Ningún anuncio coincide con estos filtros.</td></tr>';
+      tbody.innerHTML = '<tr class="empty-row"><td colspan="10">Ningún anuncio coincide con estos filtros.</td></tr>';
     } else {
       tbody.innerHTML = sorted.map(function(i){
         var badges = '';
@@ -274,6 +286,7 @@
         if(drop) badges += '<span class="badge down">↓ ' + drop.toLocaleString('es-ES') + ' €</span>';
         if(i.status === 'not_seen_today') badges += '<span class="badge status">no visto hoy</span>';
         if(i.status === 'probably_removed') badges += '<span class="badge status">probablemente vendido</span>';
+        var locBadge = (i.region === 'canarias') ? ' <span class="badge canarias" title="Comprar desde península implica +IVA y transporte">🏝️ Canarias</span>' : '';
         return '<tr class="' + (i.status === 'probably_removed' ? 'removed' : '') + '">' +
           '<td class="site-cell"><b>' + (i.site||'') + '</b></td>' +
           '<td>' + (i.trim||'') + badges + '</td>' +
@@ -281,6 +294,7 @@
           '<td class="num">' + fmtKM(i.km) + '</td>' +
           '<td class="num">' + (i.year != null ? i.year : '—') + '</td>' +
           '<td>' + (i.traction || 'no especificado') + '</td>' +
+          '<td>' + (i.location || 'no especificado') + locBadge + '</td>' +
           '<td class="num">' + (i.first_seen || '—') + '</td>' +
           '<td class="num">' + (i.last_seen || '—') + '</td>' +
           '<td><a href="' + i.url + '" target="_blank" rel="noopener">Ver ↗</a></td>' +
@@ -302,13 +316,14 @@
       render();
     });
   });
-  ['q','f-traction','f-status','f-price','f-km'].forEach(function(id){
+  ['q','f-traction','f-region','f-status','f-price','f-km'].forEach(function(id){
     document.getElementById(id).addEventListener('input', render);
     document.getElementById(id).addEventListener('change', render);
   });
   document.getElementById('clear-filters').addEventListener('click', function(){
     document.getElementById('q').value = '';
     document.getElementById('f-traction').value = '';
+    document.getElementById('f-region').value = '';
     document.getElementById('f-status').value = 'active-ish';
     document.getElementById('f-price').value = '';
     document.getElementById('f-km').value = '';
@@ -326,7 +341,7 @@
       render();
     })
     .catch(function(err){
-      document.getElementById('tbody').innerHTML = '<tr class="empty-row"><td colspan="9">No se pudieron cargar los datos (' + err + ').</td></tr>';
+      document.getElementById('tbody').innerHTML = '<tr class="empty-row"><td colspan="10">No se pudieron cargar los datos (' + err + ').</td></tr>';
     });
 })();
 </script>
