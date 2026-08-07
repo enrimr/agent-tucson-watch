@@ -14,8 +14,14 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 26450 },
-      { "date": "2026-08-06", "price_eur": 25990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 26450
+      },
+      {
+        "date": "2026-08-06",
+        "price_eur": 25990
+      }
     ]
   },
   {
@@ -33,7 +39,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 25999 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 25999
+      }
     ]
   },
   {
@@ -51,7 +60,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 32399 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 32399
+      }
     ]
   },
   {
@@ -69,7 +81,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22850
+      }
     ]
   },
   {
@@ -87,7 +102,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23490
+      }
     ]
   },
   {
@@ -105,7 +123,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 25000 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 25000
+      }
     ]
   },
   {
@@ -123,7 +144,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 26490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 26490
+      }
     ]
   },
   {
@@ -141,7 +165,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 24000 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 24000
+      }
     ]
   },
   {
@@ -159,7 +186,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 32790 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 32790
+      }
     ]
   },
   {
@@ -177,7 +207,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 27090 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 27090
+      }
     ]
   },
   {
@@ -195,7 +228,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 21950 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 21950
+      }
     ]
   },
   {
@@ -213,8 +249,14 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23199 },
-      { "date": "2026-08-07", "price_eur": 22599 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23199
+      },
+      {
+        "date": "2026-08-07",
+        "price_eur": 22599
+      }
     ]
   },
   {
@@ -232,7 +274,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22099 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22099
+      }
     ]
   },
   {
@@ -250,7 +295,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 39490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 39490
+      }
     ]
   },
   {
@@ -268,7 +316,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 27900 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 27900
+      }
     ]
   },
   {
@@ -286,7 +337,10 @@
     "last_seen": "2026-08-06",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 37790 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 37790
+      }
     ]
   },
   {
@@ -304,7 +358,10 @@
     "last_seen": "2026-08-06",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22890 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22890
+      }
     ]
   },
   {
@@ -322,7 +379,10 @@
     "last_seen": "2026-08-06",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -332,7 +392,7 @@
     "trim": "1.6 TGDI PHEV Tecno Sky Auto 4x4",
     "price_eur": 24990,
     "km": 44000,
-    "year": 2021,
+    "year": 2022,
     "traction": "4x4",
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
@@ -340,7 +400,10 @@
     "last_seen": "2026-08-06",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 24990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 24990
+      }
     ]
   },
   {
@@ -358,7 +421,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -376,7 +442,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -394,7 +463,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 20850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 20850
+      }
     ]
   },
   {
@@ -412,7 +484,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23850
+      }
     ]
   },
   {
@@ -430,7 +505,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22850
+      }
     ]
   },
   {
@@ -448,7 +526,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22850
+      }
     ]
   },
   {
@@ -466,7 +547,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 28390 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 28390
+      }
     ]
   },
   {
@@ -484,7 +568,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 25490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 25490
+      }
     ]
   },
   {
@@ -502,7 +589,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -520,7 +610,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 33490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 33490
+      }
     ]
   },
   {
@@ -538,7 +631,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 26790 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 26790
+      }
     ]
   },
   {
@@ -556,7 +652,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 24890 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 24890
+      }
     ]
   },
   {
@@ -574,7 +673,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 21690 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 21690
+      }
     ]
   },
   {
@@ -592,8 +694,14 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 24990 },
-      { "date": "2026-08-07", "price_eur": 24490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 24990
+      },
+      {
+        "date": "2026-08-07",
+        "price_eur": 24490
+      }
     ]
   },
   {
@@ -611,7 +719,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 39490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 39490
+      }
     ]
   },
   {
@@ -629,7 +740,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 31290 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 31290
+      }
     ]
   },
   {
@@ -647,7 +761,10 @@
     "last_seen": "2026-08-06",
     "status": "not_seen_today",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 27890 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 27890
+      }
     ]
   },
   {
@@ -665,7 +782,10 @@
     "last_seen": "2026-08-06",
     "status": "not_seen_today",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -683,7 +803,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 39490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 39490
+      }
     ]
   },
   {
@@ -701,7 +824,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 23990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -719,7 +845,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 42490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 42490
+      }
     ]
   },
   {
@@ -737,7 +866,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26900 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26900
+      }
     ]
   },
   {
@@ -755,7 +887,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 24990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 24990
+      }
     ]
   },
   {
@@ -773,7 +908,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 22990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 22990
+      }
     ]
   },
   {
@@ -791,7 +929,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 22990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 22990
+      }
     ]
   },
   {
@@ -809,7 +950,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26990
+      }
     ]
   },
   {
@@ -827,7 +971,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 27950 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 27950
+      }
     ]
   },
   {
@@ -845,7 +992,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 31500 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 31500
+      }
     ]
   },
   {
@@ -863,7 +1013,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 37990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 37990
+      }
     ]
   },
   {
@@ -881,7 +1034,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26990
+      }
     ]
   },
   {
@@ -899,7 +1055,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 28990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 28990
+      }
     ]
   },
   {
@@ -917,7 +1076,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 38300 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 38300
+      }
     ]
   },
   {
@@ -935,7 +1097,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 27900 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 27900
+      }
     ]
   },
   {
@@ -953,7 +1118,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 38900 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 38900
+      }
     ]
   },
   {
@@ -971,7 +1139,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26490
+      }
     ]
   },
   {
@@ -989,7 +1160,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 37300 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 37300
+      }
     ]
   },
   {
@@ -1007,7 +1181,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 34900 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 34900
+      }
     ]
   },
   {
@@ -1025,7 +1202,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 37475 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 37475
+      }
     ]
   },
   {
@@ -1043,7 +1223,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 36898 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 36898
+      }
     ]
   },
   {
@@ -1061,7 +1244,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26840 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26840
+      }
     ]
   },
   {
@@ -1079,7 +1265,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 30990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 30990
+      }
     ]
   },
   {
@@ -1097,7 +1286,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 27490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 27490
+      }
     ]
   },
   {
@@ -1115,7 +1307,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26490
+      }
     ]
   },
   {
@@ -1133,7 +1328,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 23290 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 23290
+      }
     ]
   },
   {
@@ -1151,7 +1349,10 @@
     "last_seen": "2026-08-07",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 24490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 24490
+      }
     ]
   }
 ]
