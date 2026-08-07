@@ -115,6 +115,26 @@
   .eval-toolbar button:hover{ color:var(--ink); }
   .eval-toolbar button.danger:hover{ color:#d03b3b; border-color:#d03b3b; }
 
+  .top-card{
+    background:var(--surface); border:1px solid var(--line); border-radius:16px;
+    padding:22px 24px 20px; box-shadow:var(--shadow); margin:32px 0;
+  }
+  .top-card h2{ font-size:18px; font-weight:800; text-transform:uppercase; letter-spacing:-0.01em; margin:0 0 4px; }
+  .top-card .top-sub{ font-size:13px; color:var(--ink-2); margin:0 0 16px; max-width:70ch; }
+  .top-criteria{ display:flex; flex-wrap:wrap; gap:10px; align-items:flex-end; padding-bottom:18px; border-bottom:1px dashed var(--line); margin-bottom:18px; }
+  .top-results{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
+  .top-result{ border:1px solid var(--line); border-radius:12px; padding:16px 18px; background:var(--surface-2); position:relative; }
+  .top-result .medal{ font-size:20px; position:absolute; top:14px; right:16px; }
+  .top-result .tr-site{ font-size:11px; text-transform:uppercase; letter-spacing:.05em; color:var(--ink-muted); font-weight:700; }
+  .top-result .tr-trim{ font-size:14.5px; font-weight:700; margin:2px 0 10px; padding-right:28px; }
+  .top-result .tr-price{ font-size:22px; font-weight:800; }
+  .top-result .tr-meta{ font-size:12.5px; color:var(--ink-2); margin-top:4px; }
+  .top-result .tr-tags{ display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+  .top-result .tr-tag{ font-size:10.5px; font-weight:700; padding:2px 7px; border-radius:6px; background:color-mix(in srgb, var(--accent) 16%, transparent); color:var(--accent); }
+  .top-result a.tr-link{ display:inline-block; margin-top:12px; font-size:12.5px; font-weight:700; text-decoration:underline; }
+  .top-empty{ color:var(--ink-muted); font-size:13.5px; grid-column:1/-1; }
+  .top-note{ font-size:11.5px; color:var(--ink-muted); margin-top:16px; }
+
   footer{ padding:36px 0 10px; font-size:12.5px; color:var(--ink-muted); }
   footer a{ text-decoration:underline; }
 
@@ -137,6 +157,51 @@
 </header>
 
 <div class="wrap">
+
+  <div class="top-card">
+    <h2>Mi top ideal</h2>
+    <p class="top-sub">Se recalcula solo, cada vez que cargas la página, con los datos más recientes del vigilante diario. Tus criterios se guardan en este navegador (igual que tu valoración: no se suben al repo).</p>
+    <div class="top-criteria">
+      <div class="f-field">
+        <label for="top-price">Presupuesto máx. (€)</label>
+        <input type="number" id="top-price" placeholder="p. ej. 26000">
+      </div>
+      <div class="f-field">
+        <label for="top-traction">Tracción</label>
+        <select id="top-traction">
+          <option value="">Cualquiera</option>
+          <option value="4x4">Solo 4x4</option>
+        </select>
+      </div>
+      <div class="f-field">
+        <label for="top-km">Km ideal (máx.)</label>
+        <input type="number" id="top-km" placeholder="p. ej. 60000">
+      </div>
+      <div class="f-field">
+        <label for="top-trim">Acabado</label>
+        <select id="top-trim"><option value="">Cualquiera</option></select>
+      </div>
+      <div class="f-field">
+        <label for="top-region">Zona</label>
+        <select id="top-region">
+          <option value="">Toda España</option>
+          <option value="peninsula">Solo Península</option>
+          <option value="canarias">Solo Canarias</option>
+        </select>
+      </div>
+      <div class="f-field">
+        <label for="top-n">Cuántos mostrar</label>
+        <select id="top-n">
+          <option value="3" selected>Top 3</option>
+          <option value="5">Top 5</option>
+          <option value="10">Top 10</option>
+        </select>
+      </div>
+    </div>
+    <div class="top-results" id="top-results"></div>
+    <p class="top-note">Presupuesto y tracción son filtros estrictos (lo que no cumple, se descarta). El km ideal es orientativo: penaliza pero no descarta lo que se pasa. Orden por precio (40%), cercanía al km ideal (35%) y año (25%).</p>
+  </div>
+
   <div class="stats" id="stats"></div>
 
   <div class="filters">
@@ -250,6 +315,136 @@
     evals[id] = Object.assign({}, current, patch);
     if(!evals[id].priority && !evals[id].notes) delete evals[id];
     saveEvals(evals);
+  }
+
+  var TOP_KEY = 'tucsonWatchTopCriteria';
+  var DEFAULT_TOP = { price: 26000, traction: '4x4', km: 60000, trim: '', region: 'peninsula', n: 3 };
+
+  function trimFamily(trim){
+    var t = (trim || '').toLowerCase();
+    if(t.indexOf('tecno sky') !== -1) return 'Tecno Sky';
+    if(t.indexOf('n line') !== -1) return 'N Line';
+    if(t.indexOf('style') !== -1) return 'Style';
+    if(t.indexOf('klass') !== -1) return 'Klass';
+    if(t.indexOf('maxx') !== -1) return 'Maxx';
+    return 'Otro';
+  }
+
+  function loadTopCriteria(){
+    try {
+      var saved = JSON.parse(localStorage.getItem(TOP_KEY) || 'null');
+      return saved || Object.assign({}, DEFAULT_TOP);
+    } catch(e){ return Object.assign({}, DEFAULT_TOP); }
+  }
+  function saveTopCriteria(c){ localStorage.setItem(TOP_KEY, JSON.stringify(c)); }
+
+  function readTopFormCriteria(){
+    return {
+      price: parseFloat(document.getElementById('top-price').value) || null,
+      traction: document.getElementById('top-traction').value,
+      km: parseFloat(document.getElementById('top-km').value) || null,
+      trim: document.getElementById('top-trim').value,
+      region: document.getElementById('top-region').value,
+      n: parseInt(document.getElementById('top-n').value, 10) || 3
+    };
+  }
+  function applyTopFormCriteria(c){
+    document.getElementById('top-price').value = c.price != null ? c.price : '';
+    document.getElementById('top-traction').value = c.traction || '';
+    document.getElementById('top-km').value = c.km != null ? c.km : '';
+    document.getElementById('top-trim').value = c.trim || '';
+    document.getElementById('top-region').value = c.region || '';
+    document.getElementById('top-n').value = String(c.n || 3);
+  }
+
+  function populateTopTrimOptions(){
+    var set = Array.from(new Set(raw.map(function(i){ return trimFamily(i.trim); }))).sort();
+    var sel = document.getElementById('top-trim');
+    set.forEach(function(t){
+      var o = document.createElement('option'); o.value = t; o.textContent = t; sel.appendChild(o);
+    });
+  }
+
+  function computeTop(){
+    var c = readTopFormCriteria();
+    var pool = raw.filter(function(i){
+      if(i.status === 'probably_removed') return false;
+      if(i.price_eur == null) return false;
+      if(c.price != null && i.price_eur > c.price) return false;
+      if(c.traction && i.traction !== c.traction) return false;
+      if(c.region && (i.region || 'peninsula') !== c.region) return false;
+      if(c.trim && trimFamily(i.trim) !== c.trim) return false;
+      return true;
+    });
+    if(!pool.length) return { criteria: c, top: [], pool: [] };
+
+    var prices = pool.map(function(i){ return i.price_eur; });
+    var years = pool.map(function(i){ return i.year; }).filter(function(y){ return y != null; });
+    var priceMin = Math.min.apply(null, prices), priceMax = Math.max.apply(null, prices);
+    var yearMin = years.length ? Math.min.apply(null, years) : null, yearMax = years.length ? Math.max.apply(null, years) : null;
+    var kms = pool.map(function(i){ return i.km; }).filter(function(k){ return k != null; });
+    var kmMin = kms.length ? Math.min.apply(null, kms) : null, kmMax = kms.length ? Math.max.apply(null, kms) : null;
+
+    var scored = pool.map(function(i){
+      // El presupuesto ya actuó como filtro dura arriba; aquí se puntúa lo barato
+      // que es cada candidato relativo a los demás que ya pasaron el filtro,
+      // no la distancia al tope de presupuesto (si no, algo barato en términos
+      // absolutos pero cercano al tope quedaría injustamente penalizado).
+      var priceScore = (priceMax === priceMin) ? 1 : 1 - (i.price_eur - priceMin) / (priceMax - priceMin);
+
+      var kmScore;
+      if(i.km == null){ kmScore = 0; }
+      else if(c.km != null){ kmScore = i.km <= c.km ? 1 : clamp(1 - (i.km - c.km) / c.km, 0, 1); }
+      else { kmScore = (kmMax === kmMin) ? 1 : 1 - (i.km - kmMin) / (kmMax - kmMin); }
+
+      var yearScore = (i.year == null || yearMin == null) ? 0 : (yearMax === yearMin ? 1 : (i.year - yearMin) / (yearMax - yearMin));
+
+      var score = 0.40 * priceScore + 0.35 * kmScore + 0.25 * yearScore;
+      return { item: i, score: score };
+    });
+    scored.sort(function(a, b){ return b.score - a.score; });
+
+    var cheapestId = pool.reduce(function(a, b){ return b.price_eur < a.price_eur ? b : a; }).id;
+    var lowestKmPool = pool.filter(function(i){ return i.km != null; });
+    var lowestKmId = lowestKmPool.length ? lowestKmPool.reduce(function(a, b){ return b.km < a.km ? b : a; }).id : null;
+    var newestPool = pool.filter(function(i){ return i.year != null; });
+    var newestId = newestPool.length ? newestPool.reduce(function(a, b){ return b.year > a.year ? b : a; }).id : null;
+
+    return {
+      criteria: c,
+      top: scored.slice(0, c.n),
+      tags: { cheapestId: cheapestId, lowestKmId: lowestKmId, newestId: newestId }
+    };
+  }
+
+  function clamp(v, lo, hi){ return Math.max(lo, Math.min(hi, v)); }
+
+  function renderTop(){
+    var result = computeTop();
+    var el = document.getElementById('top-results');
+    if(!result.top.length){
+      el.innerHTML = '<p class="top-empty">Ningún anuncio cumple estos criterios ahora mismo. Prueba a subir el presupuesto o el km ideal.</p>';
+      return;
+    }
+    var medals = ['🥇', '🥈', '🥉'];
+    el.innerHTML = result.top.map(function(s, idx){
+      var i = s.item;
+      var tags = [];
+      if(i.id === result.tags.cheapestId) tags.push('Más barato');
+      if(i.id === result.tags.lowestKmId) tags.push('Menos km');
+      if(i.id === result.tags.newestId) tags.push('Más nuevo');
+      var locBadge = (i.region === 'canarias') ? ' 🏝️ Canarias' : '';
+      return '<div class="top-result">' +
+        '<span class="medal">' + (medals[idx] || ('#' + (idx + 1))) + '</span>' +
+        '<div class="tr-site">' + (i.site || '') + '</div>' +
+        '<div class="tr-trim">' + (i.trim || '') + '</div>' +
+        '<div class="tr-price num">' + fmtEUR(i.price_eur) + '</div>' +
+        '<div class="tr-meta">' + fmtKM(i.km) + ' · ' + (i.year != null ? i.year : '—') + ' · ' + (i.traction || 'no especificado') + '</div>' +
+        '<div class="tr-meta">' + (i.location || 'no especificado') + locBadge + '</div>' +
+        (tags.length ? '<div class="tr-tags">' + tags.map(function(t){ return '<span class="tr-tag">' + t + '</span>'; }).join('') + '</div>' : '') +
+        '<a class="tr-link" href="' + i.url + '" target="_blank" rel="noopener">Ver anuncio ↗</a>' +
+        '</div>';
+    }).join('');
   }
 
   function fmtEUR(n){ return (n==null) ? '—' : n.toLocaleString('es-ES') + ' €'; }
@@ -470,6 +665,17 @@
     }
   });
 
+  ['top-price', 'top-traction', 'top-km', 'top-trim', 'top-region', 'top-n'].forEach(function(id){
+    document.getElementById(id).addEventListener('input', function(){
+      saveTopCriteria(readTopFormCriteria());
+      renderTop();
+    });
+    document.getElementById(id).addEventListener('change', function(){
+      saveTopCriteria(readTopFormCriteria());
+      renderTop();
+    });
+  });
+
   fetch('./state/known-listings.json', { cache: 'no-store' })
     .then(function(r){ return r.json(); })
     .then(function(data){
@@ -477,7 +683,10 @@
       var latest = raw.reduce(function(acc, i){ return (i.last_seen && i.last_seen > acc) ? i.last_seen : acc; }, '');
       document.getElementById('updated').textContent = latest ? ('Última actualización: ' + latest) : '';
       populateTractionOptions();
+      populateTopTrimOptions();
+      applyTopFormCriteria(loadTopCriteria());
       renderStats();
+      renderTop();
       render();
     })
     .catch(function(err){
