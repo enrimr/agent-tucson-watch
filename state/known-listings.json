@@ -12,10 +12,16 @@
     "region": "peninsula",
     "first_seen": "2026-08-06",
     "last_seen": "2026-08-11",
-    "status": "not_seen_today",
+    "status": "probably_removed",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 26450 },
-      { "date": "2026-08-06", "price_eur": 25990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 26450
+      },
+      {
+        "date": "2026-08-06",
+        "price_eur": 25990
+      }
     ]
   },
   {
@@ -23,20 +29,36 @@
     "site": "autohero.com",
     "url": "https://www.autohero.com/es/hyundai-tucson/id/8f3a9d55-5f09-423a-9f56-a1d375c34572/",
     "trim": "1.6 T-GDI Plug-in Hybrid Maxx 4WD",
-    "price_eur": 23635,
+    "price_eur": 25499,
     "km": 41370,
     "year": 2022,
     "traction": "4x4",
     "location": "no especificado (Autohero no entrega en Canarias)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 25999 },
-      { "date": "2026-08-09", "price_eur": 23635 },
-      { "date": "2026-08-11", "price_eur": 25999 },
-      { "date": "2026-08-20", "price_eur": 23635 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 25999
+      },
+      {
+        "date": "2026-08-09",
+        "price_eur": 23635
+      },
+      {
+        "date": "2026-08-11",
+        "price_eur": 25999
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 23635
+      },
+      {
+        "date": "2026-08-25",
+        "price_eur": 25499
+      }
     ]
   },
   {
@@ -44,20 +66,36 @@
     "site": "autohero.com",
     "url": "https://www.autohero.com/es/hyundai-tucson/id/c88c7910-82c6-41f7-8721-f1ac50ff7fd3/",
     "trim": "1.6 T-GDI Plug-in Hybrid Maxx 2WD",
-    "price_eur": 28817,
+    "price_eur": 31699,
     "km": 13492,
     "year": 2025,
     "traction": "4x2",
     "location": "no especificado (Autohero no entrega en Canarias)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 32399 },
-      { "date": "2026-08-09", "price_eur": 29454 },
-      { "date": "2026-08-11", "price_eur": 32199 },
-      { "date": "2026-08-20", "price_eur": 28817 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 32399
+      },
+      {
+        "date": "2026-08-09",
+        "price_eur": 29454
+      },
+      {
+        "date": "2026-08-11",
+        "price_eur": 32199
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 28817
+      },
+      {
+        "date": "2026-08-25",
+        "price_eur": 31699
+      }
     ]
   },
   {
@@ -75,7 +113,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22850
+      }
     ]
   },
   {
@@ -90,10 +131,13 @@
     "location": "Red Carplus (Madrid/Málaga/Sevilla/Cádiz/Santiago)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23490
+      }
     ]
   },
   {
@@ -108,10 +152,13 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 25000 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 25000
+      }
     ]
   },
   {
@@ -129,7 +176,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 26490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 26490
+      }
     ]
   },
   {
@@ -147,7 +197,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 24000 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 24000
+      }
     ]
   },
   {
@@ -162,10 +215,13 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 32790 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 32790
+      }
     ]
   },
   {
@@ -180,10 +236,13 @@
     "location": "Red Carplus (no especificado exacto)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 27090 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 27090
+      }
     ]
   },
   {
@@ -198,11 +257,17 @@
     "location": "Valencia - Gandía",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 21950 },
-      { "date": "2026-08-20", "price_eur": 21450 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 21950
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 21450
+      }
     ]
   },
   {
@@ -210,21 +275,40 @@
     "site": "autohero.com",
     "url": "https://www.autohero.com/es/hyundai-tucson/id/ee453ff9-005f-455e-ad92-130e47ce4b12/",
     "trim": "1.6 T-GDI Plug-in Hybrid Maxx 4WD",
-    "price_eur": 19726,
+    "price_eur": 21699,
     "km": 76540,
     "year": 2022,
     "traction": "4x4",
     "location": "no especificado (Autohero no entrega en Canarias)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23199 },
-      { "date": "2026-08-07", "price_eur": 22599 },
-      { "date": "2026-08-09", "price_eur": 20545 },
-      { "date": "2026-08-11", "price_eur": 22599 },
-      { "date": "2026-08-20", "price_eur": 19726 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23199
+      },
+      {
+        "date": "2026-08-07",
+        "price_eur": 22599
+      },
+      {
+        "date": "2026-08-09",
+        "price_eur": 20545
+      },
+      {
+        "date": "2026-08-11",
+        "price_eur": 22599
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 19726
+      },
+      {
+        "date": "2026-08-25",
+        "price_eur": 21699
+      }
     ]
   },
   {
@@ -239,11 +323,17 @@
     "location": "no especificado (Autohero no entrega en Canarias)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22099 },
-      { "date": "2026-08-20", "price_eur": 21499 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22099
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 21499
+      }
     ]
   },
   {
@@ -261,7 +351,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 39490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 39490
+      }
     ]
   },
   {
@@ -279,7 +372,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 27900 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 27900
+      }
     ]
   },
   {
@@ -297,7 +393,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 37790 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 37790
+      }
     ]
   },
   {
@@ -315,7 +414,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22890 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22890
+      }
     ]
   },
   {
@@ -333,7 +435,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -351,7 +456,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 24990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 24990
+      }
     ]
   },
   {
@@ -366,10 +474,13 @@
     "location": "Santa Cruz de Tenerife",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -384,10 +495,13 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -402,10 +516,13 @@
     "location": "Erandio (Vizcaya)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 20850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 20850
+      }
     ]
   },
   {
@@ -421,9 +538,12 @@
     "region": "peninsula",
     "first_seen": "2026-08-06",
     "last_seen": "2026-08-11",
-    "status": "not_seen_today",
+    "status": "probably_removed",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23850
+      }
     ]
   },
   {
@@ -438,10 +558,13 @@
     "location": "Arroyomolinos (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22850
+      }
     ]
   },
   {
@@ -457,9 +580,12 @@
     "region": "peninsula",
     "first_seen": "2026-08-06",
     "last_seen": "2026-08-11",
-    "status": "not_seen_today",
+    "status": "probably_removed",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 22850 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 22850
+      }
     ]
   },
   {
@@ -474,10 +600,13 @@
     "location": "Terrassa (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 28390 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 28390
+      }
     ]
   },
   {
@@ -492,10 +621,13 @@
     "location": "Girona",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 25490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 25490
+      }
     ]
   },
   {
@@ -510,10 +642,13 @@
     "location": "Alicante",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -528,10 +663,13 @@
     "location": "Sabadell (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 33490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 33490
+      }
     ]
   },
   {
@@ -539,18 +677,28 @@
     "site": "flexicar.es",
     "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-hibrido-enchufable-automatica-leganes_903000000273818/",
     "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
-    "price_eur": 23790,
+    "price_eur": 26790,
     "km": 66814,
     "year": 2023,
     "traction": "4x4",
     "location": "Leganés (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 26790 },
-      { "date": "2026-08-20", "price_eur": 23790 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 26790
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 23790
+      },
+      {
+        "date": "2026-08-25",
+        "price_eur": 26790
+      }
     ]
   },
   {
@@ -558,19 +706,32 @@
     "site": "flexicar.es",
     "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-hibrido-enchufable-automatica-aranguren_903000000220033/",
     "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
-    "price_eur": 20690,
+    "price_eur": 24690,
     "km": 78315,
     "year": 2022,
     "traction": "4x4",
-    "location": "Pamplona (Navarra)",
+    "location": "Tarragona - PI Francolí (antes Pamplona/Aranguren, mismo anuncio)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 24890 },
-      { "date": "2026-08-09", "price_eur": 24690 },
-      { "date": "2026-08-11", "price_eur": 20690 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 24890
+      },
+      {
+        "date": "2026-08-09",
+        "price_eur": 24690
+      },
+      {
+        "date": "2026-08-11",
+        "price_eur": 20690
+      },
+      {
+        "date": "2026-08-25",
+        "price_eur": 24690
+      }
     ]
   },
   {
@@ -578,19 +739,32 @@
     "site": "flexicar.es",
     "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-hibrido-enchufable-automatica-zaragoza-2_903000000250448/",
     "trim": "1.6 TGDI PHEV Style Auto 4x4",
-    "price_eur": 18290,
+    "price_eur": 21590,
     "km": 81100,
     "year": 2021,
     "traction": "4x4",
     "location": "Zaragoza",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 21690 },
-      { "date": "2026-08-09", "price_eur": 21590 },
-      { "date": "2026-08-20", "price_eur": 18290 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 21690
+      },
+      {
+        "date": "2026-08-09",
+        "price_eur": 21590
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 18290
+      },
+      {
+        "date": "2026-08-25",
+        "price_eur": 21590
+      }
     ]
   },
   {
@@ -605,11 +779,17 @@
     "location": "Murcia",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 24990 },
-      { "date": "2026-08-07", "price_eur": 24490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 24990
+      },
+      {
+        "date": "2026-08-07",
+        "price_eur": 24490
+      }
     ]
   },
   {
@@ -617,18 +797,28 @@
     "site": "flexicar.es",
     "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16t-252cv-phev-4x4-at-n-line-style-lld-hibrido-enchufable-automatica-getafe-fuenlabrada_903000000271862/",
     "trim": "1.6T 252CV PHEV 4x4 AT N Line Style",
-    "price_eur": 38990,
+    "price_eur": 38490,
     "km": 9152,
     "year": 2025,
     "traction": "4x4",
     "location": "Getafe-Fuenlabrada (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 39490 },
-      { "date": "2026-08-09", "price_eur": 38990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 39490
+      },
+      {
+        "date": "2026-08-09",
+        "price_eur": 38990
+      },
+      {
+        "date": "2026-08-25",
+        "price_eur": 38490
+      }
     ]
   },
   {
@@ -643,11 +833,17 @@
     "location": "Martorell (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 31290 },
-      { "date": "2026-08-20", "price_eur": 30490 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 31290
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 30490
+      }
     ]
   },
   {
@@ -655,18 +851,28 @@
     "site": "flexicar.es",
     "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-hibrido-enchufable-automatica-gava_903000000263829/",
     "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
-    "price_eur": 24290,
+    "price_eur": 26990,
     "km": 101381,
     "year": 2022,
     "traction": "4x4",
     "location": "Gavá (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 27890 },
-      { "date": "2026-08-20", "price_eur": 24290 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 27890
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 24290
+      },
+      {
+        "date": "2026-08-25",
+        "price_eur": 26990
+      }
     ]
   },
   {
@@ -674,18 +880,28 @@
     "site": "flexicar.es",
     "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-hibrido-enchufable-automatica-sitges_903000000243725/",
     "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
-    "price_eur": 20990,
+    "price_eur": 23990,
     "km": 83477,
     "year": 2021,
     "traction": "4x4",
     "location": "Sitges (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-06", "price_eur": 23990 },
-      { "date": "2026-08-11", "price_eur": 20990 }
+      {
+        "date": "2026-08-06",
+        "price_eur": 23990
+      },
+      {
+        "date": "2026-08-11",
+        "price_eur": 20990
+      },
+      {
+        "date": "2026-08-25",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -703,7 +919,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 39490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 39490
+      }
     ]
   },
   {
@@ -721,7 +940,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 23990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -739,7 +961,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 42490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 42490
+      }
     ]
   },
   {
@@ -754,10 +979,13 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26900 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26900
+      }
     ]
   },
   {
@@ -775,7 +1003,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 24990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 24990
+      }
     ]
   },
   {
@@ -793,7 +1024,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 22990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 22990
+      }
     ]
   },
   {
@@ -808,10 +1042,13 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 22990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 22990
+      }
     ]
   },
   {
@@ -829,7 +1066,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26990
+      }
     ]
   },
   {
@@ -847,7 +1087,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 27950 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 27950
+      }
     ]
   },
   {
@@ -865,7 +1108,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 31500 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 31500
+      }
     ]
   },
   {
@@ -883,7 +1129,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 37990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 37990
+      }
     ]
   },
   {
@@ -901,7 +1150,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26990
+      }
     ]
   },
   {
@@ -919,7 +1171,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 28990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 28990
+      }
     ]
   },
   {
@@ -937,7 +1192,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 38300 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 38300
+      }
     ]
   },
   {
@@ -955,7 +1213,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 27900 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 27900
+      }
     ]
   },
   {
@@ -973,7 +1234,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 38900 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 38900
+      }
     ]
   },
   {
@@ -991,8 +1255,14 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26490 },
-      { "date": "2026-08-11", "price_eur": 25490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26490
+      },
+      {
+        "date": "2026-08-11",
+        "price_eur": 25490
+      }
     ]
   },
   {
@@ -1010,7 +1280,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 37300 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 37300
+      }
     ]
   },
   {
@@ -1025,10 +1298,13 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 34900 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 34900
+      }
     ]
   },
   {
@@ -1046,7 +1322,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 37475 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 37475
+      }
     ]
   },
   {
@@ -1064,7 +1343,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 36898 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 36898
+      }
     ]
   },
   {
@@ -1079,10 +1361,13 @@
     "location": "Ávicola del Jarama (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26840 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26840
+      }
     ]
   },
   {
@@ -1100,7 +1385,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 30990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 30990
+      }
     ]
   },
   {
@@ -1118,7 +1406,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 27490 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 27490
+      }
     ]
   },
   {
@@ -1133,11 +1424,17 @@
     "location": "Aravaca (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 26490 },
-      { "date": "2026-08-20", "price_eur": 25990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 26490
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 25990
+      }
     ]
   },
   {
@@ -1152,10 +1449,13 @@
     "location": "San Fernando de Henares (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 23290 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 23290
+      }
     ]
   },
   {
@@ -1170,11 +1470,17 @@
     "location": "Red Clicars (Alicante/Córdoba/Madrid/Málaga/Valencia/Zaragoza)",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-07", "price_eur": 24490 },
-      { "date": "2026-08-20", "price_eur": 23990 }
+      {
+        "date": "2026-08-07",
+        "price_eur": 24490
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -1192,7 +1498,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 32900 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 32900
+      }
     ]
   },
   {
@@ -1210,7 +1519,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 29990 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 29990
+      }
     ]
   },
   {
@@ -1228,9 +1540,18 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 32399 },
-      { "date": "2026-08-11", "price_eur": 32199 },
-      { "date": "2026-08-20", "price_eur": 31699 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 32399
+      },
+      {
+        "date": "2026-08-11",
+        "price_eur": 32199
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 31699
+      }
     ]
   },
   {
@@ -1248,7 +1569,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 39990 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 39990
+      }
     ]
   },
   {
@@ -1266,7 +1590,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 23990 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -1281,10 +1608,13 @@
     "location": "Bizkaia",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 22850 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 22850
+      }
     ]
   },
   {
@@ -1299,10 +1629,13 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 27490 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 27490
+      }
     ]
   },
   {
@@ -1320,7 +1653,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 21450 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 21450
+      }
     ]
   },
   {
@@ -1338,7 +1674,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 37600 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 37600
+      }
     ]
   },
   {
@@ -1353,10 +1692,13 @@
     "location": "Alicante",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 30990 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 30990
+      }
     ]
   },
   {
@@ -1374,7 +1716,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 42950 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 42950
+      }
     ]
   },
   {
@@ -1392,7 +1737,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 26985 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 26985
+      }
     ]
   },
   {
@@ -1410,7 +1758,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 26985 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 26985
+      }
     ]
   },
   {
@@ -1428,7 +1779,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 23850 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 23850
+      }
     ]
   },
   {
@@ -1446,7 +1800,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 23190 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 23190
+      }
     ]
   },
   {
@@ -1464,7 +1821,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 26900 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 26900
+      }
     ]
   },
   {
@@ -1482,7 +1842,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 23900 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 23900
+      }
     ]
   },
   {
@@ -1500,7 +1863,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 34900 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 34900
+      }
     ]
   },
   {
@@ -1518,7 +1884,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 41898 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 41898
+      }
     ]
   },
   {
@@ -1536,7 +1905,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 27990 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 27990
+      }
     ]
   },
   {
@@ -1551,10 +1923,13 @@
     "location": "Sevilla",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 32500 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 32500
+      }
     ]
   },
   {
@@ -1569,10 +1944,13 @@
     "location": "Arroyomolinos (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 26850 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 26850
+      }
     ]
   },
   {
@@ -1587,10 +1965,13 @@
     "location": "Terrassa (Barcelona) — Vallpark Motors",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 33900 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 33900
+      }
     ]
   },
   {
@@ -1605,10 +1986,13 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 21490 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 21490
+      }
     ]
   },
   {
@@ -1623,10 +2007,13 @@
     "location": "Barcelona",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 20990 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 20990
+      }
     ]
   },
   {
@@ -1642,9 +2029,12 @@
     "region": "peninsula",
     "first_seen": "2026-08-09",
     "last_seen": "2026-08-09",
-    "status": "not_seen_today",
+    "status": "probably_removed",
     "price_history": [
-      { "date": "2026-08-09", "price_eur": 34990 }
+      {
+        "date": "2026-08-09",
+        "price_eur": 34990
+      }
     ]
   },
   {
@@ -1662,7 +2052,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 27900 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 27900
+      }
     ]
   },
   {
@@ -1677,10 +2070,13 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 36900 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 36900
+      }
     ]
   },
   {
@@ -1695,11 +2091,17 @@
     "location": "Santa Cruz de Tenerife",
     "region": "canarias",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 20900 },
-      { "date": "2026-08-20", "price_eur": 19990 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 20900
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 19990
+      }
     ]
   },
   {
@@ -1714,10 +2116,13 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 24490 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 24490
+      }
     ]
   },
   {
@@ -1732,10 +2137,13 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 25990 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 25990
+      }
     ]
   },
   {
@@ -1753,7 +2161,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 25490 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 25490
+      }
     ]
   },
   {
@@ -1771,8 +2182,14 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 22099 },
-      { "date": "2026-08-20", "price_eur": 21499 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 22099
+      },
+      {
+        "date": "2026-08-20",
+        "price_eur": 21499
+      }
     ]
   },
   {
@@ -1790,7 +2207,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 24490 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 24490
+      }
     ]
   },
   {
@@ -1808,7 +2228,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 23595 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 23595
+      }
     ]
   },
   {
@@ -1826,7 +2249,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 23900 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 23900
+      }
     ]
   },
   {
@@ -1844,7 +2270,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 21690 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 21690
+      }
     ]
   },
   {
@@ -1862,7 +2291,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 22599 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 22599
+      }
     ]
   },
   {
@@ -1880,7 +2312,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 22850 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 22850
+      }
     ]
   },
   {
@@ -1898,7 +2333,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 20850 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 20850
+      }
     ]
   },
   {
@@ -1916,7 +2354,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 24990 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 24990
+      }
     ]
   },
   {
@@ -1934,7 +2375,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 34900 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 34900
+      }
     ]
   },
   {
@@ -1952,7 +2396,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 25700 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 25700
+      }
     ]
   },
   {
@@ -1970,7 +2417,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 39975 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 39975
+      }
     ]
   },
   {
@@ -1985,10 +2435,13 @@
     "location": "Santa Cruz de Tenerife",
     "region": "canarias",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 26990 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 26990
+      }
     ]
   },
   {
@@ -2006,7 +2459,10 @@
     "last_seen": "2026-08-11",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 32900 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 32900
+      }
     ]
   },
   {
@@ -2024,7 +2480,10 @@
     "last_seen": "2026-08-11",
     "status": "not_seen_today",
     "price_history": [
-      { "date": "2026-08-11", "price_eur": 27999 }
+      {
+        "date": "2026-08-11",
+        "price_eur": 27999
+      }
     ]
   },
   {
@@ -2042,7 +2501,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 26900 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 26900
+      }
     ]
   },
   {
@@ -2057,10 +2519,13 @@
     "location": "Zaragoza",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 32600 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 32600
+      }
     ]
   },
   {
@@ -2075,10 +2540,13 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 32000 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 32000
+      }
     ]
   },
   {
@@ -2096,7 +2564,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 23990 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -2114,7 +2585,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 23990 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -2132,7 +2606,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 29990 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 29990
+      }
     ]
   },
   {
@@ -2150,7 +2627,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 26850 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 26850
+      }
     ]
   },
   {
@@ -2168,7 +2648,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 27990 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 27990
+      }
     ]
   },
   {
@@ -2183,10 +2666,13 @@
     "location": "Barcelona",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 33490 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 33490
+      }
     ]
   },
   {
@@ -2204,7 +2690,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 36990 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 36990
+      }
     ]
   },
   {
@@ -2219,10 +2708,13 @@
     "location": "Cádiz",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 35990 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 35990
+      }
     ]
   },
   {
@@ -2237,10 +2729,13 @@
     "location": "Murcia",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 28900 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 28900
+      }
     ]
   },
   {
@@ -2258,7 +2753,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 41500 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 41500
+      }
     ]
   },
   {
@@ -2276,7 +2774,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 22890 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 22890
+      }
     ]
   },
   {
@@ -2291,10 +2792,13 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 26840 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 26840
+      }
     ]
   },
   {
@@ -2312,7 +2816,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 32900 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 32900
+      }
     ]
   },
   {
@@ -2327,10 +2834,13 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 21290 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 21290
+      }
     ]
   },
   {
@@ -2348,7 +2858,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 24495 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 24495
+      }
     ]
   },
   {
@@ -2363,10 +2876,13 @@
     "location": "Carmona (Sevilla)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 24490 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 24490
+      }
     ]
   },
   {
@@ -2381,10 +2897,13 @@
     "location": "Torrellano (Alicante)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 20999 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 20999
+      }
     ]
   },
   {
@@ -2402,7 +2921,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 19990 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 19990
+      }
     ]
   },
   {
@@ -2420,7 +2942,10 @@
     "last_seen": "2026-08-20",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 25950 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 25950
+      }
     ]
   },
   {
@@ -2435,10 +2960,13 @@
     "location": "Murcia - Av. de Alicante",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 23990 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 23990
+      }
     ]
   },
   {
@@ -2453,10 +2981,13 @@
     "location": "Palma de Mallorca",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 22490 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 22490
+      }
     ]
   },
   {
@@ -2471,10 +3002,13 @@
     "location": "Santiago de Compostela",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 23790 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 23790
+      }
     ]
   },
   {
@@ -2489,10 +3023,13 @@
     "location": "Sagunto",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 24490 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 24490
+      }
     ]
   },
   {
@@ -2507,10 +3044,13 @@
     "location": "Tías (Lanzarote)",
     "region": "canarias",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 26000 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 26000
+      }
     ]
   },
   {
@@ -2525,10 +3065,13 @@
     "location": "Terrassa (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 22850 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 22850
+      }
     ]
   },
   {
@@ -2543,10 +3086,13 @@
     "location": "Terrassa (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 23850 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 23850
+      }
     ]
   },
   {
@@ -2561,10 +3107,496 @@
     "location": "Terrassa (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-08-25",
     "status": "active",
     "price_history": [
-      { "date": "2026-08-20", "price_eur": 23850 }
+      {
+        "date": "2026-08-20",
+        "price_eur": 23850
+      }
+    ]
+  },
+  {
+    "id": "EL",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-sta-c-tenerife-71324825-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 18985,
+    "km": 115355,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Santa Cruz de Tenerife",
+    "region": "canarias",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 18985
+      }
+    ]
+  },
+  {
+    "id": "EM",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2021-en-madrid-71273168-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 25390,
+    "km": 87802,
+    "year": 2021,
+    "traction": "4x4",
+    "location": "Madrid",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 25390
+      }
+    ]
+  },
+  {
+    "id": "EN",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2023-en-tarragona-71361924-covo.aspx",
+    "trim": "1.6 TGDI PHEV Tecno Sky Auto 4x4",
+    "price_eur": 33990,
+    "km": 34300,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Tarragona",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 33990
+      }
+    ]
+  },
+  {
+    "id": "EO",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-maxx-5p-electrico-hibrido-2025-en-alicante-70976873-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Maxx",
+    "price_eur": 32790,
+    "km": 12250,
+    "year": 2025,
+    "traction": "no especificado",
+    "location": "Alicante",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 32790
+      }
+    ]
+  },
+  {
+    "id": "EP",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-style-5p-electrico-hibrido-2025-en-malaga-71360508-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Style",
+    "price_eur": 42950,
+    "km": 279,
+    "year": 2025,
+    "traction": "no especificado",
+    "location": "Málaga",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 42950
+      }
+    ]
+  },
+  {
+    "id": "EQ",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-tecno-sky-5p-electrico-hibrido-2026-en-madrid-71304843-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Tecno Sky",
+    "price_eur": 39490,
+    "km": 1,
+    "year": 2026,
+    "traction": "no especificado",
+    "location": "Madrid",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 39490
+      }
+    ]
+  },
+  {
+    "id": "ER",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-maxx-5p-electrico-hibrido-2025-en-salamanca-70978095-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Maxx",
+    "price_eur": 32790,
+    "km": 12250,
+    "year": 2025,
+    "traction": "no especificado",
+    "location": "Salamanca",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 32790
+      }
+    ]
+  },
+  {
+    "id": "ES",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-sevilla-71029330-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 25499,
+    "km": 41370,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Sevilla",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 25499
+      }
+    ]
+  },
+  {
+    "id": "ET",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2021-en-las-palmas-62656482-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 26990,
+    "km": 6300,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Las Palmas de Gran Canaria",
+    "region": "canarias",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 26990
+      }
+    ]
+  },
+  {
+    "id": "EU",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2023-en-madrid-71321761-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 26690,
+    "km": 83639,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Madrid",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 26690
+      }
+    ]
+  },
+  {
+    "id": "EV",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-klass-5p-electrico-hibrido-2025-en-valencia-70958065-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Klass",
+    "price_eur": 31900,
+    "km": 27643,
+    "year": 2025,
+    "traction": "no especificado",
+    "location": "Valencia",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 31900
+      }
+    ]
+  },
+  {
+    "id": "EW",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71063589-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 26985,
+    "km": 47612,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Madrid",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 26985
+      }
+    ]
+  },
+  {
+    "id": "EX",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-4x4-at-tecno-sky-5p-electrico-hibrido-2025-en-vizcaya-70840325-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV 4x4 AT Tecno Sky",
+    "price_eur": 36900,
+    "km": 50,
+    "year": 2025,
+    "traction": "4x4",
+    "location": "Bizkaia",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 36900
+      }
+    ]
+  },
+  {
+    "id": "EY",
+    "site": "ocasionplus.com",
+    "url": "https://www.ocasionplus.com/coches-segunda-mano/hyundai-tucson-16-tgdi-phev-maxx-4x4-auto-con-101354km-2023-vmejoqan",
+    "trim": "1.6 TGDI PHEV Maxx 4X4 Auto",
+    "price_eur": 26190,
+    "km": 101354,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Madrid - OcasionPlus Móstoles",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 26190
+      }
+    ]
+  },
+  {
+    "id": "EZ",
+    "site": "autohero.com",
+    "url": "https://www.autohero.com/es/hyundai-tucson/id/dbc8f640-10dc-44fb-be98-b8b1c5c5ab23/",
+    "trim": "1.6 T-GDI Plug-in Hybrid 20 Aniversario Sky",
+    "price_eur": 34499,
+    "km": 14091,
+    "year": 2025,
+    "traction": "4x2",
+    "location": "no especificado (Autohero no entrega en Canarias)",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 34499
+      }
+    ]
+  },
+  {
+    "id": "FA",
+    "site": "flexicar.es",
+    "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16t-185kw-252cv-phev-4x4-at-tecno-sky-hibrido-enchufable-automatica-tenerife-sur_903000000272629/",
+    "trim": "1.6T 185kW (252CV) PHEV 4x4 AT Tecno Sky",
+    "price_eur": 30990,
+    "km": 27251,
+    "year": 2025,
+    "traction": "4x4",
+    "location": "Arona - Tenerife Sur (Santa Cruz de Tenerife)",
+    "region": "canarias",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 30990
+      }
+    ]
+  },
+  {
+    "id": "FB",
+    "site": "flexicar.es",
+    "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-hibrido-enchufable-automatica-tenerife-norte_903000000263995/",
+    "trim": "1.6 TGDI PHEV Style Auto 4x4",
+    "price_eur": 19990,
+    "km": 132000,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "La Laguna - Tenerife Norte (Santa Cruz de Tenerife)",
+    "region": "canarias",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 19990
+      }
+    ]
+  },
+  {
+    "id": "FC",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-maxx-611033061.htm",
+    "trim": "1.6 TGDI PHEV 195kW Maxx",
+    "price_eur": 18990,
+    "km": 130000,
+    "year": 2021,
+    "traction": "no especificado",
+    "location": "Majadahonda (Madrid)",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 18990
+      }
+    ]
+  },
+  {
+    "id": "FD",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-maxx-safe-auto-4x4-581442943.htm",
+    "trim": "1.6 TGDI PHEV 195kW Maxx Safe Auto 4x4",
+    "price_eur": 19699,
+    "km": 151425,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Madrid",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 19699
+      }
+    ]
+  },
+  {
+    "id": "FE",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-maxx-610706342.htm",
+    "trim": "1.6 TGDI PHEV 195kW Maxx",
+    "price_eur": 20980,
+    "km": 102800,
+    "year": 2021,
+    "traction": "no especificado",
+    "location": "La Alberca de Záncara (Cuenca)",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 20980
+      }
+    ]
+  },
+  {
+    "id": "FF",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-tecno-601133618.htm",
+    "trim": "1.6 TGDI PHEV 195kW Tecno",
+    "price_eur": 22900,
+    "km": 128834,
+    "year": 2021,
+    "traction": "no especificado",
+    "location": "Algete (Madrid)",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 22900
+      }
+    ]
+  },
+  {
+    "id": "FG",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-style-606823623.htm",
+    "trim": "1.6 TGDI PHEV 195kW Style",
+    "price_eur": 24995,
+    "km": 67655,
+    "year": 2021,
+    "traction": "no especificado",
+    "location": "Algete (Madrid)",
+    "region": "peninsula",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 24995
+      }
+    ]
+  },
+  {
+    "id": "FH",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6t-185kw-252cv-phev-at-606476786.htm",
+    "trim": "1.6T 185kW (252CV) PHEV AT",
+    "price_eur": 26950,
+    "km": 45000,
+    "year": 2024,
+    "traction": "no especificado",
+    "location": "Las Palmas (entrega flexible)",
+    "region": "canarias",
+    "first_seen": "2026-08-25",
+    "last_seen": "2026-08-25",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-08-25",
+        "price_eur": 26950
+      }
     ]
   }
 ]
