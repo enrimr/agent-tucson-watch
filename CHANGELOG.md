@@ -1,5 +1,74 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-08-31
+
+Octava ejecución (2 días desde la anterior). Cobertura: coches.net (páginas 1-5 del listado de segunda mano, ~8 tarjetas renderizadas por página de las 187 declaradas, + 3 páginas de KM0 — cobertura parcial), autohero.com (100%: 44/44 anuncios segmentando por precio, 5 PHEV), ocasionplus.com (100%: 114/114 anuncios en 6 páginas, 3 PHEV), carplus.es (categoría sigue devolviendo "0 coches" por carga dinámica; verificación por URL directa de los 2 conocidos), flexicar.es (12 en listado + verificación directa de las 8 fichas restantes, 20/20 cubiertas), clicars.com (100%: 20/20 anuncios, 0 PHEV en stock), wallapop.com (categoría + verificación directa de las 12 fichas activas, 12/12) y milanuncios.com (listado truncado, 18 de 59 anuncios visibles pese a paginación y filtros de precio — cobertura parcial).
+
+**19 anuncios nuevos:**
+
+*coches.net (12):*
+- **FX** — 1.6 TGDI PHEV Maxx Auto 4x4, 26.490 €, 47.578 km, 2022, Madrid. Datos idénticos a **G** (Móstoles, no visto desde el 08-11) — relistado del mismo concesionario con nueva URL.
+- **FY** — 1.6 TGDI PHEV Maxx Auto 4x4, 21.690 €, 93.320 km, 2021, Madrid. Relistado de **CW** (no visto desde el 08-11).
+- **FZ** — 1.6 TGDI PHEV Style Auto 4x4, 36.898 €, 16.902 km, 2023, Badajoz. Relistado de **BF** (no visto desde el 08-11).
+- **GA** — 1.6T 185kW (252CV) PHEV AT Klass, 31.900 €, 28.738 km, 2025, Valencia. Relistado de **EV** con km actualizados (27.643 → 28.738).
+- **GB** — 1.6 TGDI PHEV Maxx Auto 4x4, 21.450 €, 108.420 km, 2022, Valencia. Cross-post de **K** (OcasionPlus Gandía); se añade por ser coches.net. Ojo: aquí sigue a 21.450 € mientras OcasionPlus subió el contado a 22.950 €.
+- **GC** — 1.6T 252CV PHEV AT 20 Aniversario Sky, 33.490 €, 40.500 km, 2024, Barcelona. Muy similar a **AC/DP** (Flexicar Sabadell, 41.000 km) — probable relistado/cross-post con trim renombrado.
+- **GD** — 1.6 TGDI PHEV Maxx Safe Auto 4x4, 20.500 €, 161.000 km, 2023, Alicante. Cross-post de **EA** (Milanuncios Torrellano, 20.999 €) — aquí 499 € más barato.
+- **GE** — 1.6 TGDI PHEV Maxx Auto 4x4, 23.990 €, 52.068 km, 2021, Alicante. Cross-post de **AB** (Flexicar Alicante).
+- **GF** — 1.6 TGDI PHEV Maxx Auto 4x4 (demostración), 34.990 €, 100 km, 2025, Tarragona.
+- **GG** — 1.6T 185kW (252CV) PHEV 4x4 AT Tecno Sky (demostración), 42.256 €, 200 km, 2025, Tarragona.
+- **GH** — 1.6 TGDI PHEV Maxx Auto 4x4, 23.290 €, 76.232 km, 2021, Madrid. Cross-post de **BK** (Flexicar San Fernando de Henares).
+- **GI** — 1.6 TGDI PHEV Maxx Auto 4x4, 25.480 €, 66.149 km, 2022, Lleida. El título dice Maxx pero la URL dice Style — discrepancia de la propia ficha.
+
+*milanuncios.com (6):*
+- **GJ** — N Line PHEV 265CV 4x4, 23.500 €, 49.500 km, 2022, Arroyo de la Miel (Málaga).
+- **GK** — 1.6T 212kW (288CV) PHEV AT Klass, nuevo sin matricular, 37.700 €, 2026, Colmenar Viejo (Madrid).
+- **GL** — 1.6 TGDI PHEV 195kW Maxx, 24.800 €, 97.000 km, 2022, Villarrobledo (Albacete).
+- **GM** — 1.6T 185kW (252CV) PHEV AT, 34.900 €, 712 km, 2026, Ávicola del Jarama (Madrid).
+- **GN** — 1.6T 185kW (252CV) PHEV AT (KM0), 36.990 €, 40 km, 2026, Ávicola del Jarama (Madrid).
+- **GO** — 1.6 TGDI PHEV 195kW Maxx, 23.800 €, 81.100 km, 2021, Rubí (Barcelona). Mismos km que **AF** (Flexicar Zaragoza) pero precio y trim distintos — se añade con reserva.
+
+*wallapop.com (1):*
+- **GP** — 1.6 T-GDI PHEV 265CV 4x4 Maxx, 19.890 €, 135.000 km, 2022, Santiago de Compostela. Segundo más barato del tablero.
+
+**4 cambios de precio:**
+- **CX** (coches.net, Maxx, Barcelona, 76.540 km): 22.599 € → 21.099 € (espejo del **L** de Autohero, que ya estaba a 21.099 €).
+- **EF** (flexicar.es, Maxx, Santiago de Compostela): 23.790 € → 23.590 €.
+- **K** (ocasionplus.com, Maxx, Gandía): 21.450 € → 22.950 € — el contado real es 22.950 €; la ficha muestra además un precio rebajado/financiado inferior (los 21.950/21.450 € registrados antes eran probablemente ese precio con financiación).
+- **EY** (ocasionplus.com, Maxx, Móstoles): 26.190 € → 27.790 € — misma corrección contado vs financiado.
+
+**Desapariciones:**
+- **EI** (wallapop.com, Maxx, Terrassa): HTTP 404 por segunda ejecución consecutiva → `probably_removed`.
+- **DG** (milanuncios.com, Tecno, Alonsotegui): sin aparecer desde el 08-11 (4 ejecuciones) → `probably_removed`.
+- **AE** (flexicar.es, Maxx, Tarragona - PI Francolí): la ficha devuelve HTTP 404 → `not_seen_today` (primera falta; si persiste pasará a `probably_removed`).
+- **BL** (clicars.com, Maxx AT, 75.775 km): la ficha dice "El coche que buscas ya no está disponible" (vendido/retirado) y Clicars queda con 0 PHEV en stock → `not_seen_today`.
+
+**Reservados (siguen publicados, `last_seen` actualizado):**
+- **EZ** (autohero.com, 20 Aniversario Sky): sigue en "Venta en proceso".
+- **AA** (Girona), **AF** (Zaragoza), **AH** (Getafe-Fuenlabrada) y **EG** (Sagunto) en Flexicar: velo "Coche reservado", precios sin cambio.
+
+**Cross-posts detectados y NO añadidos (regla 3b, Wallapop/Milanuncios):**
+- Milanuncios 612443883 (Style, 27.490 €, 38.927 km, Ávicola del Jarama) = relistado de **BI** / espejo de **BS** (coches.net). No añadido.
+- Milanuncios 609663912 (Maxx, 25.990 €, 74.342 km, San Sebastián de los Reyes) = **FI** (coches.net). No añadido.
+- Milanuncios 606476210 (Style, 26.900 €, 76.300 km, Arroyomolinos) = **AO** (coches.net). No añadido.
+- Milanuncios 607787228 (N Line, 39.990 €, 25.200 km, Madrid) = **BP** (coches.net). No añadido.
+- Milanuncios sin URL extraíble (Tecno, 23.595 €, 100.447 km, Hontoria/Segovia) = **CU** (coches.net). No añadido (ya visto en ejecuciones anteriores).
+- Wallapop 1293364645 (Tecno Sky, 24.495 €, 79.897 km) = **DY** (Milanuncios Arganda). No añadido.
+- Wallapop 1290955728 (1.6T 252CV Tecno Sky, 32.600 €, 15.000 km, Zaragoza) = **DI** (coches.net). No añadido.
+- Wallapop 1296870850 (19.890 €, 135.000 km, Santiago) = duplicado del propio **GP** publicado por el mismo vendedor. No añadido.
+
+**Correcciones de datos:**
+- **BA** (coches.net, Style, Girona): la ficha indica año 2024 (la URL decía 2023) — año corregido a 2024.
+
+**Confirmados sin cambios (mismo precio, `last_seen` actualizado):** B, C, E, F, J, L, M, T, V, X, Z, AA, AB, AC, AD, AF, AG, AH, AI, AJ, AK, AO, AQ, AU, BA, BJ, BK, BM, BN, BP, CG, CH, CI, CJ, CK, CP, CQ, DB, DI, DJ, DK, DL, DP, DZ, EA, ED, EE, EG, EH, EJ, EK, EU, EZ, FA, FB, FC, FE, FG, FH, FK, FS, FV, P y R. El resto de anuncios activos no reverificables hoy (mayoría de coches.net por la cobertura parcial del listado; BG, BH, BI, DF, DY, EB, EC, FD, FF, FI-FR, FT, FU y FW entre otros) se mantienen sin cambio de estado.
+
+**Incidencias:**
+- coches.net: el listado declara 187 resultados en 7 páginas pero cada página solo renderiza ~8 tarjetas (carga perezosa) y con solapamiento; se cubrieron las páginas 1-5 + KM0. La ruta /hyundai/tucson/km0/ da 404; la real es /km-0/hyundai/tucson/.
+- milanuncios.com: listado truncado (~3-6 anuncios visibles por petición de los 59 declarados); se amplió con paginación, orden por fecha y filtros de precio hasta 18 anuncios únicos, y saltó captcha en las últimas peticiones (franja 23.000-26.000 € parcialmente sin cubrir). Fichas conocidas no visibles hoy sin cambio de estado.
+- carplus.es: la categoría sigue devolviendo "0 coches" (JS). **E** verificado OK; **J** solo renderiza el título (27.090 € sin cambios) — se mantiene `active`.
+- wallapop.com: la búsqueda /app/search solo carga el esqueleto JS; la categoría sí cargó (truncada al final). WebSearch no disponible en esta sesión.
+- flexicar.es: el listado dice "23 coches disponibles" pero solo renderiza 12 únicos (los reservados y Canarias no aparecen); las 8 fichas restantes se verificaron por URL directa.
+
 ## 2026-08-29
 
 Séptima ejecución (4 días desde la anterior). Se han revisado las 8 webs: coches.net (páginas 1-5 del listado accesibles con ~8 tarjetas por página; a mitad de sesión el anti-bot bloqueó las páginas 6-7 y las fichas individuales), autohero.com (listado completo, 5 PHEV), ocasionplus.com (categoría sin filtro PHEV renderizable, verificación por URL directa de los 3 activos), carplus.es (categoría devuelve "0 coches" por carga dinámica, verificación por URL directa), flexicar.es (listado con 12 fichas + verificación directa de las 8 restantes, 20/20 cubiertas), clicars.com (1 PHEV), wallapop.com (categoría + verificación directa de las 9 fichas activas) y milanuncios.com (listado truncado a 3 anuncios por página, 2 páginas; fichas individuales bloqueadas por captcha tras las 3 primeras verificaciones).
