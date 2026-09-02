@@ -36,7 +36,7 @@
     "location": "no especificado (Autohero no entrega en Canarias)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -66,14 +66,14 @@
     "site": "autohero.com",
     "url": "https://www.autohero.com/es/hyundai-tucson/id/c88c7910-82c6-41f7-8721-f1ac50ff7fd3/",
     "trim": "1.6 T-GDI Plug-in Hybrid Maxx 2WD",
-    "price_eur": 31699,
+    "price_eur": 30899,
     "km": 13492,
     "year": 2025,
     "traction": "4x2",
     "location": "no especificado (Autohero no entrega en Canarias)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -95,6 +95,10 @@
       {
         "date": "2026-08-25",
         "price_eur": 31699
+      },
+      {
+        "date": "2026-09-02",
+        "price_eur": 30899
       }
     ]
   },
@@ -131,7 +135,7 @@
     "location": "Red Carplus (Madrid/Málaga/Sevilla/Cádiz/Santiago)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -152,7 +156,7 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -236,7 +240,7 @@
     "location": "Red Carplus (no especificado exacto)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -257,7 +261,7 @@
     "location": "Valencia - Gandía",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -290,7 +294,7 @@
     "location": "no especificado (Autohero no entrega en Canarias)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -335,7 +339,7 @@
     "location": "no especificado (Autohero no entrega en Canarias)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -511,7 +515,7 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -532,7 +536,7 @@
     "location": "Erandio (Vizcaya)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -574,7 +578,7 @@
     "location": "Arroyomolinos (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -616,7 +620,7 @@
     "location": "Terrassa (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -637,7 +641,7 @@
     "location": "Girona",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -658,7 +662,7 @@
     "location": "Alicante",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -679,7 +683,7 @@
     "location": "Sabadell (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -700,7 +704,7 @@
     "location": "Leganés (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -766,7 +770,7 @@
     "location": "Zaragoza",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -799,7 +803,7 @@
     "location": "Murcia",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -824,7 +828,7 @@
     "location": "Getafe-Fuenlabrada (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -853,7 +857,7 @@
     "location": "Martorell (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -878,7 +882,7 @@
     "location": "Gavá (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -907,7 +911,7 @@
     "location": "Sitges (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -1444,7 +1448,7 @@
     "location": "Aravaca (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -1473,7 +1477,7 @@
     "location": "San Fernando de Henares (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -1699,7 +1703,7 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-08-20",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -1951,7 +1955,7 @@
     "location": "Sevilla",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -1972,7 +1976,7 @@
     "location": "Arroyomolinos (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -1993,7 +1997,7 @@
     "location": "Terrassa (Barcelona) — Vallpark Motors",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -2014,7 +2018,7 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -2039,7 +2043,7 @@
     "location": "Barcelona",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -2106,7 +2110,7 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-25",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -2127,7 +2131,7 @@
     "location": "Santa Cruz de Tenerife",
     "region": "canarias",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-25",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -2152,7 +2156,7 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -2173,7 +2177,7 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -2261,7 +2265,7 @@
     "location": "Segovia",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-08-11",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -2559,7 +2563,7 @@
     "location": "Zaragoza",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -2580,7 +2584,7 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3000,7 +3004,7 @@
     "location": "Murcia - Av. de Alicante",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3021,7 +3025,7 @@
     "location": "Palma de Mallorca",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3046,7 +3050,7 @@
     "location": "Santiago de Compostela",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3071,7 +3075,7 @@
     "location": "Sagunto",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3092,7 +3096,7 @@
     "location": "Tías (Lanzarote)",
     "region": "canarias",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3134,7 +3138,7 @@
     "location": "Terrassa (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3155,7 +3159,7 @@
     "location": "Terrassa (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3218,7 +3222,7 @@
     "location": "Tarragona",
     "region": "peninsula",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-25",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3344,7 +3348,7 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-08-25",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3449,7 +3453,7 @@
     "location": "Madrid - OcasionPlus Móstoles",
     "region": "peninsula",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3478,7 +3482,7 @@
     "location": "no especificado (Autohero no entrega en Canarias)",
     "region": "peninsula",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3499,7 +3503,7 @@
     "location": "Arona - Tenerife Sur (Santa Cruz de Tenerife)",
     "region": "canarias",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3520,7 +3524,7 @@
     "location": "La Laguna - Tenerife Norte (Santa Cruz de Tenerife)",
     "region": "canarias",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3667,7 +3671,7 @@
     "location": "San Sebastián de los Reyes (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3688,7 +3692,7 @@
     "location": "Coslada (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3709,7 +3713,7 @@
     "location": "Colmenar Viejo (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3919,7 +3923,7 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-29",
-    "last_seen": "2026-08-29",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -3940,7 +3944,7 @@
     "location": "San Sebastián de los Reyes (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-29",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -4087,7 +4091,7 @@
     "location": "Barcelona",
     "region": "peninsula",
     "first_seen": "2026-08-31",
-    "last_seen": "2026-08-31",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -4360,7 +4364,7 @@
     "location": "Santiago de Compostela",
     "region": "peninsula",
     "first_seen": "2026-08-31",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -4381,7 +4385,7 @@
     "location": "San Sebastián de los Reyes (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-09-02",
     "status": "active",
     "price_history": [
       {
@@ -4618,6 +4622,405 @@
       {
         "date": "2026-09-01",
         "price_eur": 36500
+      }
+    ]
+  },
+  {
+    "id": "HC",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-maxx-5p-electrico-hibrido-2025-en-madrid-71362923-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Maxx",
+    "price_eur": 31900,
+    "km": 43287,
+    "year": 2025,
+    "traction": "no especificado",
+    "location": "Leganés (Madrid) — Mas Automóviles",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 31900
+      }
+    ]
+  },
+  {
+    "id": "HD",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2021-en-madrid-71425135-covo.aspx",
+    "trim": "1.6 TGDI PHEV Style Auto 4x4",
+    "price_eur": 16500,
+    "km": 198710,
+    "year": 2021,
+    "traction": "4x4",
+    "location": "Griñón (Madrid) — Exclusive Motors",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 16500
+      }
+    ]
+  },
+  {
+    "id": "HE",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-las-palmas-71329233-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 18985,
+    "km": 115355,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Las Palmas de Gran Canaria",
+    "region": "canarias",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 18985
+      }
+    ]
+  },
+  {
+    "id": "HF",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-maxx-5p-electrico-hibrido-2025-en-vizcaya-71416656-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Maxx",
+    "price_eur": 30899,
+    "km": 13492,
+    "year": 2025,
+    "traction": "4x2",
+    "location": "Bizkaia",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 30899
+      }
+    ]
+  },
+  {
+    "id": "HG",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2022-en-sta-c-tenerife-71398538-covo.aspx",
+    "trim": "1.6 TGDI PHEV Style Auto 4x4",
+    "price_eur": 19990,
+    "km": 132000,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Santa Cruz de Tenerife",
+    "region": "canarias",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 19990
+      }
+    ]
+  },
+  {
+    "id": "HH",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2021-en-las-palmas-71425128-covo.aspx",
+    "trim": "1.6 TGDI PHEV Tecno Sky Auto 4x4",
+    "price_eur": 23900,
+    "km": 46000,
+    "year": 2021,
+    "traction": "4x4",
+    "location": "Las Palmas de Gran Canaria — AVANT CAR",
+    "region": "canarias",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 23900
+      }
+    ]
+  },
+  {
+    "id": "HI",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2022-en-sevilla-71425590-covo.aspx",
+    "trim": "1.6 TGDI PHEV Tecno Sky Auto 4x4",
+    "price_eur": 28990,
+    "km": 40000,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Sevilla",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 28990
+      }
+    ]
+  },
+  {
+    "id": "HJ",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-valladolid-71329416-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 25990,
+    "km": 35679,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Valladolid — HR Motor",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 25990
+      }
+    ]
+  },
+  {
+    "id": "HK",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-252cv-phev-at-20-aniversario-sky-5p-electrico-hibrido-2025-en-malaga-71263251-covo.aspx",
+    "trim": "1.6T 252CV PHEV AT 20 Aniversario Sky",
+    "price_eur": 38300,
+    "km": 15833,
+    "year": 2026,
+    "traction": "no especificado",
+    "location": "Málaga — Valenza Exclusive Autos",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 38300
+      }
+    ]
+  },
+  {
+    "id": "HL",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-navarra-71325271-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 24990,
+    "km": 78821,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Navarra",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 24990
+      }
+    ]
+  },
+  {
+    "id": "HM",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71367972-covo.aspx",
+    "trim": "1.6 TGDI PHEV Style Auto 4x4",
+    "price_eur": 26840,
+    "km": 105000,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Madrid",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 26840
+      }
+    ]
+  },
+  {
+    "id": "HN",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-tecno-sky-5p-electrico-hibrido-2025-en-las-palmas-71126526-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Tecno Sky",
+    "price_eur": 26950,
+    "km": 45000,
+    "year": 2024,
+    "traction": "no especificado",
+    "location": "Las Palmas (envío disponible)",
+    "region": "canarias",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 26950
+      }
+    ]
+  },
+  {
+    "id": "HO",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-barcelona-71323866-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 24990,
+    "km": 80168,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Barcelona",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 24990
+      }
+    ]
+  },
+  {
+    "id": "HP",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2023-en-sevilla-71066487-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 28499,
+    "km": 35034,
+    "year": 2024,
+    "traction": "4x4",
+    "location": "Sevilla",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 28499
+      }
+    ]
+  },
+  {
+    "id": "HQ",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2023-en-madrid-71058575-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 26290,
+    "km": 68000,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Madrid",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 26290
+      }
+    ]
+  },
+  {
+    "id": "HR",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2023-en-madrid-71340459-covo.aspx",
+    "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
+    "price_eur": 23850,
+    "km": 58163,
+    "year": 2021,
+    "traction": "4x4",
+    "location": "Madrid",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 23850
+      }
+    ]
+  },
+  {
+    "id": "HS",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-4x4-at-tecno-sky-5p-electrico-hibrido-2025-en-sta-c-tenerife-71057848-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV 4x4 AT Tecno Sky",
+    "price_eur": 30990,
+    "km": 27251,
+    "year": 2025,
+    "traction": "4x4",
+    "location": "Santa Cruz de Tenerife",
+    "region": "canarias",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 30990
+      }
+    ]
+  },
+  {
+    "id": "HT",
+    "site": "flexicar.es",
+    "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-hibrido-enchufable-automatica-majadahonda_903000000278646/",
+    "trim": "1.6 TGDI PHEV Style Auto 4x4",
+    "price_eur": 24990,
+    "km": 90000,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Majadahonda (Madrid)",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 24990
+      }
+    ]
+  },
+  {
+    "id": "HU",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-maxx-608641631.htm",
+    "trim": "1.6 TGDI PHEV Maxx",
+    "price_eur": 24800,
+    "km": 99008,
+    "year": 2022,
+    "traction": "no especificado",
+    "location": "Salamanca",
+    "region": "peninsula",
+    "first_seen": "2026-09-02",
+    "last_seen": "2026-09-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-02",
+        "price_eur": 24800
       }
     ]
   }
