@@ -1,5 +1,55 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-09-18
+
+Decimocuarta ejecución (1 día desde la anterior). Cobertura: coches.net (páginas 1-5 del listado accesibles, 8 tarjetas/página de 215 declaradas; anti-bot bloqueó las páginas 6-8 y 5 fichas de anuncios nuevos), autohero.com (25/42 tarjetas con 3 PHEV visibles + ficha directa de L, 4/4 cubiertos), ocasionplus.com (20/133 tarjetas sin PHEV; F y K verificados por ficha OK, EY da 404), carplus.es (categoría sigue en "0 coches" por carga JS; E verificado por ficha, J solo renderiza título), flexicar.es (12 tarjetas de 29 declaradas + verificación directa de las 12 fichas restantes: 24/24 conocidos OK), clicars.com (1 PHEV en stock = IL, sin cambio), wallapop.com (categoría con 5 PHEV + verificación directa de las 12 fichas activas: 11 OK, CH da 404) y milanuncios.com (truncado severo persistente, 3 tarjetas de 66; T, U, DZ y DY verificados por ficha).
+
+**11 anuncios nuevos:**
+
+*wallapop.com (1):*
+- **JP** — Tucson PHEV "versión Maxx" según el vendedor, 23.000 €, 67.000 km, 2021, Barcelona, particular (Jordi C., perfil verificado 4,9★), recién pintado, cambio de ruedas hace 6 meses, sin accidentes declarados. Nota: coincide en precio (±10 €) y km (±200) con AQ/AR (QualiAuto, Canarias), pero vendedor particular y ubicación Barcelona no encajan — se considera vehículo distinto y se añade con reserva.
+
+*coches.net (10):*
+- **JT** — Maxx Safe Auto 4x4, **21.300 €** ("Super precio", mercado 26.100 €), 76.215 km, 2021, Valencia (Levante Wagen, Av. del Cid), garantía 12 meses, publicado el 15/09. Genuinamente nuevo.
+- **JU** — 1.6T 252CV PHEV AT Maxx, 27.450 €, 33.450 km, matriculado 09/2024, Colmenar Viejo (Merodigar Motor, concesionario Hyundai oficial), garantía oficial 36 meses, transferencia incluida. Genuinamente nuevo.
+- **JW** — Style Auto 4x4, 27.990 € (financiado 25.990 €), 83.000 km, 2022, Bizkaia. Ficha bloqueada por anti-bot — datos de tarjeta. Genuinamente nuevo (FW de Milanuncios tiene mismos km pero es 2023 en Villena; no se considera el mismo).
+- **JQ** — Tecno Sky Auto 4x4, 24.290 €, 77.816 km, 2021, San Sebastián de los Reyes (Gestión Directa de Vehículos), 1 propietario, garantía 12 meses. Relistado de **GQ** (no visto desde 09-08) y espejo de **FV** (Wallapop).
+- **JR** — Style Auto 4x4, 24.490 € contado (21.490 € financiado), 82.792 km, 2021, Leganés (Autos Madrid), único propietario. Espejo en coches.net de **JE** (Milanuncios, alta de ayer).
+- **JS** — 1.6T 252CV PHEV 4x4 AT Tecno Sky Llav.D., 33.490 €, 30.742 km, 2024, Málaga (Clicars Málaga). Cuarto espejo del coche de Clicars (**IL**/**IU**/**JL**), ahora publicado en Málaga.
+- **JV** — Maxx Auto 4X4, 23.850 €, 100.840 km, 2024, Valencia (CSV Motor, vehículo en Arroyomolinos). Nuevo espejo de **EJ** (Wallapop) / **IC**. Ficha bloqueada — datos de tarjeta.
+- **JX** — 1.6T 252CV PHEV 4x4 AT Tecno Sky, 32.990 €, 10.722 km, 2024, Sevilla. Espejo en coches.net de **HX** (Flexicar Sevilla - Los Arcos). Ficha bloqueada — datos de tarjeta.
+- **JY** — Tecno Sky Auto 4x4, 27.999 €, 42.000 km, 2022, Bizkaia. Reaparición en coches.net de **DG** (Milanuncios Alonsotegui, `probably_removed` desde 08-11) con precio idéntico. Ficha bloqueada — datos de tarjeta.
+- **JZ** — Maxx Auto 4X4, 22.850 €, 91.508 km, 2023, Madrid. Otro espejo de **X** (Wallapop) / **JN** (CSV Motor). Ficha bloqueada — datos de tarjeta.
+
+**6 cambios de precio:**
+- **BE** (coches.net km0 Tecno Sky 285 km, Madrid): 37.475 € → 35.975 € (−1.500 €, −4%); reaparece tras no verse desde 08-11
+- **IR** (coches.net Madrid, Tecno Sky 28.000 km, RM Motor): 33.500 € → 32.500 € (−1.000 €)
+- **DY** (Milanuncios Arganda, Tecno 79.899 km): 24.495 € → 23.850 € (−645 €), en línea con su espejo JO
+- **BP** (coches.net Madrid, N Line Style 25.200 km): 39.990 € → 39.390 € (−600 €); reaparece tras no verse desde 09-01
+- **IQ** (coches.net Madrid, Maxx 74.342 km): 25.490 € → 24.990 € (−500 €)
+- **IH** (coches.net Valencia, Maxx 33.535 km): 26.990 € → 27.500 € (+510 €) — subida
+
+**Desapariciones:**
+- **EY** (OcasionPlus Móstoles, Maxx 101.354 km, 26.190 €) — la ficha devuelve 404 → `probably_removed`. Su espejo FQ en coches.net tampoco se ve desde 08-29.
+- **CH** (Wallapop Arroyomolinos, Style 64.200 km, 26.850 €) — la ficha devuelve 404 → `probably_removed`.
+
+**Reservados (siguen publicados, `last_seen` actualizado):** Flexicar **Z** (Terrassa), **AA** (Girona), **AF** (Zaragoza), **AH** (Getafe-Fuenlabrada) y **AI** (Martorell) siguen con velo "Coche reservado". **AK** (Sitges), **BK** (San Fernando), **AB** (Alicante) e **IM** (Tarragona) en "Remate Final".
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Milanuncios 613946010 (Maxx, 24.750 €, 50.000 km, Barcelona, garantía oficial Hyundai 6 años) = **IP** (Wallapop, Prat Automòbils). No añadido.
+- Wallapop 1302784235 (PHEV 265cv, 23.500 €, 81.100 km, Rubí) = **GO** (Milanuncios Rubí, 23.800 €); mismo coche con 300 € menos en Wallapop. No añadido.
+- Wallapop 1301636928 (Tecno Sky, 20.850 €, 136.242 km, Erandio) = repost de **V** (404 desde 09-13). No añadido.
+- Wallapop 1296870850 (Maxx, 19.890 €, 135.000 km, Santiago, etiquetado "Gasolina") = duplicado del propio **GP**. No añadido.
+
+**Confirmados sin cambios (`last_seen` actualizado):** C, E, F, I, J, K, L, M, O, P, T, U, X, Z, AA, AB, AC, AD, AF, AG, AH, AI, AJ, AK, AR, AU, BJ, BK, BO, CC, CI, CJ, CK, CU, CX, DZ, ED, EE, EF, EH, EJ, EK, FA, FB, FS, FV, GP, HD, HI, HO, HT, HW, HX, HY, IL, IM, IN, IP, IU, IV, JB, JC, JD, JG y JI. El resto de anuncios activos no reverificables hoy (larga cola de coches.net por el anti-bot y la mayoría de Milanuncios por el truncado) se mantienen sin cambio de estado.
+
+**Incidencias:**
+- coches.net: páginas 1-5 del listado accesibles; el anti-bot se activó después y bloqueó las páginas 6-8 y las fichas de 5 anuncios nuevos (JV, JW, JX, JY, JZ registrados con datos de tarjeta).
+- milanuncios.com: truncado severo persistente (3 tarjetas por petición de 66 declaradas; el resto carga por JS).
+- carplus.es: la categoría de Tucson sigue en "0 coches" (carga JS). **E** verificado OK por ficha (23.490 € sin cambio); **J** solo renderiza el título (27.090 €) — se mantiene `active` en observación.
+- Flexicar declara 29 coches PHEV pero solo renderiza 12 tarjetas; los 24 conocidos verificados por ficha (12 en listado + 12 directas).
+- Entorno: la ejecución de scripts (node) y la redirección de salida en shell siguen denegadas por permisos; la actualización del JSON se aplicó con el editor de archivos y se validó con jq.
+
 ## 2026-09-17
 
 Decimotercera ejecución (4 días desde la anterior). Cobertura: coches.net (páginas 1-5 del listado accesibles, 8 tarjetas/página de 212 declaradas; anti-bot bloqueó las páginas 6-8), autohero.com (26/42 tarjetas con 4 PHEV visibles + ficha directa de HV), ocasionplus.com (20/131 tarjetas sin PHEV; F, K y EY verificados por ficha, 3/3), carplus.es (categoría sigue en "0 coches" por carga JS; E verificado por ficha, J solo renderiza título), flexicar.es (listado con 11-12 tarjetas de 29 declaradas + verificación directa de las 12 fichas restantes: 23/23 conocidos OK + 1 nuevo), clicars.com (1 PHEV en stock = IL, con bajada fuerte), wallapop.com (categoría con 5 PHEV + verificación directa de las 12 fichas activas: 11 OK, CG da 404) y milanuncios.com (truncado severo persistente, 3 tarjetas/página; T, U y DZ verificados por ficha + 1 nuevo).
