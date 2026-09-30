@@ -514,7 +514,7 @@
     "location": "Santa Cruz de Tenerife",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-26",
+    "last_seen": "2026-09-30",
     "status": "active",
     "price_history": [
       {
@@ -535,7 +535,7 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-26",
+    "last_seen": "2026-09-30",
     "status": "active",
     "price_history": [
       {
@@ -7381,6 +7381,27 @@
       {
         "date": "2026-09-30",
         "price_eur": 23000
+      }
+    ]
+  },
+  {
+    "id": "LR",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-tecno-616921877.htm",
+    "trim": "1.6 TGDI PHEV Tecno",
+    "price_eur": 15900,
+    "km": 192000,
+    "year": 2021,
+    "traction": "no especificado",
+    "location": "Santa Úrsula (Tenerife) — HV Motor, garantía 12 meses",
+    "region": "canarias",
+    "first_seen": "2026-09-30",
+    "last_seen": "2026-09-30",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-09-30",
+        "price_eur": 15900
       }
     ]
   }

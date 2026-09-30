@@ -2,6 +2,12 @@
 
 ## 2026-09-30
 
+**Reintento vespertino (20:00) — milanuncios recuperado.** La categoría vuelve a cargar (63 anuncios declarados, 3 tarjetas visibles por el truncado habitual). Resultado:
+- **1 anuncio nuevo — LR**: Tucson 1.6 TGDI PHEV 195kW Tecno, **15.900 €** (IVA incl.), 192.000 km, 2021, HV Motor (profesional), Santa Úrsula (Tenerife), garantía 12 meses, publicado el 27/09. Es el PHEV más barato de todo el estado (km muy altos). Canarias.
+- **Verificados por ficha**: T (23.990 €, QualiAuto Sta. Cruz de Tenerife) y U (23.990 €, QualiAuto Las Palmas) sin cambios, `last_seen` actualizado.
+- **DY, DZ y JE**: ficha bloqueada por captcha en el reintento — siguen `active` sin verificar.
+- **Cross-posts detectados y NO añadidos (regla 3b)**: milanuncios 614290885 (Maxx 24.990 €, 74.342 km, S.S. de los Reyes) = **IQ/FI**; milanuncios 610998108 (Tecno 27.999 €, 42.000 km, Alonsotegui) = **JY**.
+
 Decimosexta ejecución (4 días desde la anterior). Cobertura: coches.net (7 páginas del listado accesibles, 8 tarjetas/página de 194 declaradas; 2 fichas nuevas verificadas + 1 bloqueada por anti-bot), autohero.com (26/33 tarjetas: solo C visible como PHEV; fichas directas de L y M), ocasionplus.com (19/154 tarjetas con 2 PHEV; F y K verificados por ficha OK), carplus.es (E por ficha OK; J solo renderiza título, sin cambio), flexicar.es (12 tarjetas de 28 declaradas + verificación directa de las 15 fichas restantes: 26/27 conocidos OK, AG da 404), clicars.com (2 PHEV en stock: IL y KZ), wallapop.com (categoría con 6 PHEV + verificación directa de las 10 fichas activas: 10/10 OK) y milanuncios.com (**caído hoy**: la categoría devuelve "Ha ocurrido un error" y todas las fichas HTTP 500 — sin verificación, anuncios sin cambios).
 
 **17 anuncios nuevos:**
