@@ -1,5 +1,46 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-02
+
+Decimoséptima ejecución (2 días desde la anterior). Cobertura: coches.net (7 páginas del listado, 8 tarjetas/página de 195 declaradas; 5 fichas nuevas verificadas, luego anti-bot — 4 nuevas con datos de tarjeta), autohero.com (35 anuncios, C verificado por ficha; L "venta en proceso"), ocasionplus.com (20/158 tarjetas con 2 PHEV; F y K verificados por ficha OK), carplus.es (fichas solo renderizan título+precio: E 22.990 € y J 27.090 € sin cambio aparente), flexicar.es (11 tarjetas de 28 declaradas + verificación directa de las 14 fichas restantes), clicars.com (2 PHEV en stock: IL y KZ), wallapop.com (categoría con 6 PHEV visibles, truncada) y milanuncios.com (62 declarados, solo 6 tarjetas visibles en 2 páginas; fichas T/U/DY OK, DZ y LR bloqueadas por captcha).
+
+**11 anuncios nuevos:**
+
+*Genuinamente nuevos (7):*
+- **LS** — coches.net Colmenar Viejo (Merodigar Motor): Style Auto 4x4, 25.950 €, 118.300 km, 2022, garantía 12 meses. "Precio justo" (mercado 26.700 €).
+- **LT** — coches.net Galdakao, Bizkaia (Gesticar Bilbao): Style Auto 4x4, 27.990 € (financiado 25.990 €), 89.000 km, 2021, garantía 12 meses.
+- **LV** — coches.net Majadahonda (FSG Automóviles): Maxx Auto 4x4, **18.990 €**, 130.000 km, 2021, garantía 12 meses — de los 4x4 más baratos del estado.
+- **LW** — coches.net Terrassa (CSV Motor, vehículo en Burjassot): 1.6 T-GDI PHEV 265 HTRAC 4x4 **de 2024 importado**, 23.750 €, 100.840 km, garantía 12 meses ampliable.
+- **MA** — coches.net Barcelona: Style Auto 4x4, 25.950 € (antes 27.850 €), 64.200 km, 2022. Ficha bloqueada por anti-bot — datos de tarjeta.
+- **MB** — Wallapop Rubí, Barcelona (Talleres J., profesional): PHEV 265CV 4x4, 23.500 € contado, 81.100 km, 2021, garantía 12 meses + marca hasta 09/2026, IVA deducible. Mismo km que AF (Flexicar Zaragoza, reservado) — coincidencia vigilable, pero precio y ubicación no casan: se añade.
+- **MC** — Wallapop Terrassa (CSV Motor): Maxx Auto 4x4, 20.550 € (rebajado de 20.850 €), 126.059 km, año modelo 2022, garantía 12 meses.
+
+*Relistados/espejos (4):*
+- **LU** — coches.net Arroyomolinos (Auto Sport Moraleja): Style Auto 4x4, 26.900 €, 77.200 km, 2022 — probable relistado de AZ (mismo coche, −1.000 €); su cross-post en Milanuncios (615239337) NO se añade (regla 3b).
+- **LX** — coches.net Barcelona: Style Auto 4x4, 20.850 €, 136.242 km, 2022 — mismo coche que el antiguo V de Wallapop (km idénticos), ahora en concesionario.
+- **LY** — coches.net Collado Villalba: Klass KM0 2026, 32.990 €, 20 km — gemelo de IG (mismo vendedor); también cross-posteado en Milanuncios.
+- **LZ** — coches.net Madrid: 252CV AT Maxx, 30.299 €, 13.492 km, 2025 — espejo del C de Autohero (y de BO en Sevilla).
+
+**11 cambios de precio:**
+- **LA** (OcasionPlus Barcelona-Maquinista, 84.966 km): 25.990 € → **23.628 €** (−2.362 €, −9%)
+- **LB** (OcasionPlus Móstoles, 101.354 km): 26.190 € → **23.810 €** (−2.380 €, −9%)
+- **JL** (coches.net Valencia, Tecno Sky Llav.D. 30.742 km): 33.490 € → 32.490 € (−1.000 €)
+- **GF** (coches.net Tarragona, demo Maxx 4x4): 34.990 € → 33.990 € (−1.000 €)
+- **KM** (coches.net Madrid, espejo Clicars): 32.990 € → 32.490 € (−500 €)
+- **IU** (coches.net Murcia, espejo Clicars): 32.990 € → 32.490 € (−500 €)
+- **AI** (Flexicar Martorell): 30.490 € → 29.990 € (−500 €). Ojo: Flexicar ha **retitulado** el anuncio de "Tecno Sky" a "Klass" (misma referencia 903000000263470, mismos 26.000 km) — URL actualizada en el estado.
+- **EA** (Milanuncios Torrellano, 161.000 km): 20.999 € → 20.500 € (−499 €); su espejo GD en coches.net ya estaba a 20.500 €.
+- **LQ** (Wallapop La Flecha, particular): 23.000 € → 22.500 € (−500 €)
+- **IL** (Clicars Tecno Sky 4x4 2024): 30.890 € → 30.490 € (−400 €, cuarta bajada consecutiva); sus espejos JL/IU/KM en coches.net siguen a 32.490 €.
+- **JO** (coches.net Madrid, Tecno Sky 79.899 km): 23.850 € → 23.600 € (−250 €), igualando a su espejo DY de Milanuncios.
+
+**Desapariciones e incidencias:**
+- **IM** (Flexicar Tarragona, Maxx 4x4 2021) → `probably_removed`: su URL aloja ahora un Tucson **diésel MHEV** (Flexicar reutiliza la referencia).
+- **L** (Autohero Maxx 4WD 20.599 €): "Venta en proceso" — reservado por otro comprador, sigue publicado.
+- **Reservados en Flexicar**: AF (Zaragoza 20.990 €), BJ (Aravaca 25.990 €), HX (Sevilla 32.490 €) y KX (Vic 23.990 €) — siguen publicados.
+- **Cross-posts detectados y NO añadidos (regla 3b)**: Milanuncios 612838873 (Style 16.500 €, 198.710 km, Griñón) = **HD**; Milanuncios 615040504 (Maxx 26.490 €, 47.578 km, Móstoles) = **G**; Milanuncios 613963991 y Wallapop 1300025111 (Tecno Sky 32.500 €, 28.000 km, Madrid/Torrelodones) = **IR**; Wallapop 1301096264 = **LO** (ya anotado el 09-30).
+- Incidencias: anti-bot de coches.net tras ~12 fichas consultadas; Milanuncios con captcha en fichas DZ/LR y categoría truncada (páginas 3-4 vacías); Carplus sigue sin renderizar fichas completas (solo título+precio); listado de Wallapop truncado — las fichas X, CI, CK, EH, EJ, EK, FV, GP e IP no se verificaron hoy (sin cambio en el estado). El `git pull` inicial tardó >30 min (red lenta hacia GitHub).
+
 ## 2026-09-30
 
 **Reintento vespertino (20:00) — milanuncios recuperado.** La categoría vuelve a cargar (63 anuncios declarados, 3 tarjetas visibles por el truncado habitual). Resultado:
