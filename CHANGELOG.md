@@ -2,6 +2,18 @@
 
 ## 2026-10-02
 
+**Segunda pasada (tarde) — reintentos y novedades.** Revisión de las 8 webs tras la ejecución matinal: listados de coches.net (páginas 1-3), autohero (34), ocasionplus (20/159 tarjetas), flexicar (12/28 tarjetas), clicars (2), wallapop (6 PHEV visibles) y milanuncios (páginas 1-2, 62 declarados). Resultado:
+
+- **2 anuncios nuevos:**
+  - **MD** — Autohero: 1.6 T-GDI Plug-in Hybrid Tecno Sky 4WD, **30.999 €** contado, 32.929 km, matriculado 12/2023, único propietario, garantía 12 meses, ITV hasta 12/2027. Península.
+  - **ME** — Milanuncios Teror (Las Palmas), particular: PHEV Style 4x4, **26.200 €**, 19.000 km, matriculado 11/2023, garantía oficial Hyundai vigente. Ficha bloqueada por captcha — datos de tarjeta. Canarias.
+- **0 cambios de precio.** Verificados sin cambio: toda la página 1-3 de coches.net, los 12 Flexicar visibles, Clicars (IL 30.490 €, KZ 33.690 €), Autohero (C 30.299 €, L 20.599 €), Carplus por ficha (E 22.990 €, J 27.090 €), Wallapop (LQ, MB, JP, MC) y Milanuncios (DY, U, T).
+- **Reintentos recuperados** (bloqueados por la mañana): ficha **DZ** OK — precio sin cambio 24.490 €, pero el vendedor ha editado el anuncio y ahora marca **102.000 km** (antes 100.000; km actualizados en el estado); ficha **LR** OK (15.900 € sin cambio); ficha **MA** de coches.net OK — confirma 25.950 € (antes 27.850 €), 64.200 km, CSV Motor Terrassa con el coche físicamente en Arroyomolinos (Madrid).
+- **L** (Autohero Maxx 4WD 20.599 €): la ficha ya **no muestra "venta en proceso"** — parece disponible de nuevo.
+- **Cross-posts detectados y NO añadidos (regla 3b):** Milanuncios 603402324 (AVANTCAR Las Palmas, Maxx 23.900 €, 57.000 km, 2022) = **CC** de coches.net (coincidencia exacta de precio, km, año y ubicación); Milanuncios 615239337 = **LU** y el km0 de Motor Jamae Collado Villalba = **LY/IG** (ya anotados por la mañana).
+- Incidencias: la categoría de Carplus devuelve "0 coches" (no renderiza; fichas E y J verificadas directamente); captcha de Milanuncios en la ficha nueva 612807229; listados de Wallapop y Milanuncios truncados como de costumbre.
+- Nota de mantenimiento: **EY y LB comparten la misma URL** en el estado (el relistado del 09-30 reutilizó la URL original de EY, no era "URL nueva"); se deja EY como `probably_removed` y LB como registro activo vigente.
+
 Decimoséptima ejecución (2 días desde la anterior). Cobertura: coches.net (7 páginas del listado, 8 tarjetas/página de 195 declaradas; 5 fichas nuevas verificadas, luego anti-bot — 4 nuevas con datos de tarjeta), autohero.com (35 anuncios, C verificado por ficha; L "venta en proceso"), ocasionplus.com (20/158 tarjetas con 2 PHEV; F y K verificados por ficha OK), carplus.es (fichas solo renderizan título+precio: E 22.990 € y J 27.090 € sin cambio aparente), flexicar.es (11 tarjetas de 28 declaradas + verificación directa de las 14 fichas restantes), clicars.com (2 PHEV en stock: IL y KZ), wallapop.com (categoría con 6 PHEV visibles, truncada) y milanuncios.com (62 declarados, solo 6 tarjetas visibles en 2 páginas; fichas T/U/DY OK, DZ y LR bloqueadas por captcha).
 
 **11 anuncios nuevos:**

@@ -227,7 +227,7 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-30",
+    "last_seen": "2026-10-02",
     "status": "active",
     "price_history": [
       {
@@ -472,7 +472,7 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-09-30",
+    "last_seen": "2026-10-02",
     "status": "active",
     "price_history": [
       {
@@ -2285,7 +2285,7 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-09-26",
+    "last_seen": "2026-10-02",
     "status": "active",
     "price_history": [
       {
@@ -2822,7 +2822,7 @@
     "location": "Barcelona",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-26",
+    "last_seen": "2026-10-02",
     "status": "active",
     "price_history": [
       {
@@ -3046,13 +3046,13 @@
     "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-style-610781701.htm",
     "trim": "1.6 TGDI PHEV 195kW Style",
     "price_eur": 24490,
-    "km": 100000,
+    "km": 102000,
     "year": 2022,
     "traction": "4x4",
     "location": "Carmona (Sevilla)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-09-26",
+    "last_seen": "2026-10-02",
     "status": "active",
     "price_history": [
       {
@@ -4821,7 +4821,7 @@
     "location": "Leganés (Madrid) — Mas Automóviles",
     "region": "peninsula",
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-17",
+    "last_seen": "2026-10-02",
     "status": "active",
     "price_history": [
       {
@@ -4842,7 +4842,7 @@
     "location": "Griñón (Madrid) — Exclusive Motors",
     "region": "peninsula",
     "first_seen": "2026-09-02",
-    "last_seen": "2026-09-26",
+    "last_seen": "2026-10-02",
     "status": "active",
     "price_history": [
       {
@@ -6681,7 +6681,7 @@
     "location": "Málaga — relistado de BM",
     "region": "peninsula",
     "first_seen": "2026-09-26",
-    "last_seen": "2026-09-30",
+    "last_seen": "2026-10-02",
     "status": "active",
     "price_history": [
       {
@@ -7440,7 +7440,7 @@
     "location": "Santa Úrsula (Tenerife) — HV Motor, garantía 12 meses",
     "region": "canarias",
     "first_seen": "2026-09-30",
-    "last_seen": "2026-09-30",
+    "last_seen": "2026-10-02",
     "status": "active",
     "price_history": [
       {
@@ -7677,6 +7677,48 @@
       {
         "date": "2026-10-02",
         "price_eur": 20550
+      }
+    ]
+  },
+  {
+    "id": "MD",
+    "site": "autohero.com",
+    "url": "https://www.autohero.com/es/hyundai-tucson/id/fe912e0b-c736-4c6b-8806-c986c500ac14/",
+    "trim": "1.6 T-GDI Plug-in Hybrid Tecno Sky 4WD",
+    "price_eur": 30999,
+    "km": 32929,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "no especificado (venta online Autohero) — único propietario, garantía 12 meses, ITV hasta 12/2027, matriculado 14/12/2023",
+    "region": "peninsula",
+    "first_seen": "2026-10-02",
+    "last_seen": "2026-10-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-02",
+        "price_eur": 30999
+      }
+    ]
+  },
+  {
+    "id": "ME",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-612807229.htm",
+    "trim": "PHEV Style 4x4 (datos de tarjeta, ficha bloqueada por captcha)",
+    "price_eur": 26200,
+    "km": 19000,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Teror (Las Palmas) — particular, garantía oficial Hyundai vigente, matriculado 11/2023",
+    "region": "canarias",
+    "first_seen": "2026-10-02",
+    "last_seen": "2026-10-02",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-02",
+        "price_eur": 26200
       }
     ]
   }
