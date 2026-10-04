@@ -1,5 +1,34 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-04 (segunda pasada)
+
+**Segunda pasada (tarde) — reintentos y novedades.** Cobertura: coches.net (197 declarados; páginas 1-5 del listado OK con 8 tarjetas/página, páginas 6-7 bloqueadas por anti-bot; 4 fichas de detalle abiertas sin bloqueo), autohero.com (34 declarados, 25 tarjetas, 3 PHEV: C, L y MD sin cambio), ocasionplus.com (**el listado cargó esta vez**, 20/158 tarjetas con 2 PHEV; fichas F, K y LB verificadas), carplus.es (categoría sigue en "0 coches"; fichas E 22.990 € y J 27.090 € sin cambio por título+precio), flexicar.es (27 declarados, 12 tarjetas: todas coinciden con el estado), clicars.com (2 PHEV, IL y KZ sin cambio de contado), wallapop.com (24 tarjetas visibles, 7 PHEV: todos conocidos), milanuncios.com (62 declarados, 6 tarjetas únicas entre páginas 1-2, sin captcha en listado).
+
+**3 anuncios nuevos:**
+
+*Genuinamente nuevos (2):*
+- **MK** — coches.net Lliçà de Vall (Barcelona), Movento Motorprim Hyundai: Maxx Auto 4x4, **25.600 €** contado, 49.700 km, 2022, 265 CV, certificado H Promise, garantía 12 meses. Ficha verificada.
+- **MM** — coches.net Zaratán (Valladolid), Don Motor: Style Auto 4x4, **27.800 €** contado, 39.000 km, 2021, único dueño, 4 revisiones en servicio oficial, IVA deducible, garantía 12 meses. Ficha verificada.
+
+*Espejos (1):*
+- **ML** — coches.net Martorell (Barcelona): Klass AT 252CV, 29.990 € contado (25.990 € financiando el 100%), 26.000 km, 2024 — es **Flexicar Martorell (AI)** cross-posteado en coches.net.
+
+**3 cambios de precio:**
+- **IR** (coches.net Madrid, RM Motor, Tecno Sky 28.000 km): 32.500 € → **28.999 €** (−3.501 €, −13%; confirma la bajada que ayer solo se veía en su espejo de Wallapop). Garantía Hyundai hasta 02/2028.
+- **P** (coches.net Murcia, MARMOCASION, Tecno Sky AT 10.580 km): 37.790 € → **37.490 €** (−300 €; primer cambio desde agosto). Garantía 48 meses.
+- **KN** (coches.net Barcelona, CSV Motor, Maxx 126.059 km): 20.850 € → **20.550 €** (−300 €, igualando a su espejo MC de Wallapop).
+
+**Desapariciones:** ninguna nueva (todo lo activo fue visto hoy en la pasada matinal o en esta).
+
+**Cross-posts detectados y NO añadidos (regla 3b):** Wallapop 1300025111 = IR (espejo ya anotado); Wallapop 1301096264 = LO; Milanuncios 615040504 = G; 615239337 = LU; km0 Collado Villalba sin URL = LY/IG; Milanuncios 612807229 = ME (ya en estado, 25.500 € sin cambio).
+
+**Incidencias:**
+- coches.net: páginas 6-7 del listado bloqueadas por anti-bot ("Algo en tu navegador nos hizo pensar que eres un bot"); las fichas individuales sí abrieron.
+- carplus.es: la categoría sigue sin renderizar ("0 coches"); las fichas solo muestran título y precio — km/año no verificables.
+- milanuncios.com: listado truncado (6 tarjetas únicas de 62 declaradas); sin captcha hoy en el listado.
+- wallapop.com: categoría truncada (~24 tarjetas).
+- Entorno: Bash sin tuberías ni redirecciones — actualización aplicada con ediciones directas sobre el JSON y validada con jq (351 entradas, 324 activas, IDs únicos).
+
 ## 2026-10-04
 
 Decimoctava ejecución (2 días desde la anterior; la pasada arrancó el 03-10 por la noche y cerró ya el 04-10). Cobertura: coches.net (197 declarados, páginas 1-3 del listado con ~8 tarjetas/página; páginas 4-7 no cargaron), autohero.com (34 declarados, 25 tarjetas renderizadas, 3 PHEV; ficha de L verificada), ocasionplus.com (listado no cargó; las 4 fichas conocidas verificadas directamente), carplus.es (fichas E y J verificadas por título; categoría sigue en "0 coches"), flexicar.es (27 declarados, 12 tarjetas + fichas directas: 25/25 conocidos cubiertos), clicars.com (2 PHEV, sin cambios de inventario), wallapop.com (categoría truncada ~25 tarjetas; 13 fichas conocidas verificadas una a una), milanuncios.com (62 declarados, solo 8 tarjetas únicas visibles; captcha en la mayoría de fichas).
