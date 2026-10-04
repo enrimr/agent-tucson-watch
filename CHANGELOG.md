@@ -1,5 +1,62 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-04
+
+Decimoctava ejecución (2 días desde la anterior; la pasada arrancó el 03-10 por la noche y cerró ya el 04-10). Cobertura: coches.net (197 declarados, páginas 1-3 del listado con ~8 tarjetas/página; páginas 4-7 no cargaron), autohero.com (34 declarados, 25 tarjetas renderizadas, 3 PHEV; ficha de L verificada), ocasionplus.com (listado no cargó; las 4 fichas conocidas verificadas directamente), carplus.es (fichas E y J verificadas por título; categoría sigue en "0 coches"), flexicar.es (27 declarados, 12 tarjetas + fichas directas: 25/25 conocidos cubiertos), clicars.com (2 PHEV, sin cambios de inventario), wallapop.com (categoría truncada ~25 tarjetas; 13 fichas conocidas verificadas una a una), milanuncios.com (62 declarados, solo 8 tarjetas únicas visibles; captcha en la mayoría de fichas).
+
+**5 anuncios nuevos:**
+
+*Genuinamente nuevos (2):*
+- **MF** — coches.net Valencia: Style Auto 4x4, 27.900 € (tarjeta; financiado 24.690 €), 49.425 km, 2023. Ficha no abierta (anti-bot) — datos de tarjeta.
+- **MG** — coches.net Madrid: Tecno Sky Auto 4x4, 26.490 € (tarjeta), 93.912 km, año 2024 según tarjeta (URL dice 2023). Datos de tarjeta.
+
+*Relistados/espejos (3):*
+- **MH** — coches.net Madrid: Maxx Auto 4x4, 21.490 €, 96.904 km, 2022 — relistado de IY (misma unidad, URL consecutiva a KR).
+- **MI** — coches.net Madrid: Tecno Sky Auto 4x4, 24.290 €, 77.816 km, 2021 — espejo exacto de FV (Gestión Directa, S.S. de los Reyes).
+- **MJ** — Wallapop Barcelona (Prat Automòbils): Maxx Auto 265CV 4x4, 24.750 €, 50.000 km, 2022 — relistado de IP (cuya URL antigua da 404); garantía Hyundai hasta 6 años.
+
+**8 cambios de precio:**
+- **ME** (Milanuncios Teror, Las Palmas): 26.200 € → **25.500 €** (−700 €, dato de tarjeta; ficha con captcha)
+- **JL** (coches.net Valencia, Tecno Sky Llav.D. 30.742 km): 32.490 € → **31.990 €** (−500 €)
+- **DL** (coches.net Murcia, Maxx 103.794 km): 23.990 € → **23.490 €** (−500 €), igualando a su espejo ED de Flexicar
+- **EK** (Wallapop Terrassa, CSV): 23.850 € → **23.350 €** (−500 €)
+- **X** (Wallapop Arroyomolinos, CSV): 23.150 € → **22.850 €** (−300 €, vuelve al precio de agosto)
+- **HT** (Flexicar Majadahonda, Style 90.000 km): 24.990 € → **24.690 €** (−300 €)
+- **EJ** (Wallapop Terrassa, CSV): 23.850 € → **23.750 €** (−100 €)
+- **HY** (Flexicar Tolosa, Tecno Sky 58.000 km): 31.770 € → **31.990 €** (+220 €, subida)
+
+**Corrección de criterio (financiado → contado, no son subidas reales):** se detectó que 4 anuncios tenían guardado el precio financiado en vez del contado. Normalizados hoy:
+- **LA** (OcasionPlus Maquinista): 23.628 € (financiado) → contado **25.990 €**
+- **LB** (OcasionPlus Móstoles): 23.810 € (financiado) → contado **26.190 €**
+- **IL** (Clicars Tecno Sky): 30.490 € (financiado 100%) → contado **31.990 €** ("Oferta flash" −5.500 € hasta 05/10)
+- **KZ** (Clicars Style km0): 33.690 € (financiado 100%) → contado **36.990 €**
+
+**Desapariciones (3):**
+- **GP** (Wallapop Santiago, 19.890 €) → `probably_removed`: 404 confirmado con reintento, sin relist detectado.
+- **IP** (Wallapop Prat Automòbils, 24.750 €) → `probably_removed`: 404, relistado como **MJ**.
+- **AH** (Flexicar Getafe-Fuenlabrada, N Line 38.490 €) → `probably_removed`: ficha 404 en 2 intentos.
+
+**Reservados (siguen publicados):** Flexicar AF (Zaragoza), BJ (Majadahonda, el slug dice Aravaca), HX (Sevilla) y KX (Vic). **L** de Autohero confirmado disponible de nuevo en ficha (sin "venta en proceso", 20.599 € sin cambio).
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Milanuncios 611611317 (252CV AT, 31.900 €, 43.287 km, Leganés) = **HC** (coches.net, Mas Automóviles — coincidencia exacta).
+- Milanuncios 615040504 = **G**; 612838873 = **HD**; 615239337 = **LU**; 617027581 (29.990 €, 61.500 km, Torrejón) = **LN** (cross-post nuevo); tarjeta km0 Collado Villalba 32.990 €/20 km sin URL = **LY/IG**.
+- Wallapop 1301096264 = **LO**; Wallapop 1300025111 = **IR** — ojo: el espejo de Wallapop muestra ahora **28.999 €** (IR consta a 32.500 € en coches.net; posible bajada no verificada en la ficha original).
+- Candidato nuevo real en Milanuncios sin URL recuperable (tarjeta sin enlace, vista 2 veces): Tecno 23.595 €, 100.447 km, 2021, Hontoria (Segovia), garantía 12 meses — mismo precio y km que **CU** (coches.net Segovia): se considera cross-post de CU y no se añade.
+- El KM0 de Albacete visto en el listado (39.500 €, 161 km, kovn-71568965) es **KA**, ya conocido — no es nuevo.
+
+**Otros:** EF (Flexicar Santiago) actualiza km a 112.460 (+10). DZ, LR, T, U y resto de Milanuncios no visibles hoy por el truncado — sin cambio de estado.
+
+**Incidencias:**
+- WebFetch muy inestable durante toda la ejecución ("response stopped arriving", timeouts): los rastreadores se colgaron varias veces y hubo que reanudarlos.
+- coches.net: páginas 4-7 del listado no cargaron (~32 tarjetas sin inventariar); ninguna ficha de detalle abierta — los nuevos MF/MG/MH/MI llevan datos de tarjeta (el precio puede no ser el contado definitivo).
+- ocasionplus.com: el listado de categoría falló en 3 intentos; sin inventario de parrilla (los 4 conocidos verificados por ficha).
+- autohero.com: 25/34 tarjetas renderizadas; fichas de C y MD no abiertas (precio del listado, coincide con el conocido).
+- carplus.es: categoría sigue sin renderizar ("0 coches"); fichas E y J solo muestran título+precio; el sitemap no lista fichas individuales — anuncios nuevos no detectables en esta web.
+- milanuncios.com: truncado severo (8/62 tarjetas) y captcha en fichas; 2 tarjetas renderizaron sin enlace.
+- Buscadores de apoyo bloqueados (DuckDuckGo con captcha, Bing sin resultados del dominio); no hay WebSearch en esta sesión.
+- Entorno: Bash muy restringido (node/python/redirecciones denegados); actualización aplicada con jq + editor de archivos y validada con jq (348 entradas, 321 activas).
+
 ## 2026-10-02
 
 **Segunda pasada (tarde) — reintentos y novedades.** Revisión de las 8 webs tras la ejecución matinal: listados de coches.net (páginas 1-3), autohero (34), ocasionplus (20/159 tarjetas), flexicar (12/28 tarjetas), clicars (2), wallapop (6 PHEV visibles) y milanuncios (páginas 1-2, 62 declarados). Resultado:
