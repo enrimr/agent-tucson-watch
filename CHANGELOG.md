@@ -1,5 +1,30 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-07 (segunda pasada)
+
+**Segunda pasada (tarde) — verificación tras la ejecución de la madrugada.** Cobertura: coches.net (195 declarados, 8 tarjetas: 7 conocidas + 1 reanuncio), autohero.com (40 declarados, 25 tarjetas con 1 PHEV; fichas C, L y MD verificadas), ocasionplus.com (168 declarados, 21 tarjetas sin PHEV; fichas F, K, LA y LB verificadas una a una), carplus.es (categoría sigue en "0 coches"; fichas E 22.990 € y J 27.090 € sin cambio por título+precio), flexicar.es (28 declarados, 11 tarjetas, todas conocidas), clicars.com (1 PHEV declarado), wallapop.com (26 tarjetas con 4 PHEV, todos conocidos), milanuncios.com (52 declarados, 3 tarjetas visibles; ficha GK abierta sin captcha).
+
+**1 anuncio nuevo (reanuncio, 0 genuinos):**
+- **NA** — coches.net Aranjuez (Madrid), AutosMadrid Aranjuez: Maxx Auto 4x4, **24.990 €** contado (22.990 € financiado), 46.737 km, 2023, 265 CV, rojo, IVA deducible, garantía 12 meses, publicado el 29/09. **Reanuncio de AP/JF con tercera URL** (mismo coche: precio y km idénticos).
+
+**3 cambios de precio:**
+- **GK** (milanuncios Colmenar Viejo, Merodigar Motor, 288 CV sin matricular): 37.700 € → **36.350 €** contado (−1.350 €). Además **reaparece** tras no verse desde el 31-08 (anuncio "editado hoy"), sigue activo.
+- **EF** (flexicar Santiago de Compostela, Maxx 112.460 km): 22.890 € → **22.490 €** (−400 €).
+- **HW** (flexicar Olot, Tecno Sky 26.000 km): 26.790 € → **26.490 €** (−300 €).
+
+**Desapariciones:** **KZ** (clicars km0, 1.6 T PHEV 4x4 Style 288CV, 36.990 €) → la ficha dice "El coche que buscas ya no está disponible", marcado `probably_removed`. Clicars queda con 1 solo PHEV (IL).
+
+**Sin cambio verificado:** IL (clicars) sigue a **31.490 € contado** — el 29.990 € que muestra el listado es el precio financiado, no es bajada. C y L (autohero) siguen en "venta en proceso" a 30.299 € y 19.999 €; MD disponible a 30.999 €. Ocasionplus F/K/LA/LB y carplus E/J sin cambios. Ningún flexicar marcado como reservado en el listado.
+
+**Cross-posts ya anotados que siguen visibles (no añadidos, regla 3b):** Milanuncios 611632574 = GV; Wallapop 1301096264 = LO.
+
+**Incidencias:**
+- flexicar.es: el listado solo renderiza 11 de 28 declarados; los no visibles ya se verificaron ficha a ficha en la pasada de la madrugada.
+- milanuncios.com: listado truncado (3 tarjetas de 52 declaradas); sin captcha en fichas.
+- carplus.es: categoría sigue sin renderizar ("0 coches"); fichas solo muestran título y precio.
+- autohero.com: listado muestra 25 de 40 tarjetas; C y L verificados por ficha directa.
+- Entorno: git por SSH sigue fallando ("Permission denied (publickey)"), se usó HTTPS; sin intérpretes ni redirecciones en Bash — edición directa del JSON validada con jq (365 entradas, 336 activas, IDs únicos).
+
 ## 2026-10-07
 
 Decimonovena ejecución (3 días desde la anterior; arrancó la noche del 06-10 y cerró el 07-10). Cobertura: coches.net (193 declarados, −4 desde el 04-10; **las 7 páginas del listado cargaron sin anti-bot por primera vez en semanas**, 8 tarjetas/página con repetidos entre páginas), autohero.com (37-38 declarados, 25 tarjetas con 1 PHEV visible; fichas C, L y MD verificadas), ocasionplus.com (166 declarados, 20 tarjetas con 1 PHEV; fichas F, K y LB verificadas), carplus.es (categoría sigue en "0 coches"; fichas E 22.990 € y J 27.090 € sin cambio por título+precio), flexicar.es (26 declarados, 12 tarjetas; las 12 fichas restantes abiertas una a una), clicars.com (2 PHEV), wallapop.com (categoría ~26 tarjetas con 4 PHEV; los 12 activos verificados ficha a ficha), milanuncios.com (53-54 declarados, 6 tarjetas únicas entre listado normal, página 2 y orden por fecha; fichas abiertas hoy sin captcha).
