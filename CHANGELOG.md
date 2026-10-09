@@ -1,5 +1,50 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-09
+
+Vigesimoprimera ejecución (1 día desde la anterior). Cobertura: coches.net (191 declarados; páginas 1-5 OK con 8 tarjetas/página, páginas 6-7 bloqueadas por anti-bot), autohero.com (43 declarados, 25 tarjetas con 1 PHEV; fichas C, L y MD verificadas), ocasionplus.com (163 declarados, 20 tarjetas sin PHEV; fichas F, K, LA y LB verificadas), carplus.es (categoría sigue en "0 coches"; fichas E 22.990 € y J 27.090 € sin cambio por título+precio), flexicar.es (28 declarados, 12 tarjetas renderizadas, todas conocidas), clicars.com (1 PHEV, ficha IL verificada), wallapop.com (~24 PHEV vía 4 fragmentos, todos conocidos o cross-posts), milanuncios.com (50 declarados, 6 tarjetas únicas entre páginas 1-2; fichas con captcha).
+
+**6 anuncios nuevos:**
+
+*Genuinamente nuevos (3):*
+- **NN** — coches.net La Rioja: Maxx Safe Auto 4x4, **25.500 €** contado, 81.934 km, 2023. Datos de tarjeta.
+- **NO** — coches.net Badajoz: Maxx Auto 4x4, **34.498 €** contado, 9.024 km, 2023. Datos de tarjeta (mismo vendedor que FO/CE por patrón de URL).
+- **NP** — coches.net Madrid: Maxx Auto 4x4, **23.950 €** contado (rebajado 9% desde 26.350 €), 77.216 km, 2022. Datos de tarjeta.
+
+*Relistados y espejos (3):*
+- **NQ** — coches.net Cuenca: **relistado de DQ** con nueva URL, Tecno Sky AT 252CV, 36.350 €, 9.000 km, 2025. Datos de tarjeta.
+- **NR** — coches.net Valencia: **espejo de NK** (AUTOSELECCIO.ES, Carcaixent, Wallapop), Tecno Sky AT 252CV, 29.600 €, 18.000 km, 2024. Datos de tarjeta.
+- **NS** — coches.net Sevilla: **relistado de JX / espejo de HX** (Flexicar Sevilla Los Arcos), Tecno Sky 4x4 AT, 31.990 €, 10.722 km, 2024. Datos de tarjeta.
+
+**4 cambios de precio:**
+- **JG** (coches.net Madrid, Maxx 87.802 km): 25.390 € → **23.390 €** (−2.000 €).
+- **MD** (autohero, Tecno Sky 4WD 32.929 km): 30.999 € → **30.299 €** contado (−700 €).
+- **MT** (coches.net Madrid, espejo de MD): 30.999 € → **30.299 €** (−700 €, sincronizado con MD).
+- **HX** (flexicar Sevilla Los Arcos, Tecno Sky 10.722 km): 32.490 € → **31.990 €** (−500 €); sigue disponible, sin "Reservado".
+
+**Estado / otros cambios:**
+- **GM** (milanuncios, Ávicola del Jarama km0): sin verse desde el 2026-08-31 y con ficha redirigida → **probably_removed**.
+- **T** y **FE** (milanuncios): siguen sin aparecer (2.º día) → se mantienen `not_seen_today`.
+- C y L (autohero) siguen en "venta en proceso" (30.299 € y 19.999 €); MD sigue disponible y además baja de precio.
+- CR, DW, ER, FO, FQ (y otros 20 de coches.net) reaparecen en el listado tras días/semanas sin verse → last_seen actualizado.
+- IL (clicars): sin cambio real, 31.490 € contado (el 29.990 € destacado es financiado con descuentos "Bienvenido Otoño").
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Milanuncios 615244442 = **MB** (Talleres J., Rubí: 23.500 €/81.100 km exactos).
+- Milanuncios 598230347 = **IK** (Autiber Burjassot, 26.950 €/35.100 km exactos).
+- Milanuncios sin URL (Guadalete Motor, Jerez, 35.990 €/1.500 km) = **DR** (km0 Cádiz, idéntico).
+- Wallapop 1302996465 = **JR** (AutosMadrid Leganés, 24.490 €/82.792 km exactos).
+- Wallapop 1300025111 = **IR**; 1292767803 = **DZ**; 1297559069 = **HH**; 1298307815 = **LY/IG**; 1308686222 = **KQ/familia GS**; 1310791282 = **IH** (km 34.505 actualizados); 1301009644/1301096264 = **LO** (mismo coche en Yátova/Villanueva de Castellón).
+- Wallapop 1301636928, 1301637244, 1301637463 y 1301636413 = **LX** (CSV Motor, 20.850 €/136.242 km, 4 re-posts del mismo coche).
+- Wallapop 1304423469 (= **X**), 1304533992 (= **EJ**) y 1292589548 (= **FE**, 19.690 €): re-posts/cross-posts de CSV Motor y La Alberca ya catalogados ayer, siguen sin añadirse.
+
+**Incidencias:**
+- coches.net: páginas 6-7 del listado bloqueadas por anti-bot ("Algo en tu navegador nos hizo pensar que eres un bot"); los 6 nuevos se añadieron con datos de tarjeta, sin abrir ficha.
+- milanuncios.com: listado lazy-load solo renderiza ~3 tarjetas por petición (6 únicas entre 2 páginas de 50 declaradas); fichas individuales no verificables.
+- flexicar.es: el listado solo renderiza 12 de 28 declarados; hoy no se abrieron las fichas ocultas (BJ, AB, AJ, EE, JC, KV, KW, KX, KY, FA, FB mantienen last_seen 2026-10-08).
+- carplus.es: la categoría y las fichas siguen sin renderizar el cuerpo (solo título+precio).
+- Entorno: Bash restringido a lectura (sin node/python ni redirecciones) — edición directa del JSON con la herramienta de edición, validada con jq (383 entradas, 351 activas, IDs únicos, 65 vistas hoy).
+
 ## 2026-10-08
 
 Vigésima ejecución (1 día desde la anterior). Cobertura: coches.net (191 declarados; páginas 1-5 del listado OK con 8 tarjetas/página, páginas 6-7 bloqueadas por anti-bot; varias fichas sí abrieron, otras no), autohero.com (42 declarados, 25 tarjetas con 1 PHEV; fichas C, L y MD verificadas), ocasionplus.com (167 declarados, 20 tarjetas sin PHEV; fichas F, K, LA y LB verificadas), carplus.es (categoría sigue en "0 coches"; fichas E 22.990 € y J 27.090 € sin cambio por título+precio), flexicar.es (28 declarados, 12 tarjetas; las 11 fichas no visibles abiertas una a una), clicars.com (1 PHEV, ficha IL verificada), wallapop.com (~55 tarjetas vía 3 fragmentos, 14 PHEV; los 12 activos verificados ficha a ficha), milanuncios.com (51 declarados, 6 tarjetas únicas entre páginas 1-2; captcha en fichas individuales).
