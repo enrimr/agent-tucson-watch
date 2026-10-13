@@ -73,7 +73,7 @@
     "location": "no especificado (Autohero no entrega en Canarias) — venta en proceso 2026-10-07 a 2026-10-12 (reservado por otro cliente)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -139,7 +139,7 @@
     "location": "Red Carplus (Madrid/Málaga/Sevilla/Cádiz/Santiago)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -164,7 +164,7 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -227,7 +227,7 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -248,7 +248,7 @@
     "location": "Red Carplus (no especificado exacto)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -269,7 +269,7 @@
     "location": "Valencia - Gandía",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -310,7 +310,7 @@
     "location": "no especificado (Autohero no entrega en Canarias) — venta en proceso 2026-10-02 y 2026-10-07 a 2026-10-12 (reservado por otro cliente)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -526,7 +526,7 @@
     "location": "Santa Cruz de Tenerife — reapareció en el listado el 2026-10-12 (QualiAuto; mismo coche que U publicado en dos islas)",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -547,7 +547,7 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -610,8 +610,8 @@
     "location": "Arroyomolinos (Madrid) — no aparece en el listado hoy; su re-post de CSV (item 1304423469) sigue visible, no añadido (regla 3b)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-08",
-    "status": "not_seen_today",
+    "last_seen": "2026-10-13",
+    "status": "active",
     "price_history": [
       {
         "date": "2026-08-06",
@@ -702,7 +702,7 @@
     "location": "Alicante",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -723,7 +723,7 @@
     "location": "Sabadell (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -752,7 +752,7 @@
     "location": "Leganés (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -917,7 +917,7 @@
     "location": "Martorell (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -946,7 +946,7 @@
     "location": "Gavá (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -987,7 +987,7 @@
     "location": "Sitges (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -1406,7 +1406,7 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -1540,7 +1540,7 @@
     "location": "Aravaca (Madrid) — reservado desde 2026-10-02, sigue reservado 2026-10-12 (la ficha indica sede Majadahonda)",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -1577,7 +1577,7 @@
     "location": "San Fernando de Henares (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-07",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -1710,7 +1710,7 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -2113,8 +2113,8 @@
     "location": "Terrassa (Barcelona) — Vallpark Motors",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-10-08",
-    "status": "not_seen_today",
+    "last_seen": "2026-10-13",
+    "status": "active",
     "price_history": [
       {
         "date": "2026-08-09",
@@ -2153,14 +2153,14 @@
     "url": "https://es.wallapop.com/item/hyundai-tucson-1-6-tgdi-phev-195kw-maxx-auto-4x4-1289527458",
     "trim": "1.6 TGDI PHEV 195kW Maxx Auto 4x4",
     "price_eur": 23490,
-    "km": 83477,
+    "km": 84000,
     "year": 2021,
     "traction": "4x4",
     "location": "Barcelona",
     "region": "peninsula",
     "first_seen": "2026-08-09",
-    "last_seen": "2026-10-08",
-    "status": "not_seen_today",
+    "last_seen": "2026-10-13",
+    "status": "active",
     "price_history": [
       {
         "date": "2026-08-09",
@@ -2255,7 +2255,7 @@
     "location": "Santa Cruz de Tenerife",
     "region": "canarias",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -2305,7 +2305,7 @@
     "location": "Valencia",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -2632,7 +2632,7 @@
     "location": "Lleida",
     "region": "peninsula",
     "first_seen": "2026-08-11",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -3172,7 +3172,7 @@
     "location": "Murcia - Av. de Alicante",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -3205,7 +3205,7 @@
     "location": "Palma de Mallorca",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -3254,7 +3254,7 @@
     "location": "Santiago de Compostela",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -3312,8 +3312,8 @@
     "location": "Tías (Lanzarote)",
     "region": "canarias",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-10-08",
-    "status": "not_seen_today",
+    "last_seen": "2026-10-13",
+    "status": "active",
     "price_history": [
       {
         "date": "2026-08-20",
@@ -3354,8 +3354,8 @@
     "location": "Terrassa (Barcelona) — no aparece en el listado hoy; su re-post de CSV (item 1304533992, Benimamet) sigue visible, no añadido (regla 3b)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-10-08",
-    "status": "not_seen_today",
+    "last_seen": "2026-10-13",
+    "status": "active",
     "price_history": [
       {
         "date": "2026-08-20",
@@ -3379,8 +3379,8 @@
     "location": "Terrassa (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-10-08",
-    "status": "not_seen_today",
+    "last_seen": "2026-10-13",
+    "status": "active",
     "price_history": [
       {
         "date": "2026-08-20",
@@ -3439,19 +3439,23 @@
     "site": "coches.net",
     "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2023-en-tarragona-71361924-covo.aspx",
     "trim": "1.6 TGDI PHEV Tecno Sky Auto 4x4",
-    "price_eur": 33990,
-    "km": 34300,
+    "price_eur": 32990,
+    "km": 34480,
     "year": 2023,
     "traction": "4x4",
     "location": "Tarragona",
     "region": "peninsula",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-09-02",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
         "date": "2026-08-25",
         "price_eur": 33990
+      },
+      {
+        "date": "2026-10-13",
+        "price_eur": 32990
       }
     ]
   },
@@ -3530,7 +3534,7 @@
     "location": "Salamanca",
     "region": "peninsula",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -3731,7 +3735,7 @@
     "location": "Arona - Tenerife Sur (Santa Cruz de Tenerife)",
     "region": "canarias",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -3756,7 +3760,7 @@
     "location": "La Laguna - Tenerife Norte (Santa Cruz de Tenerife) — reservado desde 2026-10-07, sigue reservado 2026-10-12 (la ficha lo titula ahora Style)",
     "region": "canarias",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -3823,7 +3827,7 @@
     "location": "La Alberca de Záncara (Cuenca) — reapareció en el listado el 2026-10-12 a 19.680 €; su cross-post de Wallapop (item 1292589548, Las Rozas) sigue visible a 19.690 €",
     "region": "peninsula",
     "first_seen": "2026-08-25",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -3940,7 +3944,7 @@
     "location": "Coslada (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-29",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -4189,19 +4193,23 @@
     "site": "wallapop.com",
     "url": "https://es.wallapop.com/item/hyundai-tucson-1-6-tgdi-phev-195kw-tecno-sky-auto-4x4-1296062722",
     "trim": "1.6 TGDI PHEV 195kW Tecno Sky Auto 4x4",
-    "price_eur": 24290,
+    "price_eur": 23490,
     "km": 77816,
     "year": 2021,
     "traction": "4x4",
     "location": "San Sebastián de los Reyes (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-29",
-    "last_seen": "2026-10-08",
-    "status": "not_seen_today",
+    "last_seen": "2026-10-13",
+    "status": "active",
     "price_history": [
       {
         "date": "2026-08-29",
         "price_eur": 24290
+      },
+      {
+        "date": "2026-10-13",
+        "price_eur": 23490
       }
     ]
   },
@@ -4519,7 +4527,7 @@
     "location": "Colmenar Viejo (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-08-31",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -4754,7 +4762,7 @@
     "location": "Las Palmas de Gran Canaria",
     "region": "canarias",
     "first_seen": "2026-09-01",
-    "last_seen": "2026-09-01",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -4905,7 +4913,7 @@
     "location": "Leganés (Madrid) — Mas Automóviles (cross-post en Milanuncios 611611317, no añadido)",
     "region": "peninsula",
     "first_seen": "2026-09-02",
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -5224,7 +5232,7 @@
     "location": "Madrid",
     "region": "peninsula",
     "first_seen": "2026-09-02",
-    "last_seen": "2026-10-08",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -5270,7 +5278,7 @@
     "location": "Majadahonda (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-09-02",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -5337,7 +5345,7 @@
     "location": "Olot (Girona)",
     "region": "peninsula",
     "first_seen": "2026-09-08",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -5366,7 +5374,7 @@
     "location": "Sevilla - Los Arcos — reservado 2026-10-02, disponible de nuevo desde 2026-10-07",
     "region": "peninsula",
     "first_seen": "2026-09-08",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -5395,7 +5403,7 @@
     "location": "Anoeta - Tolosa (Gipuzkoa)",
     "region": "peninsula",
     "first_seen": "2026-09-08",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -5692,7 +5700,7 @@
     "location": "Red Clicars (Madrid/Alicante/Córdoba/Málaga/Murcia/Valencia/Zaragoza) — el 29.990 € mostrado es financiado al 100%; contado 31.490 € (verificado 2026-10-12)",
     "region": "peninsula",
     "first_seen": "2026-09-13",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -5854,7 +5862,7 @@
     "location": "Madrid — RM Motor (cross-post en Wallapop 1300025111 y Milanuncios 613963991, no añadidos; único propietario, garantía Hyundai hasta 02/2028)",
     "region": "peninsula",
     "first_seen": "2026-09-13",
-    "last_seen": "2026-10-04",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -6105,7 +6113,7 @@
     "location": "Cornellà de Llobregat (Barcelona)",
     "region": "peninsula",
     "first_seen": "2026-09-17",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -6402,7 +6410,7 @@
     "location": "Barcelona (particular)",
     "region": "peninsula",
     "first_seen": "2026-09-18",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -6444,7 +6452,7 @@
     "location": "Leganés (Madrid) — Autos Madrid (cross-post en Wallapop 1302996465 detectado 2026-10-09, no añadido)",
     "region": "peninsula",
     "first_seen": "2026-09-18",
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -6645,7 +6653,7 @@
     "location": "Albacete — Martiaga Automoción (Hyundai oficial)",
     "region": "peninsula",
     "first_seen": "2026-09-26",
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -6800,7 +6808,7 @@
     "location": "Madrid — relistado de O (1.000 € menos)",
     "region": "peninsula",
     "first_seen": "2026-09-26",
-    "last_seen": "2026-09-30",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -6976,7 +6984,7 @@
     "location": "Madrid — relistado de Q/DU",
     "region": "peninsula",
     "first_seen": "2026-09-26",
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7085,7 +7093,7 @@
     "location": "Zaragoza - Venta del Olivar",
     "region": "peninsula",
     "first_seen": "2026-09-26",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7103,14 +7111,14 @@
     "site": "flexicar.es",
     "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16t-185kw-252cv-phev-at-maxx-hibrido-enchufable-automatica-majadahonda_903000000286146/",
     "trim": "1.6T 185kW (252CV) PHEV AT Maxx",
-    "price_eur": 31990,
+    "price_eur": 31690,
     "km": 26050,
     "year": 2025,
     "traction": "4x2 (delantera)",
     "location": "Majadahonda (Madrid)",
     "region": "peninsula",
     "first_seen": "2026-09-26",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7124,6 +7132,10 @@
       {
         "date": "2026-10-07",
         "price_eur": 31990
+      },
+      {
+        "date": "2026-10-13",
+        "price_eur": 31690
       }
     ]
   },
@@ -7139,7 +7151,7 @@
     "location": "Gandía (Valencia)",
     "region": "peninsula",
     "first_seen": "2026-09-26",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7160,7 +7172,7 @@
     "location": "Vic (Barcelona) — probable espejo de GU (coches.net) — reservado desde 2026-10-02, sigue reservado 2026-10-12",
     "region": "peninsula",
     "first_seen": "2026-09-26",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7227,7 +7239,7 @@
     "location": "Barcelona - OcasionPlus Maquinista",
     "region": "peninsula",
     "first_seen": "2026-09-30",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7256,7 +7268,7 @@
     "location": "Madrid - OcasionPlus Móstoles (reaparición de EY con URL nueva)",
     "region": "peninsula",
     "first_seen": "2026-09-30",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7579,7 +7591,7 @@
     "location": "La Flecha (Valladolid) — particular, garantía hasta 11/2027 (espejo MY en coches.net desde 2026-10-07)",
     "region": "peninsula",
     "first_seen": "2026-09-30",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7608,7 +7620,7 @@
     "location": "Santa Úrsula (Tenerife) — HV Motor, garantía 12 meses",
     "region": "canarias",
     "first_seen": "2026-09-30",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7671,7 +7683,7 @@
     "location": "Arroyomolinos (Madrid) — Auto Sport Moraleja, garantía 12 meses (probable relistado de AZ; cross-post en Milanuncios 615239337, no añadido)",
     "region": "peninsula",
     "first_seen": "2026-10-02",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7818,7 +7830,7 @@
     "location": "Rubí (Barcelona) — Talleres J. (profesional), garantía 12 meses + marca hasta 09/2026, IVA deducible (cross-post en Milanuncios 615244442 detectado 2026-10-09, no añadido)",
     "region": "peninsula",
     "first_seen": "2026-10-02",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7839,7 +7851,7 @@
     "location": "Terrassa (Barcelona) — CSV Motor (profesional), garantía 12 meses",
     "region": "peninsula",
     "first_seen": "2026-10-02",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7860,7 +7872,7 @@
     "location": "no especificado (venta online Autohero) — único propietario, garantía 12 meses, ITV hasta 12/2027, matriculado 14/12/2023; espejo MT en coches.net desde 2026-10-07; única PHEV comprable ya en Autohero (2026-10-12)",
     "region": "peninsula",
     "first_seen": "2026-10-02",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -7966,19 +7978,23 @@
     "site": "coches.net",
     "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2021-en-madrid-71664270-covo.aspx",
     "trim": "1.6 TGDI PHEV 195kW Tecno Sky Auto 4x4",
-    "price_eur": 24290,
+    "price_eur": 23490,
     "km": 77816,
     "year": 2021,
     "traction": "4x4",
     "location": "Madrid — espejo de FV (Gestión Directa, S.S. de los Reyes; datos de tarjeta)",
     "region": "peninsula",
     "first_seen": "2026-10-04",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
         "date": "2026-10-04",
         "price_eur": 24290
+      },
+      {
+        "date": "2026-10-13",
+        "price_eur": 23490
       }
     ]
   },
@@ -7994,8 +8010,8 @@
     "location": "Barcelona — Prat Automòbils, tienda verificada (relistado de IP; garantía Hyundai hasta 6 años)",
     "region": "peninsula",
     "first_seen": "2026-10-04",
-    "last_seen": "2026-10-08",
-    "status": "not_seen_today",
+    "last_seen": "2026-10-13",
+    "status": "active",
     "price_history": [
       {
         "date": "2026-10-04",
@@ -8015,7 +8031,7 @@
     "location": "Lliçà de Vall (Barcelona) — Movento Motorprim Hyundai (certificado H Promise, garantía 12 meses, dueños no especificado)",
     "region": "peninsula",
     "first_seen": "2026-10-04",
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8036,7 +8052,7 @@
     "location": "Martorell (Barcelona) — Flexicar Martorell (espejo de AI en coches.net; 25.990 € financiando el 100%; garantía 12 meses)",
     "region": "peninsula",
     "first_seen": "2026-10-04",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8162,7 +8178,7 @@
     "location": "Lleida — Control Motor Serveis (sin matricular, garantía oficial 60 meses)",
     "region": "peninsula",
     "first_seen": "2026-10-07",
-    "last_seen": "2026-10-08",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8204,7 +8220,7 @@
     "location": "Madrid — Autohero Center Madrid (espejo de MD de autohero.com en coches.net)",
     "region": "peninsula",
     "first_seen": "2026-10-07",
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8250,7 +8266,7 @@
     "location": "Madrid (Villaverde) — Clicars (espejo de IL en coches.net, como JL)",
     "region": "peninsula",
     "first_seen": "2026-10-07",
-    "last_seen": "2026-10-07",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8460,7 +8476,7 @@
     "location": "Santiago de Compostela (A Coruña) — espejo oficial de EF (Flexicar Santiago) en coches.net, garantía 12 meses, granate, publicado 28/09",
     "region": "peninsula",
     "first_seen": "2026-10-08",
-    "last_seen": "2026-10-08",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8544,7 +8560,7 @@
     "location": "Madrid (ficha bloqueada por anti-bot; datos de tarjeta) — probable relistado de DD (39.975 €, km0 Tecno Sky)",
     "region": "peninsula",
     "first_seen": "2026-10-08",
-    "last_seen": "2026-10-08",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8565,7 +8581,7 @@
     "location": "Carcaixent (Valencia) — AUTOSELECCIO.ES (profesional, tienda verificada); financiado 27.180 €; mantenimientos en servicio oficial",
     "region": "peninsula",
     "first_seen": "2026-10-08",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8586,7 +8602,7 @@
     "location": "Vidreres (Girona) — particular (perfil verificado), único dueño desde 07/2022, revisiones oficiales Hyundai, ITV hasta 07/2028, bola de remolque; algunos golpes de pintura y retrovisor",
     "region": "peninsula",
     "first_seen": "2026-10-08",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8607,7 +8623,7 @@
     "location": "Elche (Alicante) — particular; posible mismo coche que IN (coches.net Alicante, 52.000 km, 26.900 €): no añadido como duplicado por diferir 1.000 € el precio",
     "region": "peninsula",
     "first_seen": "2026-10-08",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8628,7 +8644,7 @@
     "location": "La Rioja",
     "region": "peninsula",
     "first_seen": "2026-10-09",
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8642,19 +8658,23 @@
     "site": "coches.net",
     "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2023-en-badajoz-71290535-covo.aspx",
     "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
-    "price_eur": 34498,
+    "price_eur": 33898,
     "km": 9024,
     "year": 2023,
     "traction": "4x4",
     "location": "Badajoz",
     "region": "peninsula",
     "first_seen": "2026-10-09",
-    "last_seen": "2026-10-09",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
         "date": "2026-10-09",
         "price_eur": 34498
+      },
+      {
+        "date": "2026-10-13",
+        "price_eur": 33898
       }
     ]
   },
@@ -8877,10 +8897,10 @@
     "km": 74351,
     "year": 2021,
     "traction": "4x4",
-    "location": "no especificado (Autohero no entrega en Canarias) — estado 'Próximamente': en preparación, aún no comprable (2026-10-12); matriculado 19/10/2021",
+    "location": "no especificado (Autohero no entrega en Canarias) — ya comprable desde 2026-10-13 (dejó de estar 'Próximamente'); matriculado 19/10/2021, ITV hasta 19/10/2027, garantía 12 meses",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8901,7 +8921,7 @@
     "location": "Autosmadrid San Sebastián de los Reyes (Madrid) — sede asociada de Flexicar, IVA deducible",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8922,7 +8942,7 @@
     "location": "Autosmadrid Móstoles (Madrid) — espejo de G/KG (coches.net Móstoles) en flexicar.es, IVA deducible",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8943,7 +8963,7 @@
     "location": "Autosmadrid Aranjuez (Madrid) — espejo de NA/AP (coches.net Aranjuez) en flexicar.es, IVA deducible",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8964,7 +8984,7 @@
     "location": "Arval Valencia (solo reserva online) — mismo vehículo que FM (coches.net Madrid-Clidrive, 79.705 km, 22.900 €)",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -8985,7 +9005,7 @@
     "location": "Arval Loeches (Madrid, solo reserva online)",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -9006,7 +9026,7 @@
     "location": "Arval Loeches (Madrid, solo reserva online) — reservado 2026-10-12",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -9027,7 +9047,7 @@
     "location": "Madrid — Carhay (profesional, tiendas en Leganés/Arganda/Alcorcón), garantía 12 meses, gris/plata; anuncio antiguo (publicado 11/2025) detectado hoy",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-10-13",
     "status": "active",
     "price_history": [
       {
@@ -9054,6 +9074,237 @@
       {
         "date": "2026-10-12",
         "price_eur": 23390
+      }
+    ]
+  },
+  {
+    "id": "OI",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2022-en-las-palmas-71735329-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW (265CV) Style Auto 4x4",
+    "price_eur": 25990,
+    "km": 57000,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Las Palmas de Gran Canaria (Pol. Ind. Las Torres) — Gestican Automóviles (profesional), garantía 12 meses, IGIC incluido, financiado 24.990 €; ficha verificada, publicado 13/10 (el slug de la URL dice 2022 pero la ficha dice 2023); mismos 57.000 km que CC (AVANT CAR Las Palmas), posible mismo coche en otro concesionario",
+    "region": "canarias",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 25990
+      }
+    ]
+  },
+  {
+    "id": "OJ",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2022-en-sta-c-tenerife-71735244-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW (265CV) Style Auto 4x4",
+    "price_eur": 25990,
+    "km": 57000,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Las Chafiras, San Miguel de Abona (Tenerife) — Gestican Automóviles Tenerife; espejo de OI (mismo coche publicado en dos islas), garantía 12 meses; ficha verificada, publicado 13/10",
+    "region": "canarias",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 25990
+      }
+    ]
+  },
+  {
+    "id": "OK",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-4x4-at-tecno-sky-5p-electrico-hibrido-2025-en-madrid-71738197-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV 4x4 AT Tecno Sky",
+    "price_eur": 34890,
+    "km": 13864,
+    "year": 2025,
+    "traction": "4x4",
+    "location": "Leganés (Madrid) — Gamboa Ocasión (profesional), garantía 48 meses, financiado 32.306 €; ficha verificada, publicado 13/10; dueños no especificado",
+    "region": "peninsula",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 34890
+      }
+    ]
+  },
+  {
+    "id": "OL",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2023-en-zaragoza-71631569-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Maxx Auto 4x4",
+    "price_eur": 26690,
+    "km": 83639,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Zaragoza — HR Motor Zaragoza (vehículo físicamente en Madrid-Villalba), garantía 12 meses; espejo de EU (mismos precio y km); ficha verificada, publicado 30/09",
+    "region": "peninsula",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 26690
+      }
+    ]
+  },
+  {
+    "id": "OM",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-sevilla-71696070-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Maxx Auto 4x4",
+    "price_eur": 26990,
+    "km": 65000,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Utrera (Sevilla) — GRUPO AUTOMOTIVE, único propietario, IVA deducible (22.305 € + IVA), garantía 12 meses ampliable a 5 años; probable relistado de AW/LE; ficha verificada, publicado 07/10",
+    "region": "peninsula",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 26990
+      }
+    ]
+  },
+  {
+    "id": "ON",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71693138-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Style Auto 4x4",
+    "price_eur": 26999,
+    "km": 63690,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Madrid (ficha bloqueada por anti-bot; datos de tarjeta); posible relación con la familia FT/MA/CH (Style 2022, 64.200 km)",
+    "region": "peninsula",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 26999
+      }
+    ]
+  },
+  {
+    "id": "OO",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71676280-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Style Auto 4x4",
+    "price_eur": 23490,
+    "km": 99000,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Madrid (ficha bloqueada por anti-bot; datos de tarjeta)",
+    "region": "peninsula",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 23490
+      }
+    ]
+  },
+  {
+    "id": "OP",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2022-en-sevilla-71673451-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Style Auto 4x4",
+    "price_eur": 20850,
+    "km": 136242,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Sevilla (ficha bloqueada por anti-bot; datos de tarjeta) — espejo de LX/FN/CZ (CSV Motor, 20.850 €, 136.242 km exactos)",
+    "region": "peninsula",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 20850
+      }
+    ]
+  },
+  {
+    "id": "OQ",
+    "site": "wallapop.com",
+    "url": "https://es.wallapop.com/item/hyundai-tucson-1-6-tgdi-phev-195kw-tecno-sky-auto-4x4-1309936024",
+    "trim": "1.6 TGDI PHEV 195kW Tecno Sky Auto 4x4",
+    "price_eur": 23500,
+    "km": 106730,
+    "year": 2021,
+    "traction": "4x4",
+    "location": "Palencia (Avda. Comunidad Europea 43) — MOTORPAL (profesional, tienda verificada 5/5), 265 CV etiqueta CERO, techo panorámico, historial de mantenimiento; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 23500
+      }
+    ]
+  },
+  {
+    "id": "OR",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-maxx-619619384.htm",
+    "trim": "1.6 TGDI PHEV 195kW Maxx Auto 4x4",
+    "price_eur": 25500,
+    "km": 91000,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Fornells de la Selva (Girona) — Fornells Motor/KM710 (profesional, ref. HY6899), negro Dark Knight, garantía 12 meses, financiado 23.900 €; publicado 13/10; mismos km y provincia que NL (particular de Vidreres a 21.500 €), posible mismo coche recomprado por profesional",
+    "region": "peninsula",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 25500
+      }
+    ]
+  },
+  {
+    "id": "OS",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6t-212kw-288cv-phev-4x4-619638971.htm",
+    "trim": "1.6T 212kW (288CV) PHEV 4x4 Style (nueva generación)",
+    "price_eur": 46740,
+    "km": 257,
+    "year": 2026,
+    "traction": "4x4",
+    "location": "Zaragoza — Carza Ocasión (concesionario multimarca), blanco, garantía 12 meses, financiado 43.870 €; publicado 13/10 16:17",
+    "region": "peninsula",
+    "first_seen": "2026-10-13",
+    "last_seen": "2026-10-13",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-13",
+        "price_eur": 46740
       }
     ]
   }
