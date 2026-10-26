@@ -3287,14 +3287,14 @@
     "site": "flexicar.es",
     "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-hibrido-enchufable-automatica-santiago-de-compostela_903000000252269/",
     "trim": "1.6 TGDI PHEV Maxx Auto 4x4",
-    "price_eur": 22290,
+    "price_eur": 21790,
     "km": 112460,
     "year": 2022,
     "traction": "4x4",
     "location": "Santiago de Compostela",
     "region": "peninsula",
     "first_seen": "2026-08-20",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-26",
     "status": "active",
     "price_history": [
       {
@@ -3320,6 +3320,10 @@
       {
         "date": "2026-10-18",
         "price_eur": 22290
+      },
+      {
+        "date": "2026-10-26",
+        "price_eur": 21790
       }
     ]
   },
@@ -5439,14 +5443,14 @@
     "site": "flexicar.es",
     "url": "https://www.flexicar.es/coches-ocasion/hyundai-tucson-16t-185kw-252cv-phev-4x4-at-tecno-sky-hibrido-enchufable-automatica-sevilla-2_903000000285916/",
     "trim": "1.6T 185kW (252CV) PHEV 4x4 AT Tecno Sky",
-    "price_eur": 31990,
+    "price_eur": 31490,
     "km": 10722,
     "year": 2024,
     "traction": "4x4",
     "location": "Sevilla - Los Arcos — reservado 2026-10-02, disponible de nuevo desde 2026-10-07",
     "region": "peninsula",
     "first_seen": "2026-09-08",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-26",
     "status": "active",
     "price_history": [
       {
@@ -5460,6 +5464,10 @@
       {
         "date": "2026-10-09",
         "price_eur": 31990
+      },
+      {
+        "date": "2026-10-26",
+        "price_eur": 31490
       }
     ]
   },
@@ -7231,10 +7239,10 @@
     "km": 26050,
     "year": 2025,
     "traction": "4x2 (delantera)",
-    "location": "Majadahonda (Madrid) — el 28.990 €/28.490 € de la tarjeta es precio-oferta financiado; ficha verificada 2026-10-24: contado sigue en 31.690 €",
+    "location": "Majadahonda (Madrid) — el 28.990 €/28.490 € de la tarjeta es precio-oferta financiado; ficha verificada 2026-10-24: contado sigue en 31.690 €; 2026-10-26 la tarjeta repite 28.990 € (financiado), contado sin cambio",
     "region": "peninsula",
     "first_seen": "2026-09-26",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-26",
     "status": "active",
     "price_history": [
       {
@@ -10163,6 +10171,69 @@
       {
         "date": "2026-10-24",
         "price_eur": 24490
+      }
+    ]
+  },
+  {
+    "id": "QB",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2024-en-santa-cruz-de-tenerife-71831788-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Style Auto 4x4",
+    "price_eur": 24985,
+    "km": 40951,
+    "year": 2024,
+    "traction": "4x4",
+    "location": "Santa Cruz de Tenerife — Miguel León (concesionario multimarca), 265 CV, garantía 12 meses; datos de tarjeta; mismo vehículo cross-posteado en Las Palmas (QC) y milanuncios 621480927",
+    "region": "canarias",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-26",
+        "price_eur": 24985
+      }
+    ]
+  },
+  {
+    "id": "QC",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2024-en-las-palmas-71831669-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Style Auto 4x4",
+    "price_eur": 24985,
+    "km": 40951,
+    "year": 2024,
+    "traction": "4x4",
+    "location": "Las Palmas de Gran Canaria — Miguel León (concesionario multimarca); mismo vehículo que QB (publicado también en Tenerife) y cross-post en milanuncios 621480927; datos de tarjeta",
+    "region": "canarias",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-26",
+        "price_eur": 24985
+      }
+    ]
+  },
+  {
+    "id": "QD",
+    "site": "wallapop.com",
+    "url": "https://es.wallapop.com/item/hyundai-tucson-phev-1-6-tgdi-265cv-style-auto-4x4-1315585186",
+    "trim": "1.6 TGDI PHEV 265CV Style Auto 4x4",
+    "price_eur": 29500,
+    "km": 60500,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Zamora — TUOKASION.ES (profesional/tienda), 265 CV, etiqueta 0, editado hace ~6 h; ficha verificada; garantía no especificada",
+    "region": "peninsula",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-26",
+        "price_eur": 29500
       }
     ]
   }

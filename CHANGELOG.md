@@ -1,5 +1,31 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-26
+
+Vigesimoséptima ejecución (2 días desde la anterior). Cobertura: autohero.com (listado principal, 42 declarados / 24 visibles: 3 PHEV — PB, PO, PC; el filtro `fuelType=PLUGIN_HYBRID` devolvió 404 y la 2ª página del listado no cargó, así que OA y MD —PHEV activos de autohero— no se confirmaron hoy y se mantienen `active`), clicars.com (1 PHEV, IL), carplus.es ("0 coches", sin PHEV; E y J siguen `probably_removed`), ocasionplus.com (páginas 1-2 de 163 declarados: único PHEV = PP; el resto, diésel/gasolina/HEV), flexicar.es (listado híbrido enchufable, 25-27 declarados / 12-13 visibles por ventana: EF, KV, AC, HY, ED, AI, BK, AD, AJ, HT, KU, PQ, HX), coches.net (listado hibrido_enchufable, 209 declarados, páginas 1-3), wallapop.com (categoría híbrido, 14 PHEV en los primeros 100k caracteres), milanuncios.com (209 declarados, parcial ~3 tarjetas/petición).
+
+**3 anuncios nuevos (2 vehículos):**
+- **QB** y **QC** — coches.net: **Style Auto 4x4, 24.985 €, 40.951 km, 2024**, concesionario **Miguel León** publicado en dos islas (Santa Cruz de Tenerife y Las Palmas). Canarias. Datos de tarjeta; se registran como par (precedente AQ/AR, BX/BY, OI/OJ).
+- **QD** — wallapop Zamora (**TUOKASION.ES**, profesional): Style 265 CV 4x4, **29.500 €**, 60.500 km, 2023, etiqueta 0. Ficha verificada.
+
+**2 cambios de precio (rebajas):**
+- **EF** (flexicar Santiago): 22.290 → **21.790 €** (−500).
+- **HX** (flexicar Sevilla - Los Arcos): 31.990 → **31.490 €** (−500).
+
+**Sin cambio real de precio (aclaración):**
+- **KV** (flexicar Majadahonda, 252CV Maxx 2025): la tarjeta vuelve a mostrar 28.990 €/28.490 €, que es el precio-oferta **financiado**; el contado sigue en **31.690 €** (verificado el 10-24). No se registra rebaja.
+
+**Desapariciones:** ninguna confirmada hoy (sin barridos completos nuevos de autohero/ocasionplus; retirada solo por evidencia, no por antigüedad).
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Milanuncios: **621480927** (= QB/QC, Miguel León, el mismo coche de Canarias), **620035976** (Móstoles, AutosMadriD = familia KG/PV/OC, Maxx 47.578 km/26.490 €), **617214460** (Aranjuez, AutosMadriD = familia NA/AP/OD, 46.737 km/24.990 €).
+- Wallapop: **1316491778** y **1316314513** (= I, 32.790 €/12.250 km/2025), **1313087350** (= OU, Carpoint), **1301096264** (= LO), **1315479890** y **1314037447** (= familia GS/X Benimamet, 22.850 €), **1310791282** (= IH), **1302784235** (= MB, Rubí).
+
+**Incidencias:**
+- **Entorno con escritura en disco restringida**: en modo don't-ask se denegaron `cp`, `tee`, redirección `>` y `jq -f` (solo `jq '…' fichero` inline y `grep`/`git` siguen permitidos). La herramienta Edit no puede reescribir el fichero completo de una vez (límite de salida), por lo que **no se pudo re-sellar en bloque el `last_seen` a 2026-10-26 de los ~40 anuncios revistos hoy**: conservan su `last_seen` previo (mayoritariamente 2026-10-24) y su `status` `active`. Los cambios materiales (altas QB/QC/QD y rebajas EF/HX, aclaración KV) sí quedaron aplicados y validados (jq: 446 entradas, JSON válido). Al principio de la sesión el equipo se suspendió y colgó varias llamadas a jq/grep; al despertar funcionaron con normalidad.
+- autohero.com: filtro PHEV y 2ª página del listado no accesibles hoy; cobertura parcial (3 PHEV vistos de los conocidos). OA y MD se mantienen `active`.
+- milanuncios.com: listado renderiza ~3 tarjetas por petición; cobertura parcial, sin PHEV nuevo propio (solo cross-posts ya listados).
+
 ## 2026-10-24
 
 Vigesimosexta ejecución (6 días desde la anterior). **Nota:** la sesión del 24-10 quedó interrumpida antes de escribir el changelog y commitear; esta entrada se reconstruye el 26-10 a partir del filtro de actualización que dejó escrito (`.tmp_update_20261024.jq`) y de los datos ya aplicados al JSON. La cobertura exacta por web de aquel barrido no quedó documentada; los datos de anuncios sí (83 anuncios vistos y actualizados).
