@@ -1,5 +1,60 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-24
+
+Vigesimosexta ejecución (6 días desde la anterior). **Nota:** la sesión del 24-10 quedó interrumpida antes de escribir el changelog y commitear; esta entrada se reconstruye el 26-10 a partir del filtro de actualización que dejó escrito (`.tmp_update_20261024.jq`) y de los datos ya aplicados al JSON. La cobertura exacta por web de aquel barrido no quedó documentada; los datos de anuncios sí (83 anuncios vistos y actualizados).
+
+**13 anuncios nuevos:**
+
+*Genuinamente nuevos (7):*
+- **PO** — autohero: Maxx 4WD, **28.599 €** contado, 44.173 km, 2024. Disponible.
+- **PP** — ocasionplus Alicante (Plaza de la Luna): Maxx 4x4, **24.890 €**, 22.171 km, 2022, único propietario, garantía de fábrica hasta 08/2027. Ficha verificada.
+- **PQ** — flexicar Quart de Poblet (Valencia): Style 4x4, **22.490 €**, 79.356 km, 2021. Ficha verificada.
+- **PR** — coches.net Madrid: 252CV AT Maxx, **29.990 €**, 19.917 km, 2025. Datos de tarjeta.
+- **PS** — coches.net Asturias: km0 **nueva generación 288CV N Line Sky 4x4**, **40.990 €**, 9.000 km, 2026. Datos de tarjeta.
+- **PT** — milanuncios Tarragona: nueva generación 288CV 4x4, **41.490 €**, 6.000 km, 2026, garantía 36 meses. Ficha verificada.
+- **PU** — wallapop Madrid (RiveroMotor, profesional): Tecno Sky 4x4, **15.990 €**, ¡212.000 km!, matriculado 12/2021, garantía 12 meses. Ficha verificada; su cross-post en milanuncios (620671832) no se añade.
+
+*Relistados y espejos (6):*
+- **PV** — coches.net Madrid: relistado de KG (mismo precio 26.490 €/47.578 km, nueva URL).
+- **PW** — coches.net Madrid: espejo/relistado de KB/LC, 23.985 €, 75.611 km (antes en Canarias a 21.985 €).
+- **PX** — coches.net Valencia: probable relistado de KD/PL (Rocal/Autoriente), 25.490 €, 79.495 km.
+- **PY** — coches.net Sevilla: espejo de OA (Autohero), 24.999 €, 74.353 km.
+- **PZ** — milanuncios Rivas-Vaciamadrid: probable relistado de BG con rebaja, 25.900 €, 104.990 km. Ficha verificada.
+- **QA** — milanuncios Las Rozas (Dimasu): relistado de OT con nueva URL, 24.490 €, 89.000 km. Ficha verificada.
+
+**19 cambios de precio (16 rebajas, 3 subidas):**
+- **AC** (flexicar): 31.990 → **29.990 €** (−2.000)
+- **OY** (coches.net): 24.490 → **22.490 €** (−2.000)
+- **IL** (clicars): 31.490 → **29.990 €** (−1.500; ficha verificada: el 27.290 € destacado es financiado) y **MV** (coches.net): 31.490 → **29.990 €** (−1.500)
+- **JL** (coches.net, espejo de IL): 30.990 → **29.990 €** (−1.000)
+- **GE** (coches.net): 23.990 → **22.990 €** (−1.000)
+- **KQ** (coches.net): 23.850 → **22.850 €** (−1.000)
+- **HW** (flexicar Olot): 25.990 → **24.990 €** (−1.000)
+- **OA** (autohero): 25.799 → **24.999 €** (−800; km actualizados a 74.353)
+- **MD** (autohero): 29.699 → **29.099 €** (−600)
+- **HY** (flexicar Tolosa): 30.490 → **29.980 €** (−510)
+- **JA** (coches.net): 18.490 → **17.990 €** (−500)
+- **ND** (coches.net): 23.990 → **23.490 €** (−500)
+- **ED** (flexicar): 22.990 → **22.490 €** (−500)
+- **AI** (flexicar): 29.990 → **29.490 €** (−500)
+- **AJ** (flexicar): 25.990 → **25.490 €** (−500)
+- **EE** (flexicar): 22.490 → **24.490 €** (**+2.000**)
+- **BK** (flexicar): 22.990 → **23.090 €** (+100)
+- **AD** (flexicar): 25.790 → **25.890 €** (+100)
+
+**Desapariciones (3):**
+- **L** (autohero, en "venta en proceso" desde hacía semanas) → `probably_removed`.
+- **FB** (flexicar Tenerife Norte, reservado) → `probably_removed`.
+- **PD** (flexicar Arval Valencia) → `probably_removed`.
+
+**Estado / otros cambios:**
+- Km actualizados: AK → 84.000, PB → 60.991, PC → 79.985, OA → 74.353.
+- 83 anuncios reaparecen y actualizan last_seen (autohero, flexicar, wallapop, ocasionplus, clicars y parte de coches.net/milanuncios).
+
+**Incidencias:**
+- La sesión se interrumpió (equipo suspendido) tras aplicar las actualizaciones de precios/last_seen y antes de añadir las 13 entradas nuevas, el changelog y el commit; completado todo el 26-10 con los datos que dejó registrados.
+
 ## 2026-10-18
 
 Vigesimoquinta ejecución (4 días desde la anterior). Cobertura: coches.net (194 declarados; páginas 1-5 con 8 tarjetas/página = 29 únicos, páginas 6-7 bloqueadas por anti-bot; fichas no abiertas, solo datos de tarjeta), autohero.com (cobertura total vía filtro `gearType=AUTOMATIC_GEAR&yearMin=2021`: 19/19 resultados, 5 PHEV), ocasionplus.com (barrido completo de las 9 páginas/164 tarjetas: solo los 4 PHEV conocidos; fichas de K y LB verificadas), carplus.es (sigue en "0 coches", sin PHEV), flexicar.es (enumeración completa 28/28 vía particiones por año; contador coincide), clicars.com (1 PHEV, ficha IL verificada), wallapop.com (listado completo de 137k caracteres: 17 PHEV en tarjetas + verificación una a una de las 12 fichas ausentes), milanuncios.com (muy parcial: el listado declara ahora 197 anuncios —antes 55— pero solo renderiza ~3 por vista; ~20 anuncios vistos en 7 vistas rotando orden/página/filtro, sin llegar al bloqueo DataDome).
