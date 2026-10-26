@@ -2,6 +2,33 @@
 
 ## 2026-10-26
 
+### Segunda pasada del día (tarde)
+
+Barrido completo de las 8 webs. Cobertura: autohero.com (listado `auto/hyundai-tucson` OK esta vez: 48 coches, 5 PHEV = PB, PC, OA, MD, PO — todos confirmados y re-sellados, incl. OA y MD que por la mañana no se pudieron verificar; el filtro `search/...` sigue dando 404), clicars.com (2 PHEV), carplus.es (0 coches), ocasionplus.com (pág. 1: único PHEV = PP), flexicar.es (24 declarados / 12 visibles, todos conocidos), coches.net (pág. 1 de 210 declarados), wallapop.com (14 PHEV, todos conocidos), milanuncios.com (parcial, ~3 tarjetas por vista en 2 vistas).
+
+**3 anuncios nuevos (3 vehículos, 2 genuinos + 1 espejo):**
+- **QE** — clicars.com: **Style AT 4x4, 23.490 € contado** (el 21.390 € destacado es financiado), 82.518 km, 2022, 265 CV, garantía 1 año, 4 ruedas nuevas. Ficha verificada. Novedad genuina: por la mañana clicars solo tenía IL.
+- **QF** — coches.net Sevilla: espejo de **PO** (Autohero Sevilla) en coches.net, 28.599 €, 44.173 km, 2024 (precedente PY/OA). Ficha verificada.
+- **QG** — coches.net Málaga: **Klass 252CV km0/gerencia, 33.900 €**, 10 km, 2025, VALENZA EXCLUSIVE AUTOS, garantía 4 años, publicado 19/10. Ficha verificada.
+
+**1 cambio de precio (rebaja):**
+- **PC** (autohero, Style 4WD 79.985 km): 28.999 → **28.499 €** (−500; financiado 25.908 €).
+
+**Aclaraciones (sin cambio de precio):**
+- **IL** (clicars): la tarjeta muestra 27.290 € como "contado", pero la ficha confirma que es el precio FINANCIADO; el contado sigue en **29.990 €**.
+- **KV** (flexicar Majadahonda): tarjeta 28.990/28.490 € financiado; contado sigue 31.690 €.
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Milanuncios **620189845** (MUYCAR Leganés, Tecno 2024, 93.912 km, 26.490 €) = **MG** (coches.net, datos idénticos).
+- Milanuncios **596464300**, **596410867** y **596463965** (Red CSV Motor: Móstoles, Bormujos y Terrassa, Style 2022, 64.200 km, 25.950 €) = mismo coche físico en Arroyomolinos, familia **MA/FT/CH**.
+- Wallapop: solo cross-posts ya documentados por la mañana (= I, OU, MB, LO, IH, GS/X, PU, QD); ninguno nuevo.
+
+**Desapariciones:** ninguna confirmada.
+
+**Incidencias:** autohero `search/hyundai/tucson/?...` → 404 (el listado alternativo funcionó). Milanuncios sigue renderizando ~3 tarjetas por petición (cobertura parcial). Persisten las restricciones de escritura por Bash; los cambios se aplicaron con Edits puntuales (JSON validado: 449 entradas, 408 activas).
+
+### Primera pasada (mañana)
+
 Vigesimoséptima ejecución (2 días desde la anterior). Cobertura: autohero.com (listado principal, 42 declarados / 24 visibles: 3 PHEV — PB, PO, PC; el filtro `fuelType=PLUGIN_HYBRID` devolvió 404 y la 2ª página del listado no cargó, así que OA y MD —PHEV activos de autohero— no se confirmaron hoy y se mantienen `active`), clicars.com (1 PHEV, IL), carplus.es ("0 coches", sin PHEV; E y J siguen `probably_removed`), ocasionplus.com (páginas 1-2 de 163 declarados: único PHEV = PP; el resto, diésel/gasolina/HEV), flexicar.es (listado híbrido enchufable, 25-27 declarados / 12-13 visibles por ventana: EF, KV, AC, HY, ED, AI, BK, AD, AJ, HT, KU, PQ, HX), coches.net (listado hibrido_enchufable, 209 declarados, páginas 1-3), wallapop.com (categoría híbrido, 14 PHEV en los primeros 100k caracteres), milanuncios.com (209 declarados, parcial ~3 tarjetas/petición).
 
 **3 anuncios nuevos (2 vehículos):**

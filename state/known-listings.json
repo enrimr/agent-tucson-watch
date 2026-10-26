@@ -8000,7 +8000,7 @@
     "location": "no especificado (venta online Autohero) — único propietario, garantía 12 meses, ITV hasta 12/2027, matriculado 14/12/2023; espejo MT en coches.net desde 2026-10-07",
     "region": "peninsula",
     "first_seen": "2026-10-02",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-26",
     "status": "active",
     "price_history": [
       {
@@ -9044,7 +9044,7 @@
     "location": "no especificado (Autohero no entrega en Canarias) — matriculado 19/10/2021, ITV hasta 19/10/2027, garantía 12 meses; espejo PY en coches.net (Sevilla) y cross-posts en milanuncios (619719137, 620491693) desde 2026-10-24",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-26",
     "status": "active",
     "price_history": [
       {
@@ -9640,7 +9640,7 @@
     "location": "no especificado (venta online Autohero) — disponible desde 2026-10-24 (dejó de estar 'Próximamente')",
     "region": "peninsula",
     "first_seen": "2026-10-18",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-26",
     "status": "active",
     "price_history": [
       {
@@ -9654,19 +9654,23 @@
     "site": "autohero.com",
     "url": "https://www.autohero.com/es/hyundai-tucson/id/16bf136b-5356-445f-86d1-5bdd64e3ea6c/",
     "trim": "1.6 T-GDI Plug-in Hybrid Style 4WD",
-    "price_eur": 28999,
+    "price_eur": 28499,
     "km": 79985,
     "year": 2022,
     "traction": "4x4",
-    "location": "no especificado (venta online Autohero) — disponible desde 2026-10-24 (dejó de estar 'Próximamente'); financiado 26.363 €",
+    "location": "no especificado (venta online Autohero) — disponible desde 2026-10-24 (dejó de estar 'Próximamente'); financiado 25.908 €",
     "region": "peninsula",
     "first_seen": "2026-10-18",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-26",
     "status": "active",
     "price_history": [
       {
         "date": "2026-10-18",
         "price_eur": 28999
+      },
+      {
+        "date": "2026-10-26",
+        "price_eur": 28499
       }
     ]
   },
@@ -9913,7 +9917,7 @@
     "location": "no especificado (Autohero, entrega a domicilio); disponible, cambio automático",
     "region": "peninsula",
     "first_seen": "2026-10-24",
-    "last_seen": "2026-10-24",
+    "last_seen": "2026-10-26",
     "status": "active",
     "price_history": [
       {
@@ -10234,6 +10238,69 @@
       {
         "date": "2026-10-26",
         "price_eur": 29500
+      }
+    ]
+  },
+  {
+    "id": "QE",
+    "site": "clicars.com",
+    "url": "https://www.clicars.com/coches-segunda-mano-ocasion/comprar-hyundai-tucson-tucson-1-6-tgdi-phev-style-at-180-suv-y-4x4-automatico-2022-144722",
+    "trim": "1.6 TGDI PHEV Style AT 4x4",
+    "price_eur": 23490,
+    "km": 82518,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "no especificado (red Clicars: entrega a domicilio o recogida en centros) — matriculado 08/03/2022, 265 CV, garantía 1 año, batería salud 100%, 4 ruedas nuevas; el 21.390 € destacado es FINANCIADO, contado 23.490 € (+490 € transferencia/preparación); ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-26",
+        "price_eur": 23490
+      }
+    ]
+  },
+  {
+    "id": "QF",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-maxx-5p-electrico-hibrido-2025-en-sevilla-71819351-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Maxx",
+    "price_eur": 28599,
+    "km": 44173,
+    "year": 2024,
+    "traction": "4x4",
+    "location": "Sevilla — Autohero Sevilla; espejo de PO en coches.net (mismo precio 28.599 € y km 44.173), garantía 12 meses ampliable a 36; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-26",
+        "price_eur": 28599
+      }
+    ]
+  },
+  {
+    "id": "QG",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16t-185kw-252cv-phev-at-klass-5p-electrico-hibrido-2025-en-malaga-71785276-covo.aspx",
+    "trim": "1.6T 185kW (252CV) PHEV AT Klass",
+    "price_eur": 33900,
+    "km": 10,
+    "year": 2025,
+    "traction": "no especificado",
+    "location": "Málaga — VALENZA EXCLUSIVE AUTOS MALAGA (profesional, val. 4,7), perfil km0/gerencia (10 km), garantía 4 años, etiqueta CERO, publicado 19/10; financiado 32.900 €; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-10-26",
+    "last_seen": "2026-10-26",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-10-26",
+        "price_eur": 33900
       }
     ]
   }
