@@ -1,5 +1,26 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-29 (2ª pasada)
+
+Pasada vespertina del mismo día. Cobertura: autohero.com (COMPLETA: 21 resultados / 7 PHEV, todos conocidos), flexicar.es (listado: 24 declarados = 24 activos conocidos, 11 tarjetas visibles todas conocidas), ocasionplus.com (pág. 1 de 159 sin PHEV visibles; fichas de los 5 conocidos verificadas una a una), clicars.com (2 PHEV, fichas verificadas), carplus.es ("0 coches", sin stock PHEV), coches.net (págs. 1-5 cargaron, ~207 declarados; págs. 6-7 bloqueadas por anti-bot → cobertura parcial), wallapop.com (categoría completa en 2 lecturas, 17 PHEV), milanuncios.com (parcial: 2 vistas, solo ~6 tarjetas destacadas).
+
+**8 anuncios nuevos (2 genuinos + 6 relists/espejos):**
+- **RB** — coches.net Las Palmas (Canarias): **Maxx Safe Auto 4x4 2023, 23.990 €**, 28.000 km, Gestican Automóviles, garantía 12 meses, publicado hoy 16:10. Ficha verificada.
+- **RC** — coches.net Coslada (Madrid): **Style Auto 4x4 2022, 29.990 €** (financiado 28.990 €), 58.697 km, Almoauto Motor Hyundai (oficial), H Promise + garantía 60 meses, publicado 20/10. Ficha verificada.
+- Relists/espejos: **RD** (relist de KH/O, Madrid Style 2021 95.500 km/26.900 €), **RE** (relist de JR, Autos Madrid Leganés 82.792 km/24.490 €), **RF** (espejo en coches.net de OB, Flexicar/Autosmadrid SS de los Reyes 76.649 km/24.990 €), **RG** (espejo en coches.net de OS, Carza Zaragoza 288CV 2026 257 km, aquí a 46.260 € vs 46.740 € en milanuncios), **RH** (espejo en coches.net de PU, RiveroMotor 212.000 km/15.990 €), **RI** (relist en milanuncios de U, QualiAuto Las Palmas 58.000 km/23.990 €, publicado hoy 18:51).
+
+**1 cambio de precio:** **IN** (coches.net Alicante, particular): 26.900 → **25.900 €** (−1.000; la web marca −7% desde 27.900 €).
+
+**1 desaparición:** **F** (ocasionplus Canarias, Tecno Sky 2021 49.946 km, 25.000 €, de la línea base de agosto) → ficha 404 → probably_removed.
+
+**Reservados / venta en proceso (siguen active):** **OA** (autohero) pasa a "Venta en proceso" sin precio en tarjeta; **QE** (clicars) sigue marcado "Reservado" en el listado.
+
+**Falsas rebajas descartadas (ficha verificada):** flexicar EE (Palma) sigue a 24.290 € contado y KV (Majadahonda) a 31.490 € — los "22.490→21.990" y "28.990→28.490" de las tarjetas son ofertas del financiado; clicars IL sigue a 29.990 € contado (el 27.290 € es financiado).
+
+**Cross-posts detectados y NO añadidos (regla 3b):** Wallapop **1318470788** (= JR/RE, Leganés 82.792 km, a 21.490 €, 3.000 € menos que en coches.net), **1299630366** (= IN, particular de Elche a 26.900 €), **1316491778** y **1316314513** (= I), **1313087350** (= OU), **1314037447** (= X), **1315479890** (= familia GS), **1318058779** (= JY/DG), **1310791282** (= IH); Milanuncios **603402324** (= CC), **620706088** (= PX, Forzauto Xàtiva), **620035976** (= familia KG/PV/OC), **617214460** (= familia NA/AP/OD).
+
+**Incidencias:** coches.net bloqueó las págs. 6-7 con anti-bot (por la mañana cargaron las 8; cobertura vespertina parcial). Milanuncios solo renderizó tarjetas destacadas (~6). Carplus sigue sin renderizar stock. El equipo se suspendió a mitad de pasada (varios comandos fueron a background). El re-sellado masivo de last_seen se omitió de nuevo; solo se actualizó en las entradas tocadas o verificadas ficha a ficha (ocasionplus, clicars, autohero PC/PO/OA). JSON validado: 477 entradas, 432 activas.
+
 ## 2026-10-29
 
 Vigesimoctava ejecución (3 días desde la anterior; el barrido comenzó el 27-10 y se completó el 29-10 por suspensiones del equipo a mitad de sesión). Cobertura: autohero.com (COMPLETA vía filtro `auto/automatico/?brand0=hyundai&models0=Tucson`, 21 resultados / 7 PHEV: los 5 conocidos + 2 nuevos; además páginas por año 2021/2022), flexicar.es (COMPLETA: 12 tarjetas del listado + ficha a ficha de los otros 15 conocidos; 24 declarados = 24 confirmados), ocasionplus.com (pág. 1 de 165: único PHEV = PP; fichas de F, K, LA, LB verificadas una a una, todas activas), clicars.com (2 PHEV, fichas verificadas), carplus.es ("0 coches", JS no carga; E y J siguen probably_removed), coches.net (COMPLETA: las 8 páginas del filtro hibrido_enchufable cargaron, ~211 declarados / 62 tarjetas vistas), wallapop.com (categoría completa, 18 PHEV), milanuncios.com (parcial: 6 vistas × ~3 tarjetas con rotación de orden/página).
