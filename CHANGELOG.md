@@ -1,5 +1,42 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-29
+
+Vigesimoctava ejecución (3 días desde la anterior; el barrido comenzó el 27-10 y se completó el 29-10 por suspensiones del equipo a mitad de sesión). Cobertura: autohero.com (COMPLETA vía filtro `auto/automatico/?brand0=hyundai&models0=Tucson`, 21 resultados / 7 PHEV: los 5 conocidos + 2 nuevos; además páginas por año 2021/2022), flexicar.es (COMPLETA: 12 tarjetas del listado + ficha a ficha de los otros 15 conocidos; 24 declarados = 24 confirmados), ocasionplus.com (pág. 1 de 165: único PHEV = PP; fichas de F, K, LA, LB verificadas una a una, todas activas), clicars.com (2 PHEV, fichas verificadas), carplus.es ("0 coches", JS no carga; E y J siguen probably_removed), coches.net (COMPLETA: las 8 páginas del filtro hibrido_enchufable cargaron, ~211 declarados / 62 tarjetas vistas), wallapop.com (categoría completa, 18 PHEV), milanuncios.com (parcial: 6 vistas × ~3 tarjetas con rotación de orden/página).
+
+**20 anuncios nuevos (10 genuinos + 10 relists/espejos):**
+- **QH** — autohero: **Tecno Sky 4WD 2022, 26.499 € contado**, 77.508 km, único propietario, "Próximamente". Ficha verificada.
+- **QI** — autohero: **Maxx 4WD 2022, 25.299 € contado**, 91.870 km, "Próximamente". Ficha verificada.
+- **QJ** — coches.net Madrid: 252CV Tecno Sky 4x4 2026, **35.490 €**, 10.962 km.
+- **QK** — coches.net Madrid: **288CV N Line Sky 2026, 38.690 €**, 9.617 km (mismo vendedor que QJ probablemente).
+- **QL** — coches.net Sta. C. Tenerife (Canarias): Tecno Sky 4x4 2021, **23.000 €**, 96.000 km.
+- **QM** — coches.net Navarra: Maxx Safe 2021, **25.990 €**, 66.000 km (posible relación con GI, sin confirmar).
+- **QX** — wallapop Valladolid: Maxx Safe 2023, **24.900 €**, 88.854 km.
+- **QY** — wallapop Lleida: **N Line Style 252CV 2024, 40.900 €**, 28.146 km.
+- **QZ** — milanuncios Arroyomolinos (prof. Los Combos): Style 2021, **24.900 €**, 97.900 km.
+- **RA** — milanuncios Las Palmas (Canarias): **252CV 20 Aniversario 2025, 38.900 €**, 7.600 km.
+- Relists/espejos (regla de concesionario-espejo, precedente QF): **QN** (relist de ID en Pontevedra con rebaja a 25.500 €; también cross-post en milanuncios 619473841), **QO** (espejo de PM, Las Palmas), **QP** (espejo de OR, Girona), **QQ** (relist de MI / espejo de FV), **QR** (espejo de OA / relist de PY), **QS** (espejo de ED / relist de DL), **QT** (relist de HJ), **QU** (espejo de QA/OT), **QV** (espejo de PZ), **QW** (relist de LU).
+
+**9 cambios de precio (todas rebajas, contado verificado en ficha donde aplica):**
+- **OL** (coches.net Zaragoza, HR Motor): 26.690 → **24.890 €** (−1.800).
+- **MD** (autohero Tecno Sky 2023): 29.099 → **28.499 €** (−600) y su espejo **MT** (coches.net): 30.299 → **28.499 €** (−1.800).
+- **MY** (coches.net Valladolid, particular): 22.500 → **21.000 €** (−1.500).
+- **GB** (coches.net Valencia, espejo de K): 21.450 → **20.250 €** (−1.200; iguala el contado de K).
+- **NM** (wallapop Elche): 27.900 → **26.900 €** (−1.000; iguala a IN).
+- **PB** (autohero Style 2022): 27.999 → **27.499 €** (−500).
+- **EE** (flexicar Palma): 24.490 → **24.290 €** (−200, ficha verificada).
+- **KV** (flexicar Majadahonda): 31.690 → **31.490 €** (−200 de contado real, ficha verificada; la tarjeta sigue mostrando el financiado 28.490 €).
+
+**3 desapariciones (ficha 404, flexicar):** **BJ** (Aravaca, estaba reservado), **KX** (Vic, estaba reservado), **OF** (Arval Loeches, estaba reservado) → probably_removed. Cuadra con el total del listado: 24 declarados = 27 conocidos − 3 retirados; sin altas propias en flexicar.
+
+**Reservados (siguen publicados, se mantienen active):** QE (clicars), HW (flexicar Olot), OG (flexicar Arval Loeches).
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Milanuncios: **621837934** (= HC, Leganés 43.287 km/31.800 €), **621808333** (= IJ, 31.291 km), **618660914** (= HD, Griñón 198.710 km), **598255174** (= JA, 149.456 km), **612057676** (= HY flexicar Tolosa), **621520140** (= KU flexicar Zaragoza), **620671832** (= PU wallapop), **618656942** (= OM/AW/LE, Utrera), **619949466** (= PM, 2º anuncio del mismo vendedor), **619473841** (= ID/QN, Ponteareas), **618817932** (= DY, Arganda), **621787799** (= KH, Arroyomolinos 95.500 km/26.900 €).
+- Wallapop: **1316491778** y **1316314513** (= I), **1313087350** (= OU), **1301096264** y **1301009644** (= LO, Valencia 69.000 km/27.500 €), **1310791282** (= IH, ya documentado el 26-10), **1314037447** (relist del propio X de CSV Motor con nuevo item-id, mismos 91.508 km/22.850 €; no se duplica), **1318058779** (León 42.000 km/26.500 € — muy probable mismo coche que JY/DG, 42.000 km exactos, precio rebajado; no añadido por prudencia).
+
+**Incidencias:** el equipo se suspendió varias veces (los datos se recogieron entre el 27 y el 29-10; fechas registradas como 2026-10-29). Carplus sigue sin renderizar stock sin JS. OcasionPlus solo sirve la pág. 1 (~20 tarjetas) — cobertura de altas parcial, pero sus 5 PHEV conocidos se verificaron ficha a ficha. Milanuncios sigue limitado a ~3 tarjetas/vista. Persisten las restricciones de escritura por Bash: cambios aplicados con Edits puntuales; el re-sellado masivo de last_seen de anuncios sin cambios se omitió de nuevo (conservan last_seen previo). JSON validado: 469 entradas, 425 activas.
+
 ## 2026-10-26
 
 ### Segunda pasada del día (tarde)
