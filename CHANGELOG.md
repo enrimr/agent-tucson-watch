@@ -1,5 +1,38 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-10-30
+
+Vigesimonovena ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 22 resultados / 7 PHEV, todos conocidos; QH y QI ya disponibles sin "Próximamente"; OA sigue "Venta en proceso"), flexicar.es (24 declarados = 24 activos conocidos; 12 tarjetas visibles, todas conocidas), ocasionplus.com (págs. 1-2 de 159: único PHEV = PP; fichas de K, LA, LB, PP verificadas una a una), clicars.com (1 PHEV: IL verificado a 29.990 € contado), carplus.es ("0 coches"), coches.net (págs. 1-5 de 7 cargaron, 206 declarados; págs. 6-7 bloqueadas por anti-bot → cobertura parcial), wallapop.com (categoría completa en 2 lecturas, 17 PHEV, ninguno nuevo), milanuncios.com (205 declarados, parcial: 5 vistas, ~9 tarjetas únicas).
+
+**7 anuncios nuevos (0 genuinos — todos relists/espejos de coches ya monitorizados):**
+- **RJ** — coches.net Teo (A Coruña): relist de **IB** (MinoAutos, Maxx Safe 2022, 135.000 km, 19.890 €) con nueva URL, publicado 27/10. Ficha verificada.
+- **RK** — coches.net Sta. C. Tenerife: espejo de **PM/QO** (Gestican, Maxx 2024, 54.000 km, 23.990 €) — tercer canal del mismo coche. Ficha verificada.
+- **RL** — coches.net Sta. C. Tenerife: pareja de **RB** (Gestican, Maxx Safe 2023, 28.000 km, 23.990 €) publicada en dos islas (precedente QB/QC).
+- **RM** — coches.net Madrid: espejo de **QZ** (milanuncios Los Combos, Style 2021, 97.900 km, 24.900 €).
+- **RN** — coches.net Madrid: espejo de **PB** (autohero, Style 2022, 60.991 km, 27.499 €).
+- **RO** — coches.net Barcelona: segundo espejo de **MD** (autohero, Tecno Sky 2023, 32.929 km, 28.499 €), además de MT.
+- **RP** — coches.net Zamora: espejo de **QD** (wallapop TuOkasion, Style 2023, 29.500 €; km actualizados a 63.500), publicado 27/10. Ficha verificada.
+
+**9 cambios de precio (8 rebajas + 1 corrección):**
+- **HZ** (coches.net Gipuzkoa, Oarso Car, Klass demo 2025): 34.900 → **32.990 €** (−1.910; confirmado también en su cross-post de milanuncios).
+- **IA** (coches.net Terrassa, CSV Motor, Maxx 2021): 23.850 → **21.950 €** (−1.900; la web marca −8%).
+- **PC** (autohero Style 2022, 79.985 km): 28.499 → **27.999 €** (−500).
+- **AK** (flexicar Sitges, Maxx 2021): 22.990 → **22.490 €** (−500, contado verificado en ficha; el 19.990 € de la tarjeta es oferta financiada).
+- **QQ** (coches.net Madrid, Cetin/Gestión Directa, Tecno Sky 2021): 23.490 → **22.990 €** (−500).
+- **ML** (coches.net, espejo de AI Flexicar Martorell): 29.990 → **29.490 €** (−500; iguala el contado de AI).
+- **PO** (autohero Maxx 2024, 44.173 km): 28.599 → **28.299 €** (−300).
+- **IC** (coches.net Bormujos, CSV Motor, Maxx 2024, 100.840 km): 23.850 → **23.650 €** (−200).
+- **KU** (flexicar Zaragoza, 252CV 2025): 36.980 → **36.990 €** (+10 — corrección: la ficha declara contado 36.990 €; la lectura anterior fue imprecisa).
+
+**1 desaparición:** **QE** (clicars, Style AT 2022, 82.518 km, 23.490 €; estaba "Reservado" desde el 29-10) → la ficha dice "ya no está disponible": vendido → probably_removed.
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Milanuncios: **613419571** (= HZ, Oarso Car Gipuzkoa), **621206784** (= QQ, Cetin SS de los Reyes), **620565559** (= QG, Valenza Málaga), **603402324** (= CC), **620706088** (= PX, Forzauto), **617214460** (= NA/familia AP/OD), **620548653** (= PZ) y **620563186** (= QA) — estos dos últimos son los propios anuncios ya registrados.
+- Milanuncios **621697202** (Control Motor, Hyundai oficial Lleida: Maxx 2022, 80.000 km, 23.900 €, publicado 27/10): coincide dentro de umbrales (±100 €, ±500 km) con **HO/OV** (Barcelona, 80.168 km, 23.990 €) — no añadido por prudencia; vigilar si HO/OV desaparece.
+- Wallapop: **1310764119** (= NR, Carcaixent 18.000 km/29.600 €, nuevo cross-post detectado), más los ya documentados (1318470788 = JR/RE a 21.490 €, 1299630366 = IN, 1316491778 y 1316314513 = I, 1313087350 = OU, 1302784235 = MB, 1314037447 = X, 1315479890 = familia GS ahora a 21.500 €, 1318058779 = JY/DG, 1310791282 = IH).
+
+**Incidencias:** coches.net bloqueó las págs. 6-7 con anti-bot (cobertura parcial, ~40 tarjetas de 206). Milanuncios sigue renderizando solo ~3 tarjetas destacadas por vista. Carplus sigue sin renderizar stock. El equipo se suspendió varias veces (jq/grep a background). El re-sellado masivo de last_seen se omitió de nuevo; solo se actualizó en entradas tocadas o verificadas ficha a ficha (ocasionplus, clicars, autohero, flexicar AK/KU). JSON validado: 484 entradas, 438 activas.
+
 ## 2026-10-29 (2ª pasada)
 
 Pasada vespertina del mismo día. Cobertura: autohero.com (COMPLETA: 21 resultados / 7 PHEV, todos conocidos), flexicar.es (listado: 24 declarados = 24 activos conocidos, 11 tarjetas visibles todas conocidas), ocasionplus.com (pág. 1 de 159 sin PHEV visibles; fichas de los 5 conocidos verificadas una a una), clicars.com (2 PHEV, fichas verificadas), carplus.es ("0 coches", sin stock PHEV), coches.net (págs. 1-5 cargaron, ~207 declarados; págs. 6-7 bloqueadas por anti-bot → cobertura parcial), wallapop.com (categoría completa en 2 lecturas, 17 PHEV), milanuncios.com (parcial: 2 vistas, solo ~6 tarjetas destacadas).
