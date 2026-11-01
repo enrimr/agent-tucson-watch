@@ -266,10 +266,10 @@
     "km": 108420,
     "year": 2022,
     "traction": "4x4",
-    "location": "Valencia - Gandía",
+    "location": "Valencia - Gandía — ficha marca 'ESTE COCHE ESTÁ RESERVADO' desde 2026-11-01",
     "region": "peninsula",
     "first_seen": "2026-08-06",
-    "last_seen": "2026-10-30",
+    "last_seen": "2026-11-01",
     "status": "active",
     "price_history": [
       {
@@ -5813,10 +5813,10 @@
     "km": 30742,
     "year": 2024,
     "traction": "4x4",
-    "location": "Red Clicars (Madrid/Alicante/Córdoba/Málaga/Murcia/Valencia/Zaragoza) — ficha reverificada 2026-10-30: contado sigue en 29.990 € con 1 año de garantía (el 27.290 € mostrado es financiado al 100%; +490 € transferencia; descuento -7.500 € vigente hasta 04/11/2026)",
+    "location": "Red Clicars (Madrid/Alicante/Córdoba/Málaga/Murcia/Valencia/Zaragoza) — ficha reverificada 2026-11-01: contado sigue en 29.990 € con 1 año de garantía (el 27.290 € mostrado es financiado al 100%; +490 € transferencia; descuento -7.500 € vigente hasta 04/11/2026)",
     "region": "peninsula",
     "first_seen": "2026-09-13",
-    "last_seen": "2026-10-30",
+    "last_seen": "2026-11-01",
     "status": "active",
     "price_history": [
       {
@@ -7399,7 +7399,7 @@
     "location": "Barcelona - OcasionPlus Maquinista",
     "region": "peninsula",
     "first_seen": "2026-09-30",
-    "last_seen": "2026-10-30",
+    "last_seen": "2026-11-01",
     "status": "active",
     "price_history": [
       {
@@ -7425,10 +7425,10 @@
     "km": 101354,
     "year": 2023,
     "traction": "4x4",
-    "location": "Madrid - OcasionPlus Alcobendas (antes Móstoles; reaparición de EY con URL nueva) — ficha reverificada 2026-10-30: contado 26.190 € (el 27.790 € de la tarjeta es el precio 'anterior' tachado)",
+    "location": "Madrid - OcasionPlus Alcobendas (antes Móstoles; reaparición de EY con URL nueva) — ficha reverificada 2026-11-01: contado 26.190 € (el 27.790 € de la tarjeta es el precio 'anterior' tachado)",
     "region": "peninsula",
     "first_seen": "2026-09-30",
-    "last_seen": "2026-10-30",
+    "last_seen": "2026-11-01",
     "status": "active",
     "price_history": [
       {
@@ -9030,19 +9030,23 @@
     "site": "coches.net",
     "url": "https://www.coches.net/hyundai-tucson-16t-252cv-phev-4x4-at-n-line-style-lld-5p-electrico-hibrido-2025-en-madrid-71713729-covo.aspx",
     "trim": "1.6T 252CV PHEV 4x4 AT N Line Style Ll.D",
-    "price_eur": 38490,
+    "price_eur": 37490,
     "km": 23920,
     "year": 2024,
     "traction": "4x4",
     "location": "Madrid (zona Alcobendas) — second cars luxury (profesional), garantía 12 meses, blanco, publicado 09/10; dueños no especificado (remite a CARFAX)",
     "region": "peninsula",
     "first_seen": "2026-10-12",
-    "last_seen": "2026-10-12",
+    "last_seen": "2026-11-01",
     "status": "active",
     "price_history": [
       {
         "date": "2026-10-12",
         "price_eur": 38490
+      },
+      {
+        "date": "2026-11-01",
+        "price_eur": 37490
       }
     ]
   },
@@ -10010,7 +10014,7 @@
     "location": "Alicante (OcasionPlus Plaza de la Luna) — único propietario, libro de revisiones, garantía de fábrica hasta 08/2027, 265 CV, etiqueta 0; ficha verificada",
     "region": "peninsula",
     "first_seen": "2026-10-24",
-    "last_seen": "2026-10-30",
+    "last_seen": "2026-11-01",
     "status": "active",
     "price_history": [
       {
@@ -11112,6 +11116,216 @@
       {
         "date": "2026-10-30",
         "price_eur": 29500
+      }
+    ]
+  },
+  {
+    "id": "RQ",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2021-en-madrid-71807439-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Style Auto 4x4",
+    "price_eur": 25900,
+    "km": 76300,
+    "year": 2021,
+    "traction": "4x4",
+    "location": "Arroyomolinos (Madrid) — Auto Sport Moraleja; relist de AO (mismos 76.300 km, antes 26.900 €, ahora 25.900 €), único propietario, garantía 12 meses, última revisión oficial 19/05/2025 a 62.678 km, publicado 22/10 10:08; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 25900
+      }
+    ]
+  },
+  {
+    "id": "RR",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2023-en-sta-c-tenerife-71865541-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Maxx Auto 4x4",
+    "price_eur": 23990,
+    "km": 58000,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Santa Cruz de Tenerife — QualiAuto; nuevo espejo/relist de la familia T/U/IW/IX/RI (mismos 58.000 km y 23.990 €; esta ficha declara año 2022), garantía oficial 12 meses, IGIC incluido (+21% IVA para península), publicado 29/10 18:51; ficha verificada",
+    "region": "canarias",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 23990
+      }
+    ]
+  },
+  {
+    "id": "RS",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2023-en-valencia-71537957-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Tecno Sky Auto 4x4",
+    "price_eur": 26900,
+    "km": 84900,
+    "year": 2023,
+    "traction": "4x4",
+    "location": "Valencia (Pol. Ind. Sector 13) — Leadercar; relist de CM (mismos 84.900 km, antes 27.490 €, ahora 26.900 €; descripción menciona 87.300 km), único propietario, garantía 12 meses ampliable a 24, azul, publicado 17/09 15:23; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 26900
+      }
+    ]
+  },
+  {
+    "id": "RT",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2023-en-madrid-71768456-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Tecno Sky Auto 4x4",
+    "price_eur": 26390,
+    "km": 93912,
+    "year": 2024,
+    "traction": "4x4",
+    "location": "Leganés (Madrid) — Muy Car Madrid; relist de MG (mismos 93.912 km, antes 26.490 €, ahora 26.390 €; financiado 22.990 €), IVA deducible, garantía 12 meses, rojo, publicado 17/10 08:08; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 26390
+      }
+    ]
+  },
+  {
+    "id": "RU",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-tecno-sky-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71855475-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Tecno Sky Auto 4x4",
+    "price_eur": 26499,
+    "km": 77511,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Madrid — Autohero Center Madrid; espejo en coches.net de QH (autohero, mismos 77.511 km y 26.499 € contado), garantía 12 meses ampliable a 36, publicado 28/10 16:52; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 26499
+      }
+    ]
+  },
+  {
+    "id": "RV",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2022-en-barcelona-71793851-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Style Auto 4x4",
+    "price_eur": 27499,
+    "km": 60991,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Sant Boi de Llobregat (Barcelona) — Autohero Barcelona; segundo espejo en coches.net de PB (autohero, mismos 60.991 km y 27.499 € contado), además de RN (Madrid); garantía 12 meses ampliable a 36, publicado 20/10 17:17; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 27499
+      }
+    ]
+  },
+  {
+    "id": "RW",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-style-auto-4x4-5p-electrico-hibrido-2022-en-madrid-71510264-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Style Auto 4x4",
+    "price_eur": 18750,
+    "km": 136242,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Madrid (Valdefuentes/Arroyomolinos; el coche está en la tienda de Terrassa) — CSV Motor; espejo/relist de la familia CZ/FN/LX/OP (mismos 136.242 km, aquí a 18.750 €, −10% desde 20.850 €, oferta hasta 09/11), blanco, garantía declarada contradictoria (36/12/4 meses), publicado 14/09 14:15; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 18750
+      }
+    ]
+  },
+  {
+    "id": "RX",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2022-en-las-palmas-71871922-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Maxx Auto 4x4",
+    "price_eur": 19985,
+    "km": 78301,
+    "year": 2022,
+    "traction": "4x4",
+    "location": "Las Palmas de Gran Canaria (C/ Alfredo Martín Reyes 7) — Miguel León; financiado 18.985 €, garantía 12 meses, blanco, envío gratis entre islas, dueños no especificado, publicado 30/10 14:56; km (78.301) a solo 14 km del antiguo AE de Flexicar Tarragona (probably_removed), posible mismo coche trasladado, sin confirmar; ficha verificada",
+    "region": "canarias",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 19985
+      }
+    ]
+  },
+  {
+    "id": "RY",
+    "site": "coches.net",
+    "url": "https://www.coches.net/hyundai-tucson-16-tgdi-phev-195kw-maxx-auto-4x4-5p-electrico-hibrido-2021-en-madrid-71714836-covo.aspx",
+    "trim": "1.6 TGDI PHEV 195kW Maxx Auto 4x4",
+    "price_eur": 20990,
+    "km": 93320,
+    "year": 2021,
+    "traction": "4x4",
+    "location": "Madrid (Leganés/Alcorcón) — Carhay; relist de CW/FY (mismos 93.320 km, antes 21.690 €, ahora 20.990 €) y pareja del cross-post OH en milanuncios (23.390 €, mismo vendedor), garantía 36 meses, rojo, publicado 09/10 16:50; ficha verificada",
+    "region": "peninsula",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 20990
+      }
+    ]
+  },
+  {
+    "id": "RZ",
+    "site": "milanuncios.com",
+    "url": "https://www.milanuncios.com/hyundai-de-segunda-mano/hyundai-tucson-1-6-tgdi-phev-195kw-style-620914251.htm",
+    "trim": "1.6 TGDI PHEV 195kW Style",
+    "price_eur": 23985,
+    "km": 36173,
+    "year": 2021,
+    "traction": "4x4 (probable)",
+    "location": "San Cristóbal de la Laguna (Tenerife) — Miguel León (profesional); financiado 21.985 €, garantía 12 meses con traspaso incluido, blanco, envío gratis entre islas, publicado 22/10 08:17 (editado 27/10); ficha verificada",
+    "region": "canarias",
+    "first_seen": "2026-11-01",
+    "last_seen": "2026-11-01",
+    "status": "active",
+    "price_history": [
+      {
+        "date": "2026-11-01",
+        "price_eur": 23985
       }
     ]
   }

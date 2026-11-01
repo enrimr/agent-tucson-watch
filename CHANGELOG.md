@@ -1,5 +1,24 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-11-01
+
+Trigésima ejecución (el barrido comenzó el 31-10 y se completó el 01-11 por suspensiones del equipo). Cobertura: autohero.com (COMPLETA: 22 resultados / 7 PHEV, todos conocidos; OA sigue "Venta en proceso" sin precio), flexicar.es (24 declarados = 24 activos conocidos; 12 tarjetas visibles, todas conocidas, sin cambios de contado), ocasionplus.com (pág. 1 de 158 sin PHEV visibles; fichas de K, LA, LB, PP verificadas una a una), clicars.com (1 PHEV: IL verificado, contado sigue 29.990 €), carplus.es ("0 coches"), coches.net (COMPLETA: las 7 páginas del filtro hibrido_enchufable cargaron, 204 declarados), wallapop.com (categoría completa en 2 lecturas, 15 PHEV, ninguno nuevo), milanuncios.com (parcial: 5 vistas, ~13 tarjetas únicas).
+
+**10 anuncios nuevos (2 genuinos + 8 relists/espejos):**
+- **RX** — coches.net Las Palmas (Canarias): **Maxx Auto 4x4 2022, 19.985 €** (financiado 18.985 €), 78.301 km, Miguel León, garantía 12 meses, publicado 30/10. El precio más bajo del mercado actual para un Maxx 4x4. Km a solo 14 del antiguo AE (Flexicar Tarragona, retirado): posible mismo coche trasladado, sin confirmar. Ficha verificada.
+- **RZ** — milanuncios Tenerife (Canarias): **Style 2021, 23.985 €** (financiado 21.985 €), solo 36.173 km, Miguel León, garantía 12 meses, publicado 22/10. Ficha verificada.
+- Relists/espejos: **RQ** (relist de AO: Auto Sport Moraleja Arroyomolinos, 76.300 km, rebajado a 25.900 € vs 26.900 de AO), **RR** (nuevo canal de la familia QualiAuto T/U/IW/IX/RI en Tenerife, 58.000 km/23.990 €), **RS** (relist de CM: Leadercar Valencia, 84.900 km, a 26.900 € vs 27.490 de CM), **RT** (relist de MG: Muy Car Leganés, 93.912 km, a 26.390 €), **RU** (espejo en coches.net de QH, autohero Madrid, 77.511 km/26.499 €), **RV** (segundo espejo de PB, autohero Barcelona, 60.991 km/27.499 €, además de RN), **RW** (espejo CSV Motor de la familia CZ/FN/LX/OP, 136.242 km, aquí a **18.750 €**, −10%, oferta hasta 09/11 — el PHEV más barato de todo el estado), **RY** (relist de CW/FY: Carhay Madrid, 93.320 km, a 20.990 €).
+
+**1 cambio de precio:** **NW** (coches.net Madrid, second cars luxury, N Line Style 252CV 2024, 23.920 km): 38.490 → **37.490 €** (−1.000).
+
+**0 desapariciones** con evidencia de ficha. **K** (ocasionplus Gandía) pasa a "ESTE COCHE ESTÁ RESERVADO" en ficha (sigue active a 20.250 €).
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Milanuncios: **621787799** (Auto Sport Moraleja Arroyomolinos, 95.500 km/26.900 € = RD; nuevo), **617540750** (Merodigar Colmenar Viejo, 118.300 km/25.850 € = LS, que está a 25.950 — nuevo), **616547386** (Miguel León Tenerife, 75.611 km/21.985 € = KB/LC/PW; nuevo), **622377145** (particular de Teror, 19.000 km, ahora a 25.300 € = relist de ME, que está a 25.500; publicado hace 6 h), **618656942** (Utrera, 65.000 km/26.990 € = AW/LE/OM; nuevo), más los ya documentados **617214460** (= NA/OD), **620035976** (= OC/PV), **613419571** (= HZ), **619473841** (= QN), **620565559** (= QG).
+- Wallapop: sin cross-posts nuevos; siguen los documentados (1318470788 = JR/RE, 1299630366 = IN, 1316491778/1316314513 = I, 1313087350 = OU, 1302784235 = MB, 1315479890 = familia GS, 1318058779 = JY/DG, 1310791282 = IH —ahora a 27.500 €/34.505 km—, 1310764119 = NR).
+
+**Incidencias:** `git pull`/push inicial falló por SSH "Permission denied (publickey)" (agente de claves no cargado tras reinicio/suspensión). El equipo se suspendió varias veces a mitad de barrido (varios fetches y comandos fallaron o fueron a background; el barrido cruzó la medianoche del 31-10 al 01-11). El re-sellado masivo de last_seen se omitió de nuevo; solo se actualizó en entradas tocadas o verificadas ficha a ficha (K, LA, LB, PP, IL, NW y las 10 altas). JSON validado: 494 entradas, 448 activas.
+
 ## 2026-10-30
 
 Vigesimonovena ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 22 resultados / 7 PHEV, todos conocidos; QH y QI ya disponibles sin "Próximamente"; OA sigue "Venta en proceso"), flexicar.es (24 declarados = 24 activos conocidos; 12 tarjetas visibles, todas conocidas), ocasionplus.com (págs. 1-2 de 159: único PHEV = PP; fichas de K, LA, LB, PP verificadas una a una), clicars.com (1 PHEV: IL verificado a 29.990 € contado), carplus.es ("0 coches"), coches.net (págs. 1-5 de 7 cargaron, 206 declarados; págs. 6-7 bloqueadas por anti-bot → cobertura parcial), wallapop.com (categoría completa en 2 lecturas, 17 PHEV, ninguno nuevo), milanuncios.com (205 declarados, parcial: 5 vistas, ~9 tarjetas únicas).
