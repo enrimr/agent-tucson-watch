@@ -1,5 +1,36 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-11-03
+
+Trigésima primera ejecución (2 días desde la anterior; el barrido se hizo el 03-11 con varias suspensiones del equipo y el commit cruzó al 04-11). Cobertura: autohero.com (COMPLETA: 23 resultados / 7 PHEV, todos conocidos; OA sigue "Venta en proceso" sin precio), flexicar.es (24 declarados = 24 activos conocidos; 12 tarjetas visibles, todas conocidas), ocasionplus.com (listado dinámico sin PHEV visibles en 20 tarjetas de 160; fichas de K, LA, LB, PP verificadas una a una), clicars.com (1 PHEV: IL verificado, contado sigue 29.990 €), carplus.es ("0 coches"), coches.net (PARCIAL: págs. 1-4 de 8 cargaron, 212 declarados; págs. 5-6 bloqueadas por anti-bot), wallapop.com (categoría completa en 3 lecturas, 13 PHEV), milanuncios.com (207 declarados, parcial: 4 vistas, ~12 tarjetas únicas).
+
+**7 anuncios nuevos (4 genuinos + 3 relists/espejos):**
+- **SA** — coches.net Madrid: **Tecno Sky Auto 4x4 2023, 28.550 €**, solo 38.021 km, PARTICULAR (Miguel Angel), matriculado 12/2023, garantía fabricante >2 años restante, ya rebajado de 29.950 €, publicado 24/10. Ficha verificada.
+- **SB** — coches.net Coslada (Madrid): N Line Style Ll.D 2025, 42.490 €, 22.558 km, Almoauto Motor Hyundai, garantía 60 meses, publicado el mismo 03-11. Ficha verificada.
+- **SC** — milanuncios Las Palmas (Canarias): **Maxx 2023, 20.990 €** (financiado 19.990 €), 70.500 km, Gestican, garantía 12 meses, publicado el mismo 03-11 ("super precio", ~4.100 € bajo mercado; aviso de fotos posiblemente generadas con IA). Ficha verificada.
+- **SD** — milanuncios Las Palmas (Canarias): **Tecno 2022, 22.990 €**, 42.000 km, Gestican, garantía 12 meses, publicado el mismo 03-11. Ficha verificada.
+- Relists/espejos: **SE** (espejo de RX de Miguel León publicado también en la provincia de Tenerife, 78.301 km/19.985 €), **SF** (espejo en coches.net de RZ de milanuncios, Miguel León Tenerife, 36.173 km/23.985 €), **SG** (relist de HO/OV en Barcelona, 80.168 km, ahora a 23.790 € vs 23.990 de OV; fichas de HO/OV no verificables hoy por anti-bot, se mantienen active).
+
+**10 cambios de precio (todas rebajas):**
+- **RA** (milanuncios Las Palmas, Cool Cars, 20 Aniversario 2025, 7.600 km): contado 38.900 → **33.900 €** (ahora contado = financiado; ficha verificada — probablemente el vendedor eliminó el sobreprecio de contado, la ficha marca "400 € más barato").
+- **PB** (autohero Style 2022, 60.991 km): 27.499 → **26.799 €** (−700).
+- **MD** (autohero Tecno Sky 2023, 32.929 km): 28.499 → **27.999 €** (−500).
+- **PQ** (flexicar Quart de Poblet, Style 2021): contado 22.490 → **21.990 €** (−500, verificado en ficha).
+- **NR** (coches.net Valencia, espejo de NK, Tecno Sky 2024): 29.600 → **29.200 €** (−400).
+- **KK** (coches.net Barcelona, espejo de Flexicar Cornellà JC): 21.390 → **20.990 €** (−400, iguala a JC).
+- **QH** (autohero Tecno Sky 2022, 77.511 km): 26.499 → **26.199 €** (−300).
+- **QI** (autohero Maxx 2022, 91.870 km): 25.299 → **24.999 €** (−300).
+- **QF** (coches.net Sevilla, espejo de PO): 28.599 → **28.299 €** (−300, iguala a PO).
+- **AJ** (flexicar Gavá, Maxx 2022): contado 25.490 → **25.290 €** (−200, verificado en ficha; 'Remate Final').
+
+**0 desapariciones** con evidencia de ficha. **K** (ocasionplus Gandía) sigue reservado; **PP** (ocasionplus Alicante, 22.171 km) pasa a "ESTE COCHE ESTÁ RESERVADO" (sigue active a 24.890 €).
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Wallapop: **1316491778** (Automotor Alcobendas) y **1316314513** (Dursan) = I (coches.net, 12.250 km/32.790 €); **1313087350** (Carpoint Barcelona, 49.900 km/27.000 €) = OU (milanuncios); siguen los documentados 1318470788 (= JR/RE, a 21.490 € financiado en tarjeta), 1310791282 (= IH), 1318058779 (= JY/DG, Ponferrada, sigue a 26.500 € — vigilar: precio y ubicación divergen cada vez más de JY).
+- Milanuncios: **619880045** (= AJ, Flexicar Gavá), **621958561** (Sant Boi) y **621958036** (Sevilla) (= QH, Autohero), **620113775** (Gamboa Leganés, 10.962 km/35.990 €) = QJ, **620100857** (Asturdai Oviedo, 9.000 km/40.990 €) = PS, **623845838** (Coslada, 86.468 km/29.990 €) = DM, **596410867/596463965** (red CSV Bormujos/Terrassa, 64.200 km/25.950 €) = MA, **614212693** (CSV Burjassot, 100.840 km/23.650 €) = EJ.
+
+**Incidencias:** el equipo se suspendió varias veces a mitad de barrido (git pull inicial y varios fetches murieron por timeout; pull falló además por SSH "Permission denied (publickey)"). coches.net bloqueó por anti-bot las págs. 5-6 del filtro y las fichas de HO y OV. El re-sellado masivo de last_seen se omitió de nuevo; solo se actualizó en entradas tocadas o verificadas ficha a ficha (K, LA, LB, PP, IL y las 10 rebajas). JSON validado: 501 entradas, 455 activas.
+
 ## 2026-11-01
 
 Trigésima ejecución (el barrido comenzó el 31-10 y se completó el 01-11 por suspensiones del equipo). Cobertura: autohero.com (COMPLETA: 22 resultados / 7 PHEV, todos conocidos; OA sigue "Venta en proceso" sin precio), flexicar.es (24 declarados = 24 activos conocidos; 12 tarjetas visibles, todas conocidas, sin cambios de contado), ocasionplus.com (pág. 1 de 158 sin PHEV visibles; fichas de K, LA, LB, PP verificadas una a una), clicars.com (1 PHEV: IL verificado, contado sigue 29.990 €), carplus.es ("0 coches"), coches.net (COMPLETA: las 7 páginas del filtro hibrido_enchufable cargaron, 204 declarados), wallapop.com (categoría completa en 2 lecturas, 15 PHEV, ninguno nuevo), milanuncios.com (parcial: 5 vistas, ~13 tarjetas únicas).
