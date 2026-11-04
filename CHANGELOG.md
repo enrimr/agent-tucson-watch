@@ -1,5 +1,33 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-11-04
+
+Trigésima segunda ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 24 resultados / 7 PHEV, todos conocidos; OA sigue "Venta en proceso" sin precio), flexicar.es (COMPLETA ficha a ficha: 12 tarjetas visibles + 13 fichas no visibles verificadas; la web declara 27 pero solo cuadran 24 vivos — posible contador inflado o 2-3 altas aún no visibles, vigilar), ocasionplus.com (7 vistas del listado dinámico de 158, afloraron los 4 PHEV conocidos; fichas de K, LA, LB, PP verificadas), clicars.com (1 PHEV: IL verificado en ficha), carplus.es (COMPLETA: 16 Hyundai, 0 Tucson PHEV), coches.net (PARCIAL: págs. 1-5 de 7 cargaron, 209 declarados; págs. 6-7 y 3 fichas bloqueadas por anti-bot), wallapop.com (categoría completa en 2 lecturas, 13 PHEV + fichas de EK/FV/MJ verificadas), milanuncios.com (210 declarados, parcial: 6 vistas, ~15 tarjetas únicas, fichas de candidatos verificadas).
+
+**9 anuncios nuevos (3 genuinos + 6 relists/espejos):**
+- **SH** — flexicar Tolosa/Anoeta (Gipuzkoa): **Maxx Safe Auto 4x4 2022, 21.990 € contado** (financiado 19.990 €), 124.673 km, negro, 265 CV. Ficha verificada.
+- **SL** — coches.net Leganés (Madrid): **Maxx 2021, 23.390 €** (financiado 21.390 €), 97.802 km, Total Ocasión (Ciudad del Automóvil), garantía 12 meses, publicado 30/10. Ficha verificada (distinto del QZ/RM de Los Combos: otro vendedor, otro acabado).
+- **SP** — coches.net Madrid: **1.6T PHEV 4x4 AT Tecno Sky 2025, 34.490 €** (financiado 30.550 €), solo 9.949 km, profesional. Datos de tarjeta (ficha anti-bot).
+- Relists/espejos: **SI** (Gestican Tenerife, espejo cross-isla de SD, 42.000 km/22.990 €), **SJ** (Gestican Las Palmas, espejo en coches.net de SC, 70.500 km/20.990 €), **SK** (Autohero Sant Boi, espejo de QH como RU, 77.511 km/26.199 €), **SM** (Gesticar Bilbao, relist de LT, 89.000 km/27.990 €), **SN** (QualiAuto Las Palmas, familia T/U/IW/IX/RI/RR, 58.000 km/23.990 €; tarjeta), **SO** (relist de FJ Coslada, 117.768 km/23.900 €; tarjeta).
+
+**6 cambios de precio (todas rebajas):**
+- **EK** (wallapop Terrassa, Maxx 2021, 58.163 km): 23.350 → **21.950 €** (−1.400; iguala a su espejo IA de coches.net).
+- **AB** (flexicar Alicante, Maxx 2021, 52.068 km): contado 22.990 → **21.990 €** (−1.000, verificado en ficha; 'Remate Final').
+- **GE** (coches.net, espejo de AB): 22.990 → **21.990 €** (sincronizado).
+- **IL** (clicars Tecno Sky 2024, 30.742 km): contado 29.990 → **29.490 €** (−500, Black Days −8.000 € sobre PVP 37.490; verificado en ficha, oferta hasta 09/11).
+- **RU** (coches.net Madrid, espejo Autohero de QH): 26.499 → **26.199 €** (−300, iguala a QH).
+- **HT** (flexicar Majadahonda, Style 2022, 90.000 km): contado 24.690 → **24.490 €** (−200, verificado en ficha).
+
+**1 desaparición:** **OG** (flexicar Arval Loeches, Style 2022, 43.537 km, 27.300 €) — ficha 404, pasa a probably_removed (estaba reservado desde el 12/10).
+
+**Reservados:** K (ocasionplus Gandía) y PP (ocasionplus Alicante) siguen con "ESTE COCHE ESTÁ RESERVADO" (activos). En flexicar, HW (Olot), OE (Arval Valencia) y PE (Arval Loeches) muestran velo "coche reservado" pero ficha activa. OA (autohero) sigue "Venta en proceso".
+
+**Cross-posts detectados y NO añadidos (regla 3b):**
+- Wallapop: **1320702798** (Prat Automòbils Barcelona, 24.750 €) = MJ con km "corregidos" a 40.000 (la ficha vieja 1308874778 sigue activa a 50.000 km — si desaparece, actualizar MJ a la URL nueva); 1313087350 (Carpoint) = OU; 1316491778/1316314513 (Automotor/Dursan) = I; siguen descartados 1318470788 (= JR/RE), 1310791282 (= IH), 1318058779 (= JY/DG).
+- Milanuncios: **623981746** (Carhay Leganés/Alcorcón, 100.094 km exactos, publicado hoy) = familia Q/DU/KP pero a **20.790 €** (−2.100 vs los 22.890 de Q — vigilar posible rebaja de la familia en coches.net), **620035976** (AutosMadrid Móstoles) = OC/G, **620539098** (Anoia Igualada) = LG, **622683376** (HR Motor, 80.168 km, 23.790 €) = SG/HO/OV, **618660914** (Exclusive Motors Griñón, 198.710 km/16.500 €) = HD, **598255174** (Gamboa Leganés, 149.456 km) = JA pero a **17.490 €** (−500 vs JA), **576840045** (Autovivo Sant Boi, 11.100 km/32.900 €) = PJ, **614217108** (Torrejón km0 2026, 39.490 €) = familia N/AL/EQ/IV, **620565559** (Málaga Klass 10 km, 33.900 €) = IE/KJ/QG.
+
+**Incidencias:** git pull/push sigue fallando por SSH "Permission denied (publickey)" (main local ya iba 2 commits por delante; se reintenta al final). coches.net bloqueó págs. 6-7 del filtro y las fichas de SN, SO y SP (registradas con datos de tarjeta). milanuncios bloqueó con captcha 2 fichas (resueltas por cruce de km con el estado). El re-sellado masivo de last_seen se omitió de nuevo; solo se actualizó en entradas tocadas o verificadas ficha a ficha. JSON validado: 510 entradas, 463 activas.
+
 ## 2026-11-03
 
 Trigésima primera ejecución (2 días desde la anterior; el barrido se hizo el 03-11 con varias suspensiones del equipo y el commit cruzó al 04-11). Cobertura: autohero.com (COMPLETA: 23 resultados / 7 PHEV, todos conocidos; OA sigue "Venta en proceso" sin precio), flexicar.es (24 declarados = 24 activos conocidos; 12 tarjetas visibles, todas conocidas), ocasionplus.com (listado dinámico sin PHEV visibles en 20 tarjetas de 160; fichas de K, LA, LB, PP verificadas una a una), clicars.com (1 PHEV: IL verificado, contado sigue 29.990 €), carplus.es ("0 coches"), coches.net (PARCIAL: págs. 1-4 de 8 cargaron, 212 declarados; págs. 5-6 bloqueadas por anti-bot), wallapop.com (categoría completa en 3 lecturas, 13 PHEV), milanuncios.com (207 declarados, parcial: 4 vistas, ~12 tarjetas únicas).
