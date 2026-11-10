@@ -1,5 +1,38 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-11-10
+
+Trigésima cuarta ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 24 resultados / 6 PHEV), flexicar.es (COMPLETA ficha a ficha: 12 tarjetas visibles + 12 fichas no visibles verificadas; declara 28 pero cuadran 24 vivos tras 1 alta y 1 baja — contador inflado crónico), ocasionplus.com (3 vistas del listado de 161 sin PHEV visible — el listado ya no rota tarjetas; fichas de K, LA y LB verificadas), clicars.com (1 PHEV: IL verificado en ficha, contado 29.490 € sin cambios — la tarjeta anuncia 26.790 € que es el financiado Black Days), carplus.es (el listado sigue sin renderizar, "0 coches / Buscando vehículos..." — incidencia JS, sin datos ni entradas activas), coches.net (PARCIAL: págs. 1-5 de 8, 221 declarados; 2 fetches iniciales fallaron por suspensión del equipo, reintentados con éxito), wallapop.com (categoría completa en 2 lecturas, ~12 PHEV), milanuncios.com (219 declarados, parcial: ~8 vistas provinciales y generales + fichas).
+
+**13 anuncios nuevos (5 genuinos + 8 relists/espejos):**
+- **SZ** — flexicar Esplugues-Av. Cornellá (Barcelona): **Maxx Safe 2021, 24.490 € contado** (financiado 21.990 €), 68.276 km, 265 CV, blanco. Ficha verificada. GENUINO.
+- **TA** — milanuncios 622603162, Almería capital: **PHEV 4x4 2022, 25.000 €** (antes 26.000 €), 95.000 km, particular (coche de empresa, IVA deducible), garantía oficial Hyundai, techo panorámico, full extras. Ficha verificada. GENUINO (no casa con RD/KH/O: 95.000 vs 95.500 km pero precio y provincia divergen).
+- **TB** — coches.net 71893678, Madrid: **Style 2022, 28.990 €**, 80.521 km. Sin pareja de km en el estado. GENUINO.
+- **TJ** — milanuncios Écija (Sevilla): **Style 2022, 24.990 €**, 107.555 km, profesional, garantía 12 meses. Pendiente desde el 09-11; sigue siendo anuncio destacado que no expone URL de ficha sin JS → registrado con la URL de la búsqueda provincial. GENUINO.
+- **TK** — milanuncios Huércal de Almería: **N Line 2025, 43.200 €** (financiado 41.200 €), 12.490 km, garantía 48 meses. Pendiente desde el 09-11; mismo problema de destacado sin URL → registrado con la búsqueda provincial. GENUINO.
+- Relists/espejos: **TC** (relist de RT, Tecno Sky 2024, 93.912 km/26.390 €), **TD** (relist de JO y espejo coches.net de DY, 79.918 km/23.600 €), **TE** (espejo coches.net de SQ flexicar Móstoles, 29.421 km/35.990 €), **TF** y **TG** (milanuncios del concesionario de Móstoles/Navalcarnero, espejos de NV y NU a 20.550 €), **TH** (milanuncios Gestican Las Palmas, espejo de OI/OJ, 57.000 km/25.990 €), **TI** (milanuncios Miguel León Madrid, espejo de KB/LC/PW, 75.611 km/23.985 €), **TL** (milanuncios QualiAuto Tenerife 624405296, relist familia T/U/IW/IX/SN/RI, 58.000 km/23.990 €).
+
+**8 cambios de precio (7 rebajas y 1 subida):**
+- **MD** (autohero Tecno Sky 2023, 32.929 km): contado 27.999 → **27.299 €** (−700, ficha; séptima rebaja consecutiva).
+- **NU** (coches.net, relist de GU/BT Navalcarnero, 108.000 km): 21.150 → **20.550 €** (−600, ficha verificada; iguala a NV).
+- **QH** (autohero Tecno Sky 2022, 77.511 km): contado 26.199 → **25.699 €** (−500, ficha).
+- **DZ** (milanuncios Carmona, Style 2022, 102.000 km): 23.990 → **23.490 €** (−500).
+- **SO** (coches.net Madrid, relist de FJ, 117.768 km): 23.900 → **23.490 €** (−410).
+- **DV** (coches.net Madrid, Style 2022, 105.000 km): 26.240 → **25.900 €** (−340; reaparece tras un mes sin verse).
+- **EE** (flexicar Palma de Mallorca, Tecno Sky 2022, 89.786 km): contado 24.290 → **23.990 €** (−300, ficha).
+- **SY** (coches.net, relist familia Carhay, 93.320 km): 20.990 → **22.090 €** (**+1.100, SUBIDA** al día siguiente de aparecer).
+
+**1 desaparición:** **HW** (flexicar Olot, Tecno Sky 2022, 26.000 km, 24.990 €) — ficha 404 y fuera del listado tras 3 semanas reservado → vendido/retirado.
+
+**Otros movimientos:**
+- **PE** (flexicar Arval Loeches, 36.572 km) sigue **reservado** con ficha activa (26.800 €).
+- **K** (ocasionplus Gandía) sigue disponible a 20.250 €; **LA** (25.990 €) y **LB** (23.400 €) sin cambios, fichas verificadas.
+- **I** (coches.net Madrid, Maxx 2025, 12.250 km) reaparece en el listado tras 17 días sin verse; sus cross-posts de Wallapop (1316491778, 1316314513) siguen activos, no añadidos (regla 3b).
+- Cross-posts detectados y NO añadidos (regla 3b): wallapop 1318470788 (= JE/JR/RE a 21.490 €, 3.000 € menos que en coches.net — vigilar posible rebaja de la familia), 1320702798 (= MJ, cuya ficha original 1308874778 sigue viva a 24.750 €), 1313087350 (= OU), 1310791282 (= IH), 1318058779 (= JY/DG, decisión mantenida), 1315585186 (= QD, visto activo); milanuncios 619949466 (= PM, 2º anuncio del mismo vendedor), 596410867 (= MA, red CSV Bormujos), 603402324 (= CC, AVANTCAR, ahora con 59.000 km en tarjeta).
+- Incidencias: git push a origin falla con SSH "Permission denied (publickey)" desde el 09-11 (main local va por delante de origin; reintentado hoy sin éxito — commits locales conservados). Carplus sin técnica de scraping viable. Los `last_seen` de los anuncios de coches.net/wallapop/milanuncios revistos hoy sin cambio de precio no se han resellado individualmente (limitación de edición conocida); fe de vida reflejada aquí.
+
+**Totales: 532 anuncios registrados, 481 activos, 51 probably_removed.**
+
 ## 2026-11-09
 
 Trigésima tercera ejecución (5 días desde la anterior). Cobertura: autohero.com (COMPLETA: 24 resultados / 6 PHEV; OA ya no aparece → vendido), flexicar.es (COMPLETA ficha a ficha: 11 tarjetas visibles + 13 fichas no visibles verificadas; declara 29 pero solo cuadran 24 vivos tras 1 alta y 1 baja — contador inflado, vigilar), ocasionplus.com (5 vistas del listado de 158 sin ningún PHEV visible; fichas de K, LA, LB y PP verificadas), clicars.com (1 PHEV: IL verificado en ficha), carplus.es (el listado no renderiza, "0 coches / Buscando vehículos..." — incidencia JS, sin datos), coches.net (PARCIAL: págs. 1-5 de 8 cargaron, 218 declarados; págs. 6-8 bloqueadas por anti-bot), wallapop.com (categoría completa en 2 lecturas, ~13 PHEV), milanuncios.com (217 declarados, parcial: ~8 vistas y varias fichas; captcha al final del barrido).
