@@ -1,5 +1,38 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-11-11
+
+Trigésima quinta ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 25 resultados / 6 PHEV, todos conocidos y sin cambios), flexicar.es (COMPLETA ficha a ficha: 12 tarjetas visibles + 12 fichas no visibles verificadas, los 24 conocidos vivos; declara 29 — contador inflado crónico), ocasionplus.com (listado congelado sin PHEV; fichas de K, LA y LB verificadas), clicars.com (1 PHEV: IL, ficha verificada), carplus.es (el listado sigue sin renderizar, "0 coches / Buscando vehículos..." — incidencia JS, sin entradas activas), coches.net (PARCIAL: págs. 1-5 de 8 cargaron, 224 declarados; págs. 6-8 bloqueadas por anti-bot), wallapop.com (categoría completa en 2 lecturas, ~14 PHEV), milanuncios.com (220 declarados, parcial: 5 vistas + 4 fichas).
+
+**11 anuncios nuevos (6 genuinos + 5 relists/espejos):**
+- **TM** — coches.net 71917882, Autoplanet Madrid: **Maxx 2023 (matric. 11/2023), 24.700 €** (financiado 22.230 €), 69.299 km, azul, garantía 12 meses, certificado Spoticar. Ficha verificada. GENUINO (no casa con AD flexicar Leganés: 69.999 km y otro vendedor).
+- **TN** — coches.net 71953321, Autos Ortasa (Galdakao, Bizkaia, Hyundai oficial): **Maxx 252 CV 2025, 32.400 €** (financiado 29.400 €), 1.500 km, coche de gerencia, blanco, garantía oficial 48 meses, publicado 10/11. Ficha verificada. GENUINO.
+- **TO** y **TP** — coches.net 71951447 y 71951415, Autos Ortasa (Galdakao): **dos unidades Tecno Sky 252 CV 2025 "a estrenar", 30.900 € cada una** (financiado 28.900 €), 50 km, blancas, garantía oficial 48 meses (precio nuevo sin extras 48.319/48.520 € — unidades distintas). Fichas verificadas. GENUINOS.
+- **TQ** — milanuncios 625092165, Gestican Automóviles en su nueva exposición de Alcorcón (Madrid): **Tecno 2023, 24.990 €** (financiado 22.990 €), 61.000 km, gris, garantía 12 meses, publicado hoy 18:25. Ficha verificada. GENUINO (sin pareja de km en el estado).
+- **TR** — milanuncios 625090610, Motorpal (Palencia): **Maxx 2021, 23.900 €** (IVA deducible), 86.535 km, blanco, un solo propietario, garantía 12 meses, publicado hoy 17:50. Ficha verificada. GENUINO (MQ de Don Motor Valladolid tiene 86.458 km pero es Tecno Sky 2022 de otro vendedor).
+- Relists/espejos: **TS** (coches.net 71951908, tercer espejo de MD de autohero en Barcelona, 32.929 km/27.299 €), **TT** (coches.net 71931051, QualiAuto Las Palmas, familia T/U/IW/IX/RI/RR/SN/TL, 58.000 km/23.990 €), **TU** (coches.net 71852054, MÁS Automóviles Leganés, relist de IJ a 31.800 € —IJ sigue a 31.900 €—), **TV** (coches.net 71874178, FSG Majadahonda, relist de LV, 130.000 km/18.990 €), **TW** (milanuncios 625079632, Dimasu Las Rozas, relist de la familia OT/QA/QU, 89.000 km/24.490 €).
+
+**6 cambios de precio (todas rebajas):**
+- **AJ** (flexicar Gavá, Maxx 2022, 101.381 km): contado 25.290 → **23.990 €** (−1.300, ficha).
+- **AK** (flexicar Sitges, Maxx 2021, 84.000 km): contado 22.490 → **21.990 €** (−500, ficha).
+- **OC** (flexicar Autosmadrid Móstoles, Maxx Safe 2022, 47.578 km): contado 26.490 → **25.990 €** (−500, ficha).
+- **IL** (clicars Tecno Sky 2024, 30.742 km): contado 29.490 → **28.990 €** (−500, ficha; dto. Black Days ampliado a 8.500 €).
+- **JL** (coches.net Valencia, espejo de IL): 29.490 → **28.990 €** (−500, tarjeta; sincronizado con IL).
+- **NK** (wallapop Carcaixent, Tecno Sky 2024): 29.600 → **29.200 €** (−400, ficha; km actualizados de 18.000 a 19.740).
+
+**0 desapariciones** detectadas hoy (todas las fichas verificadas siguen vivas; coches.net/wallapop/milanuncios con cobertura parcial, sin evidencia de baja).
+
+**Otros movimientos:**
+- **PE** (flexicar Arval Loeches, 36.572 km) sigue **reservado** con ficha activa (26.800 €).
+- **HY** (flexicar 282378) aparece ahora en el listado como "Donostia" en vez de Tolosa (mismo id y precio 29.490 €); la URL antigua sigue funcionando.
+- **K** (ocasionplus Gandía, 20.250 €), **LA** (25.990 €) y **LB** (23.400 €) sin cambios, fichas verificadas.
+- **TJ** (milanuncios Écija) visto hoy como destacado a 24.990 € sin cambios; sigue sin exponer URL de ficha.
+- Autohero empieza a publicar en milanuncios: 3 anuncios del mismo coche (= QH, 77.511 km) en Sant Boi/Sevilla/Seseña a 26.199 € contado (ids 621958561, 621958036, 621846815) — mismo vehículo físico (código ZL00289), NO añadidos (regla 3b).
+- Cross-posts detectados y NO añadidos (regla 3b): wallapop **1323072381** (Madrid, 50.000 km/26.500 € — misma vendedora "Jessica C." que PF, relist de PF con km actualizados y rebaja; la ficha vieja de PF sigue visible a 26.900 €), 1320702798 (= MJ), 1318470788 (= JE/JR/RE, sigue a 21.490 € financiado), 1313087350 (= OU), 1310791282 (= IH), 1318058779 (= JY/DG, sigue a 26.500 €), 1316491778/1316314513 (= I); milanuncios 621808333 (= IJ, MÁS Automóviles, a 31.800 € como TU), 621837934 (= HC, MÁS Automóviles, 43.287 km a 31.800 € contado — HC registrado a 31.900, vigilar), 618287191 (= HJ/QT, HR Motor Navarra: ficha con contado 25.990/financiado 23.900 — el 23.900 € registrado en QT el 09-11 podría ser el financiado, vigilar), cross-post de CU (Segovia, 100.447 km/23.595 €) como destacado sin URL.
+- Incidencias: carplus.es sin técnica de scraping viable (sin entradas activas afectadas); coches.net anti-bot en págs. 6-8; los `last_seen` de los anuncios de coches.net/wallapop/milanuncios revistos hoy sin cambio de precio no se han resellado individualmente (limitación de edición conocida); fe de vida reflejada aquí: vistos hoy CQ, CR, JA, KA, ML, NC, NU, NV, NW, PJ, QN, QP, QS, RD, RE, SA, SM, TB, TC, TD, I, IN, MT (vía familia), QD, QX, PU, PF, QY, TJ, U/familia QualiAuto, EB/FC (vía 616640330/616640011), HC/IJ (vía milanuncios), HJ/QT (vía 618287191).
+
+**Totales: 543 anuncios registrados, 492 activos, 51 probably_removed.**
+
 ## 2026-11-10
 
 Trigésima cuarta ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 24 resultados / 6 PHEV), flexicar.es (COMPLETA ficha a ficha: 12 tarjetas visibles + 12 fichas no visibles verificadas; declara 28 pero cuadran 24 vivos tras 1 alta y 1 baja — contador inflado crónico), ocasionplus.com (3 vistas del listado de 161 sin PHEV visible — el listado ya no rota tarjetas; fichas de K, LA y LB verificadas), clicars.com (1 PHEV: IL verificado en ficha, contado 29.490 € sin cambios — la tarjeta anuncia 26.790 € que es el financiado Black Days), carplus.es (el listado sigue sin renderizar, "0 coches / Buscando vehículos..." — incidencia JS, sin datos ni entradas activas), coches.net (PARCIAL: págs. 1-5 de 8, 221 declarados; 2 fetches iniciales fallaron por suspensión del equipo, reintentados con éxito), wallapop.com (categoría completa en 2 lecturas, ~12 PHEV), milanuncios.com (219 declarados, parcial: ~8 vistas provinciales y generales + fichas).
