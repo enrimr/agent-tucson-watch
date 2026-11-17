@@ -1,5 +1,40 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-11-17
+
+Trigésima séptima ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 25 declarados / 6 PHEV, todos conocidos, sin cambios), flexicar.es (COMPLETA ficha a ficha: 11 tarjetas visibles + 14 fichas no visibles verificadas; declara 27 — contador inflado, cuadran 24 vivos), ocasionplus.com (listado congelado; fichas de K, LA y LB verificadas), clicars.com (1 PHEV: IL, ficha verificada), carplus.es (listado sigue sin renderizar — incidencia JS, sin entradas activas), coches.net (PARCIAL: págs. 1-5 de 7 cargaron, 202 declarados; 6-7 anti-bot tras ~15 fetches), wallapop.com (categoría completa en 2 lecturas, 17 PHEV), milanuncios.com (204 declarados, parcial: 6 vistas = 18 tarjetas).
+
+**8 anuncios nuevos (1 genuino + 7 relists/espejos):**
+- **UL** — coches.net 71977140, Mowee Cars (Palma de Mallorca, Baleares): **1.6T 252CV PHEV AT Maxx 2025, 35.990 € contado** (financiado 34.740 €), ¡19 km!, matriculado 12/2025, blanco Atlas White, 4x2, etiqueta 0, IVA deducible, garantía 12 meses ampliable, publicado 13/11. Ficha verificada. GENUINO (ningún conocido con ~19 km y este precio; MO Valencia es 8.275 km).
+- **UM** — coches.net 71898444, Almoauto Motor Hyundai (Madrid): relist/espejo de **DM** (Style 2022, 86.468 km) a **29.990 €**, garantía 5 años, publicado 03/11. Ficha verificada; DM sigue registrado con su URL original.
+- **UN** — coches.net 71931170, QualiAuto (Sta. C. Tenerife): espejo provincial Tenerife de **TT/TL** (Maxx, 58.000 km) a **23.990 €** IGIC incluido (su ficha dice año 2022). Ficha verificada.
+- **UO** — coches.net 71943234, Peón Automóviles (Asturias): espejo en coches.net de **SR** (milanuncios Pola de Siero) — Maxx 2021, 110.000 km, **22.500 €**. Ficha verificada.
+- **UP** — coches.net 71311508, CSV Motor Madrid: otro clon de la familia **EJ/IC/JV/LW** (Maxx 2024 importado, 100.840 km) rebajado por Black Friday a **21.750 €** contado (antes 23.650; hasta 30/11), garantía 3 años, publicado 18/08 (nunca visto hasta hoy). Ficha verificada. Su cross-post milanuncios 613102562 (CSV Terrassa) marca el mismo 21.750 — el resto de la familia probablemente también está rebajada (IC con ficha anti-bot hoy; vigilar).
+- **UQ** — coches.net 71971060: espejo en coches.net de **EF** (Flexicar Santiago) — Maxx 2022, 112.461 km, **20.990 €** (datos de tarjeta; ficha de EF verificada hoy a 20.990 contado).
+- **UR** — coches.net 71968588: espejo en coches.net de **TX** (Flexicar Villalba) — Klass 2024, 45.838 km, **28.490 €** (datos de tarjeta; ficha de TX verificada hoy: contado 28.490, financiado rebajado 25.990→25.490).
+- **US** — milanuncios 623859756, Gestican Automóviles (Los Abrigos, Tenerife): espejo provincial Tenerife de **SD/SI** (Tecno 2022, 42.000 km) a **22.990 €**, publicado hoy. Datos de tarjeta.
+
+**4 cambios de precio (todas rebajas):**
+- **IL** (clicars, Tecno Sky 4x4 2024, 30.742 km): contado 29.990 → **28.990 €** (−1.000, "bajada de precio" del 17/11 sobre el dto. Black Days de 7.500; financiado 26.390 €). Ficha verificada.
+- **MV** (coches.net, espejo de IL): 29.990 → **28.990 €** (tarjeta "antes 31.990, −9%", en línea con IL).
+- **AI** (flexicar Martorell, Klass 2024, 26.000 km): contado 29.290 → **28.990 €** (−300, ficha; financiado 23.990, 'Remate Final').
+- **QD** (wallapop Zamora, Style 2023, 60.500 km): 29.500 → **27.900 €** (−1.600, ficha verificada; iguala a su espejo RP de coches.net, que ya bajó ayer).
+
+**1 desaparición:**
+- **KU** (flexicar Zaragoza, Tecno Sky 2025, 14.070 km, 36.990 €): ficha **404** → probably_removed (sin rastro en el listado; podría ser traslado de tienda con slug nuevo — vigilar si reaparece).
+
+**Otros movimientos:**
+- **BK** (flexicar San Fernando de Henares, 22.790 €): ahora **RESERVADO** (velo en la galería); ficha viva, se mantiene active.
+- **PE** (flexicar/Arval Loeches, 26.800 €): sigue reservado, ficha viva.
+- **K** (20.250 €), **LA** (25.990 €) y **LB** (23.400 €) de ocasionplus sin cambios, fichas verificadas.
+- Autohero sin cambios: MD/PB/PC/PO/QH/QI a los mismos precios del 16-11.
+- Flexicar vivos sin cambio (fichas verificadas hoy): AB, AC, AJ, AK, AD, ED, EE (tarjeta engañosa crónica, contado sigue 23.990), EF, HT, HX, HY, JC, KV, OB, OC, OD, PQ, SH, SQ, SZ, TX.
+- Vistos hoy sin cambio en tarjeta (fe de vida, last_seen no resellado): coches.net TB, IN, SA, SO, RK, JL, PX, ST, P, TT, TM, CO, NH, UC, RE, UF, CC, UE, RX, NN, MO, CR, GF, SI, NT, EN; wallapop UB, UJ, PF, PU, QX, NM; milanuncios UK (40.500), TL, TQ, SD.
+- Cross-posts detectados y NO añadidos (regla 3b): wallapop 1325299610 (= nuevo re-post de MJ/Prat Automòbils con km redondeados a 40.000), 1324801236/1324801237 (= TY), 1323072381 (= relist de PF), 1313087350 (= OU Carpoint), 1318470788 (= JE/JR/RE), 1316491778/1316314513 (= I), 1310791282 (= IH), 1318058779 (= JY/DG); milanuncios 619619372 (= BA/NT Fornells), 625791394 (= HY Flexicar Donostia), 596410867 (= familia CH/FT/MA de CSV Motor, a 23.850 € contado — vigilar rebaja de FT/MA), 613102562 (= EJ/LW a 21.750), 625176030 (= OL/EU de HR Motor, a 23.490 € — vigilar rebaja de OL), 621794139 (= relist milanuncios de JE), 620671832 (= PU Rivero Motor), 618660914 (= HD a 15.999 €), 598255174 (= JA Gamboa), 620539098 (= LG Anoia Motor), 620706088 (= PX Forzauto), 622170990 (= familia EB/FC/LV/TV de FSG Majadahonda), 622133448 (= SL Total Ocasión).
+- Incidencias: coches.net anti-bot en págs. 6-7 y en la ficha de IC (cobertura parcial 1-5); carplus.es sigue sin técnica viable (sin entradas activas); last_seen de los vistos sin cambio no resellado individualmente (limitación conocida), fe de vida reflejada aquí.
+
+**Totales: 565 anuncios registrados, 513 activos, 52 probably_removed.**
+
 ## 2026-11-16 (segunda pasada)
 
 Segunda ejecución del mismo día (la primera cerró por la mañana). Al inicio se completó el **push pendiente** del commit 01e4132 (la mañana falló por SSH). Cobertura: autohero.com (COMPLETA: 24 resultados / 6 PHEV), flexicar.es (listado: 11 tarjetas visibles, declara 27; fichas de AD, ED e IL-clicars verificadas), ocasionplus.com (fichas de K, LA y LB verificadas; listado sigue congelado), clicars.com (1 PHEV: IL, ficha verificada), carplus.es (listado sigue sin renderizar — incidencia JS, sin entradas activas), coches.net (PARCIAL: págs. 1-4 de 7 cargaron, 209 declarados; 5-7 anti-bot; la URL sin ?pg devolvió "sin resultados"), wallapop.com (categoría completa en 2 lecturas, 17 PHEV), milanuncios.com (212 declarados, parcial: 5 vistas = 15 tarjetas).
