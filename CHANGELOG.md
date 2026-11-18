@@ -1,5 +1,39 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-11-18
+
+Trigésima octava ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 23 declarados / 6 PHEV, todos conocidos), flexicar.es (COMPLETA ficha a ficha: 12 tarjetas + 12 fichas no visibles verificadas = 24 vivos; declara 27, contador inflado), ocasionplus.com (listado congelado; fichas de K, LA y LB verificadas, sin cambios), clicars.com (1 PHEV: IL, ficha verificada, sin cambios — 28.990 € contado, Black Days hasta 23/11), carplus.es (no revisado: listado sigue sin renderizar por JS, sin entradas activas — incidencia), coches.net (PARCIAL: págs. 1-5 de 7 cargaron sin anti-bot, 202 declarados; 6-7 no intentadas para no disparar el bloqueo), wallapop.com (categoría: 10 PHEV leídos literalmente + 7 en resumen, todos conocidos), milanuncios.com (203 declarados, parcial: 4 vistas = 12 tarjetas).
+
+**7 anuncios nuevos (2 genuinos + 5 relists/espejos):**
+- **UV** — milanuncios 620549451, Grupo Gamboa KM0 (Hyundai Gamboa, Madrid): **1.6T 252CV PHEV 4x4 2026, 200 km, 40.900 € contado** (IVA incl.; financiado 36.810 €), garantía 36 meses, publicado 19/10. Ficha verificada. GENUINO (ningún conocido de Madrid con ~200 km a este precio; GG es Tarragona 2025/42.256).
+- **UW** — milanuncios 625367590, Mowee Cars (Palma de Mallorca, Baleares): **1.6T 252CV PHEV AT 2025, 7.043 km, 33.800 € contado** (financiado 32.550 €), matriculado 06/2025, IVA deducible, garantía 12 meses ampliable a 4 años, publicado 13/11. Ficha verificada. GENUINO (segundo PHEV de Mowee tras UL; GY es Madrid 7.430 km).
+- **UT** — coches.net 72013878, Gestican Automóviles (Alcorcón, Madrid): espejo en coches.net de **TQ** (Maxx 2023, 61.500 km) a **24.990 €** (financiado 22.990), publicado hoy. Ficha verificada.
+- **UU** — coches.net 71726742, Grupo Hermindo (Pontevedra): relist de **AU** (Tecno Sky 2025, 21.165 km, 2WD) a **31.500 €** (financiado 30.500). Ficha verificada.
+- **UX** — coches.net 71915496: nuevo espejo de **OB** (Flexicar/Autosmadrid SS Reyes, Tecno Sky 2022, 76.649 km) a **24.990 €** (además de RF). Datos de tarjeta; ficha de OB verificada.
+- **UY** — coches.net 71997818: espejo en coches.net de **SH** (Flexicar Tolosa, Maxx Safe 2022, 124.673 km) a **21.890 €**. Datos de tarjeta; ficha de SH verificada.
+- **UZ** — coches.net 71990291 (Zaragoza): relist de **DI** (Tecno Sky 2025, 15.000 km) a **32.600 €**. Datos de tarjeta.
+
+**8 cambios de precio (todas rebajas):**
+- **MD** (autohero Tecno Sky 4WD 2023, 32.929 km): 27.299 → **26.799 €** (−500, listado).
+- **TS** (coches.net, espejo de MD): 27.299 → **26.799 €** (−500, tarjeta, en línea con MD).
+- **QH** (autohero Tecno Sky 4WD 2022, 77.511 km): 25.699 → **25.199 €** (−500, listado).
+- **CO** (coches.net Tenerife, Style 2021, 134.186 km): 21.990 → **19.900 €** (−2.090, tarjeta "antes 23.900, −17%").
+- **LG** (coches.net Anoia Motor Igualada, Maxx 2022, 73.000 km): 23.950 → **22.950 €** (−1.000, tarjeta "antes 23.950").
+- **QS** (coches.net Murcia, espejo de ED): 22.490 → **21.990 €** (−500, tarjeta; iguala a ED, que ya bajó el 16-11).
+- **RG** (coches.net Carza Zaragoza, 288 CV Style 2026, 257 km): 46.260 → **45.980 €** (−280, tarjeta).
+- **NJ** (coches.net km0 Tecno Sky Madrid): 39.900 → **38.975 €** (−925, tarjeta).
+
+**0 desapariciones** (todas las fichas verificadas siguen vivas; coches.net/milanuncios con cobertura parcial, sin evidencia de bajas).
+
+**Otros movimientos:**
+- **KV** (flexicar Majadahonda): contado sigue 31.490 €; el precio en oferta de la tarjeta bajó 28.990 → 28.290 (financiado, no cuenta).
+- **BK** (flexicar San Fernando) y **PE** (Arval Loeches) siguen reservados, fichas vivas.
+- Vistos hoy sin cambio (fe de vida): flexicar AB, AC, AD, AI, AJ, AK, ED, EE, EF, HT, HX, HY, JC, OB, OC, OD, PQ, SH, SQ, SZ, TX; autohero PB, PC, PO, QI; ocasionplus K, LA, LB; clicars IL; coches.net SA, IN, PX, UE, DR, SI, UD, UN, TT, ST, CN, UC, QN, RE, QP, GD, MM, QT, TY, EN, UI; wallapop UB, UJ, PF, QX, QD, NM; milanuncios MS.
+- Cross-posts detectados y NO añadidos (regla 3b): wallapop 1325665247 (= IB/RJ/GP MinoAutos Santiago, 135.000 km/19.890 €), 1325299610 (= MJ), 1324801236 (= TY), 1323072381 (= relist de PF), 1318470788 (= RE/JE), 1313087350 (= OU); milanuncios 624402263 (= TT/UN QualiAuto), 623868489 (= MG/RT/TC MUYCAR), 614846426 (= LX CSV Terrassa, 18.350 €), 625971269 (= TN Autos Ortasa, 1.500 km — pide 33.900 € vs 32.400 de TN; vigilar), 625367671 (= UL Mowee), 625225344 (= EF Flexicar Santiago), 622683376 (= SG HR Motor, 23.790 €), 576840045 (= PJ Autovivo), 579533789 (= cross-post ya anotado de Murcia, 76.109 km).
+- Incidencias: carplus.es sin técnica viable (JS); coches.net págs. 6-7 no consultadas; `git pull` falló por SSH (publickey) — la rama local coincidía con origin/main; last_seen de los vistos sin cambio no resellado individualmente (limitación conocida), fe de vida reflejada aquí.
+
+**Totales: 572 anuncios registrados, 520 activos, 52 probably_removed.**
+
 ## 2026-11-17
 
 Trigésima séptima ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 25 declarados / 6 PHEV, todos conocidos, sin cambios), flexicar.es (COMPLETA ficha a ficha: 11 tarjetas visibles + 14 fichas no visibles verificadas; declara 27 — contador inflado, cuadran 24 vivos), ocasionplus.com (listado congelado; fichas de K, LA y LB verificadas), clicars.com (1 PHEV: IL, ficha verificada), carplus.es (listado sigue sin renderizar — incidencia JS, sin entradas activas), coches.net (PARCIAL: págs. 1-5 de 7 cargaron, 202 declarados; 6-7 anti-bot tras ~15 fetches), wallapop.com (categoría completa en 2 lecturas, 17 PHEV), milanuncios.com (204 declarados, parcial: 6 vistas = 18 tarjetas).
