@@ -1,5 +1,37 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-11-19
+
+Trigésima novena ejecución (1 día desde la anterior; la pasada empezó el 19-11 y, por una suspensión del equipo, terminó de madrugada del 20-11; fechada el 19-11). Cobertura: autohero.com (COMPLETA: 23 declarados / 6 PHEV, todos conocidos), flexicar.es (COMPLETA ficha a ficha: 12 tarjetas + 15 fichas verificadas = 24 vivos; declara 27, contador inflado), ocasionplus.com (listado congelado, sin PHEV; fichas de K, LA y LB verificadas, sin cambios), clicars.com (1 PHEV: IL, ficha verificada, 28.990 € contado sin cambios; el 26.390 € de la tarjeta es el financiado), carplus.es (el listado vuelve a renderizar: 7 Tucson, todos HEV/gasolina, ningún PHEV), coches.net (PARCIAL: págs. 1-5 de 7 sin anti-bot, 204 declarados, 31 anuncios únicos; 3 de las 8 fichas nuevas dieron anti-bot), wallapop.com (categoría: 10 PHEV leídos literalmente + 7 en resumen), milanuncios.com (204 declarados, parcial: 4 vistas = 12 tarjetas).
+
+**8 anuncios nuevos (todos relists/espejos de coches conocidos, salvo VB y VH, dudosos):**
+- **VA**: coches.net 72004780, GRUPO AUTOMOTIVE Sevilla. Relist de **OM/AW/LE** (Maxx 2022, 65.000 km) a **24.990 €** (financiado 22.990), único propietario. Ficha verificada.
+- **VB**: coches.net 71999817, Gamboa Ocasión Madrid. Maxx 2022, **75.669 km, 23.490 €** (financiado 20.366), garantía 1 año. Ficha verificada. Posible relist de **CT** (Madrid, 75.775 km, 24.490 €, no visto desde 08-11), sin confirmar.
+- **VC**: coches.net 71979539, AutosMadrid SS de los Reyes. Relist de **OX/IQ/FI** (74.342 km) **rebajado de 24.990 a 23.490 €** (financiado 20.990). Ficha verificada.
+- **VD**: coches.net 72020933, EXPOAUTO Terrassa. Espejo de **UJ** (wallapop, Style 2024, 61.000 km, 29.475 €). Ficha verificada.
+- **VE**: coches.net 71921720, Almerialva Hyundai (H Promise). Espejo de **TK** (N Line Style 2025, 12.490 km) a **43.150 €** contado, garantía 4 años. Ficha verificada; por fin hay URL de ficha propia para este coche.
+- **VF**: coches.net 71991632, Madrid. Relist de **PV/KG/OC** (47.578 km, 25.990 €). Datos de tarjeta (anti-bot).
+- **VG**: coches.net 70693987, Madrid. Familia **FT/MA** (CSV Motor, Style 2022, 64.200 km) a **23.850 €**, igual que el cross-post de milanuncios 596410867. Datos de tarjeta (anti-bot).
+- **VH**: coches.net km0 71896255, Madrid. 288 CV Black Line 2026, 3.000 km, **38.900 €**. Posible relist de **PG** (37.750 €, 1 km), pero km y precio difieren. Datos de tarjeta (anti-bot).
+
+**5 cambios de precio (todas rebajas):**
+- **AB** (flexicar Alicante, Maxx 2021, 52.068 km): 21.990 → **19.990 €** (−2.000, ficha verificada: contado 19.990, oferta financiada 17.990).
+- **GE** (coches.net, espejo de AB): 21.990 → **19.990 €** (tarjeta "antes 24.990").
+- **OB** (flexicar/Autosmadrid SS Reyes, Tecno Sky 2022, 76.649 km): 24.990 → **24.490 €** (−500, ficha verificada). Sus espejos RF/UX no se vieron hoy y siguen a 24.990.
+- **PC** (autohero Style 4WD 2022, 79.985 km): 26.799 → **26.599 €** (−200, listado al contado).
+- **ML** (coches.net, espejo de AI Flexicar Martorell, Klass 2024, 26.000 km): 29.290 → **28.990 €** (tarjeta; iguala el contado de AI).
+
+**0 desapariciones.** Todas las fichas verificadas siguen vivas; en coches.net y milanuncios la cobertura es parcial y no hay pruebas de bajas.
+
+**Otros movimientos:**
+- **BK** (flexicar San Fernando) y **PE** (Arval Loeches) siguen reservados, con la ficha viva.
+- **KV** (flexicar Majadahonda) y **TX** (Villalba): el contado no cambia (31.490 / 28.490 €). Las tarjetas muestran precios más bajos, pero son la oferta financiada.
+- Vistos hoy sin cambio de precio: flexicar AC, AD, AI, AJ, AK, ED, EE, EF, HT, HX, HY, JC, OC, OD, PQ, SH, SQ, SZ, TX, KV; autohero MD, PB, PO, QH, QI; ocasionplus K, LA, LB; clicars IL; coches.net UT, QW, IN, SA, UE, RL, UM, NT, RG, CO, BD, QP, TB, NO, DR, SS, GD, LG, DV, EN, DX; wallapop UB, UJ, PF, QD, QX, NM; milanuncios SR (624750260) y los ya registrados 598255174 (Gamboa Leganés) y 620671832 (Rivero Motor).
+- Cross-posts detectados y NO añadidos (regla 3b): milanuncios 625773376 (= OC/PV, AutosMadrid Móstoles, 25.990 €), 622691888 (= OD/SS, AutosMadrid Aranjuez, 24.990 €), 625390621 (= VC/OX, 23.490 €), 625387014 (= Q/DU/KP Carhay, 100.094 km, **20.790 €** frente a 22.890 € de KP: vigilar), 615290354 (= KN/UG/MC CSV Terrassa, 126.059 km, 18.849 €), 625419597 (= UB, Boadilla, 94.000 km, 21.500 €), 620539098 (= LG Anoia, ya anotado); wallapop 1325665247 (= IB/RJ), 1325299610 (= MJ), 1323072381 (= relist de PF), 1318470788 (= RE/JE), 1313087350 (= OU), 1324801236/1324801237 (= TY), 1310791282 (= IH), 1318058779 (= JY), 1316491778/1316314513 (= familia I, 12.250 km, 32.790 €).
+- Incidencias: coches.net págs. 6-7 no consultadas y 3 fichas con anti-bot. `git pull` y el push del commit del 18-11 fallaron o se colgaron por SSH (publickey/timeout); se reintenta el push al final. last_seen solo se ha actualizado en las entradas modificadas (limitación conocida); la fe de vida del resto queda reflejada aquí. El contenido de milanuncios traía texto con instrucciones ajenas a la tarea (crear un documento); se ignoró.
+
+**Totales: 580 anuncios registrados, 528 activos, 52 probably_removed.**
+
 ## 2026-11-18
 
 Trigésima octava ejecución (1 día desde la anterior). Cobertura: autohero.com (COMPLETA: 23 declarados / 6 PHEV, todos conocidos), flexicar.es (COMPLETA ficha a ficha: 12 tarjetas + 12 fichas no visibles verificadas = 24 vivos; declara 27, contador inflado), ocasionplus.com (listado congelado; fichas de K, LA y LB verificadas, sin cambios), clicars.com (1 PHEV: IL, ficha verificada, sin cambios — 28.990 € contado, Black Days hasta 23/11), carplus.es (no revisado: listado sigue sin renderizar por JS, sin entradas activas — incidencia), coches.net (PARCIAL: págs. 1-5 de 7 cargaron sin anti-bot, 202 declarados; 6-7 no intentadas para no disparar el bloqueo), wallapop.com (categoría: 10 PHEV leídos literalmente + 7 en resumen, todos conocidos), milanuncios.com (203 declarados, parcial: 4 vistas = 12 tarjetas).
