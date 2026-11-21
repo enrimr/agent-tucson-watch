@@ -1,5 +1,70 @@
 # Changelog — Tucson PHEV Watch
 
+## 2026-11-20
+
+Cuadragésima ejecución (1 día desde la anterior). La pasada empezó el 20-11 y terminó el 21-11 por una suspensión del equipo; va fechada el 20-11. Cobertura:
+- **autohero.com**: COMPLETA. 21 declarados, de ellos 5 PHEV, todos conocidos. **MD** ya no aparece.
+- **flexicar.es**: COMPLETA ficha a ficha. 12 tarjetas + 16 fichas verificadas = 23 PHEV vivos (declara 26).
+- **ocasionplus.com**: listado congelado y sin PHEV. Fichas de K, LA y LB vivas, sin cambios.
+- **clicars.com**: 1 PHEV (IL), ficha verificada, 28.990 € contado, sin cambios.
+- **carplus.es**: 7 Tucson, ninguno PHEV.
+- **coches.net**: PARCIAL. Págs. 1-5 de 7 sin anti-bot (203 declarados, 33 anuncios únicos). 5 fichas nuevas verificadas.
+- **wallapop.com**: unos 40 anuncios leídos en la categoría, de ellos 16 PHEV.
+- **milanuncios.com**: PARCIAL. 5 vistas, 10 PHEV únicos.
+
+**7 anuncios nuevos (3 genuinos + 4 relists/espejos):**
+- **VI**: coches.net 72030305, Rocal Automoción/Autoriente (Rivas-Vaciamadrid). **1.6T 252 CV PHEV Tecno Sky 2026, FWD, 36.000 km, 34.490 €** contado (financiado 31.490 €), garantía oficial 5 años. GENUINO. Cross-post en milanuncios 626387032.
+- **VJ**: coches.net 71923023, Guadalete Motor (Cádiz). **1.6T 252 CV PHEV Tecno Sky 2026, FWD, 23.200 km, 37.490 €** contado (financiado 34.490 €). Vehículo de demostración, garantía 4 años. GENUINO.
+- **VN**: milanuncios 624304704, Rocal Automoción (Madrid). **Maxx 2022, granate, 101.539 km, 22.900 €** contado. Tiene km cercanos a **LB** (OcasionPlus Móstoles, 101.354 km, 23.400 €), pero difieren el vendedor y el precio: se añade como entrada propia y se vigila.
+- **VO**: wallapop 1326329391, particular, Constantina. **Tucson PHEV 2022, 139.000 km** (138.696 según la descripción), **19.800 €**. GENUINO.
+- **VK**: coches.net 71963087, Gestican Madrid. Espejo de **TQ/UT** (61.000 km, 24.990 €).
+- **VL**: coches.net 72031629, Carhay Madrid. Relist de **NE** (120.703 km) a **21.890 €**; NE estaba registrado a 22.490 €.
+- **VM**: coches.net 72014465, MinoAutos A Coruña. Relist de **IB/RJ** (135.000 km, 19.890 €).
+
+**9 cambios de precio (todo rebajas):**
+- **BP** (N Line Style 2025, Madrid): 39.390 → **37.500 €** (la tarjeta indica "antes 40.000").
+- **DS** (Murcia, 76.109 km): 28.900 → **25.500 €** contado (−14 % según la tarjeta).
+- **NW** (N Line Style Ll.D, Madrid): 37.490 → **36.490 €**.
+- **OI** y **OJ** (Gestican Las Palmas/Tenerife, Style, 57.000 km): 25.990 → **24.990 €**.
+- **SK** (espejo de QH en coches.net): 26.199 → **25.199 €**, alineado con QH.
+- **UX** (espejo de OB): 24.990 → **24.490 €**, alineado con OB.
+- **IH** (Levante Wagen, 33.535 km): 27.200 → **26.900 €**.
+- **SH** (flexicar Tolosa): 21.890 → **21.880 €** contado (ficha verificada).
+
+**2 bajas (probably_removed):**
+- **MD** (autohero Tecno Sky 2023, 32.929 km, 26.799 €): fuera del listado completo de Autohero y su ficha dice "ya no se encuentra disponible" (vendido). Sus espejos en coches.net (MT/RO/TS) se mantienen hasta que haya evidencia; la ficha de TS dio anti-bot.
+- **SQ** (flexicar Móstoles): la misma URL/ID describe ahora un **1.6T 215 CV HEV N Line Sky "no enchufable"** con los mismos km y precio, y ya no sale en el listado PHEV. Era un error de catalogación: no es PHEV.
+
+**Correcciones de datos:**
+- **PC** y **ML** tenían `price_eur` desfasado respecto a su `price_history`: la rebaja del 19-11 se registró solo en el historial. Ahora están a 26.599 € y 28.990 €.
+- **KA**: se añade al historial la rebaja a 38.995 € del 09-11, que faltaba.
+
+**Otros movimientos:**
+- Flexicar: **BK**, **HY** y **PE** están reservados, con la ficha viva. En **KV** (31.490 €) y **TX** (28.490 €) el contado no cambia.
+- Vistos sin cambio: autohero PB, PC, PO, QH, QI; ocasionplus K, LA, LB; clicars IL; flexicar AB, AC, AD, AI, AJ, AK, ED, EE, EF, HT, HX, JC, OB, OC, OD, PQ, SZ; coches.net P, CN, DR, DV, GD, GE, HD, IN, ML, PJ, PR, PS, QW, RQ, RX, SI, SO, TB, UM, VF; wallapop NM, PF, QX, UB, UJ, RE/JE (1318470788, 21.490 €); milanuncios UV.
+- Cross-posts detectados y NO añadidos (regla 3b):
+  - milanuncios 623804514 (= VH, Gamboa, 38.900 €)
+  - milanuncios 626436470 (= TF/NV relistado, Calypo, 103.000 km, 20.550 €)
+  - milanuncios 626437273 (= PB, publicado por Autohero)
+  - milanuncios 626246714 (= UJ/VD, EXPOAUTO)
+  - milanuncios 622691696 (= RB/RL, Gestican Las Palmas)
+  - milanuncios 626150611 (= IB/RJ/VM)
+  - milanuncios 625419597 (= UB)
+  - milanuncios 625390621 (= VC)
+  - wallapop 1325665247 (= IB/RJ)
+  - wallapop 1323072381 (= relist de PF)
+  - wallapop 1313087350 (= OU)
+  - wallapop 1318058779 (= JY)
+  - wallapop 1310791282 (= IH)
+  - wallapop 1324801236/1324801237 (= TY)
+  - wallapop 1316491778/1316314513 (= familia I)
+- Incidencias:
+  - coches.net: no se consultaron las págs. 6-7, y las fichas de TS y NE dieron anti-bot.
+  - El push de los commits del 18-11 y 19-11 sigue fallando por SSH (`Permission denied (publickey)`, agente de claves no cargado) y `git pull` se colgó. Los commits siguen siendo locales.
+  - `last_seen` solo se ha actualizado en las entradas modificadas (limitación conocida).
+
+**Totales: 587 anuncios registrados, 533 activos, 54 probably_removed.**
+
 ## 2026-11-19
 
 Trigésima novena ejecución (1 día desde la anterior; la pasada empezó el 19-11 y, por una suspensión del equipo, terminó de madrugada del 20-11; fechada el 19-11). Cobertura: autohero.com (COMPLETA: 23 declarados / 6 PHEV, todos conocidos), flexicar.es (COMPLETA ficha a ficha: 12 tarjetas + 15 fichas verificadas = 24 vivos; declara 27, contador inflado), ocasionplus.com (listado congelado, sin PHEV; fichas de K, LA y LB verificadas, sin cambios), clicars.com (1 PHEV: IL, ficha verificada, 28.990 € contado sin cambios; el 26.390 € de la tarjeta es el financiado), carplus.es (el listado vuelve a renderizar: 7 Tucson, todos HEV/gasolina, ningún PHEV), coches.net (PARCIAL: págs. 1-5 de 7 sin anti-bot, 204 declarados, 31 anuncios únicos; 3 de las 8 fichas nuevas dieron anti-bot), wallapop.com (categoría: 10 PHEV leídos literalmente + 7 en resumen), milanuncios.com (204 declarados, parcial: 4 vistas = 12 tarjetas).
